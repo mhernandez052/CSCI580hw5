@@ -1,0 +1,2406 @@
+BFS:
+ a d b
+ - e h
+ c f g
+
+ a d b
+ c e h
+ - f g
+
+ a d b
+ c e h
+ f - g
+
+ a d b
+ c e h
+ f g -
+
+ a d b
+ c e -
+ f g h
+
+ a d b
+ c - e
+ f g h
+
+ a - b
+ c d e
+ f g h
+
+ - a b
+ c d e
+ f g h
+
+Total nodes: 178, max depth is: 7
+DFS:
+ a d b
+ - e h
+ c f g
+
+ - d b
+ a e h
+ c f g
+
+ d - b
+ a e h
+ c f g
+
+ d b -
+ a e h
+ c f g
+
+ d b h
+ a e -
+ c f g
+
+ d b h
+ a - e
+ c f g
+
+ d - h
+ a b e
+ c f g
+
+ - d h
+ a b e
+ c f g
+
+ a d h
+ - b e
+ c f g
+
+ a d h
+ b - e
+ c f g
+
+ a - h
+ b d e
+ c f g
+
+ - a h
+ b d e
+ c f g
+
+ b a h
+ - d e
+ c f g
+
+ b a h
+ d - e
+ c f g
+
+ b - h
+ d a e
+ c f g
+
+ - b h
+ d a e
+ c f g
+
+ d b h
+ - a e
+ c f g
+
+ d b h
+ c a e
+ - f g
+
+ d b h
+ c a e
+ f - g
+
+ d b h
+ c - e
+ f a g
+
+ d - h
+ c b e
+ f a g
+
+ - d h
+ c b e
+ f a g
+
+ c d h
+ - b e
+ f a g
+
+ c d h
+ b - e
+ f a g
+
+ c - h
+ b d e
+ f a g
+
+ - c h
+ b d e
+ f a g
+
+ b c h
+ - d e
+ f a g
+
+ b c h
+ d - e
+ f a g
+
+ b - h
+ d c e
+ f a g
+
+ - b h
+ d c e
+ f a g
+
+ d b h
+ - c e
+ f a g
+
+ d b h
+ f c e
+ - a g
+
+ d b h
+ f c e
+ a - g
+
+ d b h
+ f - e
+ a c g
+
+ d - h
+ f b e
+ a c g
+
+ - d h
+ f b e
+ a c g
+
+ f d h
+ - b e
+ a c g
+
+ f d h
+ b - e
+ a c g
+
+ f - h
+ b d e
+ a c g
+
+ - f h
+ b d e
+ a c g
+
+ b f h
+ - d e
+ a c g
+
+ b f h
+ d - e
+ a c g
+
+ b - h
+ d f e
+ a c g
+
+ - b h
+ d f e
+ a c g
+
+ d b h
+ - f e
+ a c g
+
+ d b h
+ a f e
+ - c g
+
+ d b h
+ a f e
+ c - g
+
+ d b h
+ a f e
+ c g -
+
+ d b h
+ a f -
+ c g e
+
+ d b -
+ a f h
+ c g e
+
+ d - b
+ a f h
+ c g e
+
+ - d b
+ a f h
+ c g e
+
+ a d b
+ - f h
+ c g e
+
+ a d b
+ f - h
+ c g e
+
+ a - b
+ f d h
+ c g e
+
+ - a b
+ f d h
+ c g e
+
+ f a b
+ - d h
+ c g e
+
+ f a b
+ d - h
+ c g e
+
+ f - b
+ d a h
+ c g e
+
+ - f b
+ d a h
+ c g e
+
+ d f b
+ - a h
+ c g e
+
+ d f b
+ a - h
+ c g e
+
+ d f b
+ a h -
+ c g e
+
+ d f -
+ a h b
+ c g e
+
+ d - f
+ a h b
+ c g e
+
+ - d f
+ a h b
+ c g e
+
+ a d f
+ - h b
+ c g e
+
+ a d f
+ h - b
+ c g e
+
+ a - f
+ h d b
+ c g e
+
+ - a f
+ h d b
+ c g e
+
+ h a f
+ - d b
+ c g e
+
+ h a f
+ d - b
+ c g e
+
+ h - f
+ d a b
+ c g e
+
+ - h f
+ d a b
+ c g e
+
+ d h f
+ - a b
+ c g e
+
+ d h f
+ a - b
+ c g e
+
+ d h f
+ a b -
+ c g e
+
+ d h -
+ a b f
+ c g e
+
+ d - h
+ a b f
+ c g e
+
+ - d h
+ a b f
+ c g e
+
+ a d h
+ - b f
+ c g e
+
+ a d h
+ b - f
+ c g e
+
+ a - h
+ b d f
+ c g e
+
+ - a h
+ b d f
+ c g e
+
+ b a h
+ - d f
+ c g e
+
+ b a h
+ d - f
+ c g e
+
+ b - h
+ d a f
+ c g e
+
+ - b h
+ d a f
+ c g e
+
+ d b h
+ - a f
+ c g e
+
+ d b h
+ a - f
+ c g e
+
+ d b h
+ a g f
+ c - e
+
+ d b h
+ a g f
+ - c e
+
+ d b h
+ - g f
+ a c e
+
+ - b h
+ d g f
+ a c e
+
+ b - h
+ d g f
+ a c e
+
+ b h -
+ d g f
+ a c e
+
+ b h f
+ d g -
+ a c e
+
+ b h f
+ d - g
+ a c e
+
+ b - f
+ d h g
+ a c e
+
+ - b f
+ d h g
+ a c e
+
+ d b f
+ - h g
+ a c e
+
+ d b f
+ h - g
+ a c e
+
+ d - f
+ h b g
+ a c e
+
+ - d f
+ h b g
+ a c e
+
+ h d f
+ - b g
+ a c e
+
+ h d f
+ b - g
+ a c e
+
+ h - f
+ b d g
+ a c e
+
+ - h f
+ b d g
+ a c e
+
+ b h f
+ - d g
+ a c e
+
+ b h f
+ a d g
+ - c e
+
+ b h f
+ a d g
+ c - e
+
+ b h f
+ a - g
+ c d e
+
+ b - f
+ a h g
+ c d e
+
+ - b f
+ a h g
+ c d e
+
+ a b f
+ - h g
+ c d e
+
+ a b f
+ h - g
+ c d e
+
+ a - f
+ h b g
+ c d e
+
+ - a f
+ h b g
+ c d e
+
+ h a f
+ - b g
+ c d e
+
+ h a f
+ b - g
+ c d e
+
+ h - f
+ b a g
+ c d e
+
+ - h f
+ b a g
+ c d e
+
+ b h f
+ - a g
+ c d e
+
+ b h f
+ c a g
+ - d e
+
+ b h f
+ c a g
+ d - e
+
+ b h f
+ c - g
+ d a e
+
+ b - f
+ c h g
+ d a e
+
+ - b f
+ c h g
+ d a e
+
+ c b f
+ - h g
+ d a e
+
+ c b f
+ h - g
+ d a e
+
+ c - f
+ h b g
+ d a e
+
+ - c f
+ h b g
+ d a e
+
+ h c f
+ - b g
+ d a e
+
+ h c f
+ b - g
+ d a e
+
+ h - f
+ b c g
+ d a e
+
+ - h f
+ b c g
+ d a e
+
+ b h f
+ - c g
+ d a e
+
+ b h f
+ d c g
+ - a e
+
+ b h f
+ d c g
+ a - e
+
+ b h f
+ d c g
+ a e -
+
+ b h f
+ d c -
+ a e g
+
+ b h -
+ d c f
+ a e g
+
+ b - h
+ d c f
+ a e g
+
+ - b h
+ d c f
+ a e g
+
+ d b h
+ - c f
+ a e g
+
+ d b h
+ c - f
+ a e g
+
+ d - h
+ c b f
+ a e g
+
+ - d h
+ c b f
+ a e g
+
+ c d h
+ - b f
+ a e g
+
+ c d h
+ b - f
+ a e g
+
+ c - h
+ b d f
+ a e g
+
+ - c h
+ b d f
+ a e g
+
+ b c h
+ - d f
+ a e g
+
+ b c h
+ d - f
+ a e g
+
+ b c h
+ d f -
+ a e g
+
+ b c -
+ d f h
+ a e g
+
+ b - c
+ d f h
+ a e g
+
+ - b c
+ d f h
+ a e g
+
+ d b c
+ - f h
+ a e g
+
+ d b c
+ f - h
+ a e g
+
+ d - c
+ f b h
+ a e g
+
+ - d c
+ f b h
+ a e g
+
+ f d c
+ - b h
+ a e g
+
+ f d c
+ b - h
+ a e g
+
+ f - c
+ b d h
+ a e g
+
+ - f c
+ b d h
+ a e g
+
+ b f c
+ - d h
+ a e g
+
+ b f c
+ d - h
+ a e g
+
+ b f c
+ d h -
+ a e g
+
+ b f -
+ d h c
+ a e g
+
+ b - f
+ d h c
+ a e g
+
+ - b f
+ d h c
+ a e g
+
+ d b f
+ - h c
+ a e g
+
+ d b f
+ h - c
+ a e g
+
+ d - f
+ h b c
+ a e g
+
+ - d f
+ h b c
+ a e g
+
+ h d f
+ - b c
+ a e g
+
+ h d f
+ b - c
+ a e g
+
+ h - f
+ b d c
+ a e g
+
+ - h f
+ b d c
+ a e g
+
+ b h f
+ - d c
+ a e g
+
+ b h f
+ d - c
+ a e g
+
+ b h f
+ d e c
+ a - g
+
+ b h f
+ d e c
+ - a g
+
+ b h f
+ - e c
+ d a g
+
+ - h f
+ b e c
+ d a g
+
+ h - f
+ b e c
+ d a g
+
+ h f -
+ b e c
+ d a g
+
+ h f c
+ b e -
+ d a g
+
+ h f c
+ b - e
+ d a g
+
+ h - c
+ b f e
+ d a g
+
+ - h c
+ b f e
+ d a g
+
+ b h c
+ - f e
+ d a g
+
+ b h c
+ f - e
+ d a g
+
+ b - c
+ f h e
+ d a g
+
+ - b c
+ f h e
+ d a g
+
+ f b c
+ - h e
+ d a g
+
+ f b c
+ h - e
+ d a g
+
+ f - c
+ h b e
+ d a g
+
+ - f c
+ h b e
+ d a g
+
+ h f c
+ - b e
+ d a g
+
+ h f c
+ d b e
+ - a g
+
+ h f c
+ d b e
+ a - g
+
+ h f c
+ d - e
+ a b g
+
+ h - c
+ d f e
+ a b g
+
+ - h c
+ d f e
+ a b g
+
+ d h c
+ - f e
+ a b g
+
+ d h c
+ f - e
+ a b g
+
+ d - c
+ f h e
+ a b g
+
+ - d c
+ f h e
+ a b g
+
+ f d c
+ - h e
+ a b g
+
+ f d c
+ h - e
+ a b g
+
+ f - c
+ h d e
+ a b g
+
+ - f c
+ h d e
+ a b g
+
+ h f c
+ - d e
+ a b g
+
+ h f c
+ a d e
+ - b g
+
+ h f c
+ a d e
+ b - g
+
+ h f c
+ a - e
+ b d g
+
+ h - c
+ a f e
+ b d g
+
+ - h c
+ a f e
+ b d g
+
+ a h c
+ - f e
+ b d g
+
+ a h c
+ f - e
+ b d g
+
+ a - c
+ f h e
+ b d g
+
+ - a c
+ f h e
+ b d g
+
+ f a c
+ - h e
+ b d g
+
+ f a c
+ h - e
+ b d g
+
+ f - c
+ h a e
+ b d g
+
+ - f c
+ h a e
+ b d g
+
+ h f c
+ - a e
+ b d g
+
+ h f c
+ b a e
+ - d g
+
+ h f c
+ b a e
+ d - g
+
+ h f c
+ b a e
+ d g -
+
+ h f c
+ b a -
+ d g e
+
+ h f -
+ b a c
+ d g e
+
+ h - f
+ b a c
+ d g e
+
+ - h f
+ b a c
+ d g e
+
+ b h f
+ - a c
+ d g e
+
+ b h f
+ a - c
+ d g e
+
+ b - f
+ a h c
+ d g e
+
+ - b f
+ a h c
+ d g e
+
+ a b f
+ - h c
+ d g e
+
+ a b f
+ h - c
+ d g e
+
+ a - f
+ h b c
+ d g e
+
+ - a f
+ h b c
+ d g e
+
+ h a f
+ - b c
+ d g e
+
+ h a f
+ b - c
+ d g e
+
+ h a f
+ b c -
+ d g e
+
+ h a -
+ b c f
+ d g e
+
+ h - a
+ b c f
+ d g e
+
+ - h a
+ b c f
+ d g e
+
+ b h a
+ - c f
+ d g e
+
+ b h a
+ c - f
+ d g e
+
+ b - a
+ c h f
+ d g e
+
+ - b a
+ c h f
+ d g e
+
+ c b a
+ - h f
+ d g e
+
+ c b a
+ h - f
+ d g e
+
+ c - a
+ h b f
+ d g e
+
+ - c a
+ h b f
+ d g e
+
+ h c a
+ - b f
+ d g e
+
+ h c a
+ b - f
+ d g e
+
+ h c a
+ b f -
+ d g e
+
+ h c -
+ b f a
+ d g e
+
+ h - c
+ b f a
+ d g e
+
+ - h c
+ b f a
+ d g e
+
+ b h c
+ - f a
+ d g e
+
+ b h c
+ f - a
+ d g e
+
+ b - c
+ f h a
+ d g e
+
+ - b c
+ f h a
+ d g e
+
+ f b c
+ - h a
+ d g e
+
+ f b c
+ h - a
+ d g e
+
+ f - c
+ h b a
+ d g e
+
+ - f c
+ h b a
+ d g e
+
+ h f c
+ - b a
+ d g e
+
+ h f c
+ b - a
+ d g e
+
+ h f c
+ b g a
+ d - e
+
+ h f c
+ b g a
+ - d e
+
+ h f c
+ - g a
+ b d e
+
+ - f c
+ h g a
+ b d e
+
+ f - c
+ h g a
+ b d e
+
+ f c -
+ h g a
+ b d e
+
+ f c a
+ h g -
+ b d e
+
+ f c a
+ h - g
+ b d e
+
+ f - a
+ h c g
+ b d e
+
+ - f a
+ h c g
+ b d e
+
+ h f a
+ - c g
+ b d e
+
+ h f a
+ c - g
+ b d e
+
+ h - a
+ c f g
+ b d e
+
+ - h a
+ c f g
+ b d e
+
+ c h a
+ - f g
+ b d e
+
+ c h a
+ f - g
+ b d e
+
+ c - a
+ f h g
+ b d e
+
+ - c a
+ f h g
+ b d e
+
+ f c a
+ - h g
+ b d e
+
+ f c a
+ b h g
+ - d e
+
+ f c a
+ b h g
+ d - e
+
+ f c a
+ b - g
+ d h e
+
+ f - a
+ b c g
+ d h e
+
+ - f a
+ b c g
+ d h e
+
+ b f a
+ - c g
+ d h e
+
+ b f a
+ c - g
+ d h e
+
+ b - a
+ c f g
+ d h e
+
+ - b a
+ c f g
+ d h e
+
+ c b a
+ - f g
+ d h e
+
+ c b a
+ f - g
+ d h e
+
+ c - a
+ f b g
+ d h e
+
+ - c a
+ f b g
+ d h e
+
+ f c a
+ - b g
+ d h e
+
+ f c a
+ d b g
+ - h e
+
+ f c a
+ d b g
+ h - e
+
+ f c a
+ d - g
+ h b e
+
+ f - a
+ d c g
+ h b e
+
+ - f a
+ d c g
+ h b e
+
+ d f a
+ - c g
+ h b e
+
+ d f a
+ c - g
+ h b e
+
+ d - a
+ c f g
+ h b e
+
+ - d a
+ c f g
+ h b e
+
+ c d a
+ - f g
+ h b e
+
+ c d a
+ f - g
+ h b e
+
+ c - a
+ f d g
+ h b e
+
+ - c a
+ f d g
+ h b e
+
+ f c a
+ - d g
+ h b e
+
+ f c a
+ h d g
+ - b e
+
+ f c a
+ h d g
+ b - e
+
+ f c a
+ h d g
+ b e -
+
+ f c a
+ h d -
+ b e g
+
+ f c -
+ h d a
+ b e g
+
+ f - c
+ h d a
+ b e g
+
+ - f c
+ h d a
+ b e g
+
+ h f c
+ - d a
+ b e g
+
+ h f c
+ d - a
+ b e g
+
+ h - c
+ d f a
+ b e g
+
+ - h c
+ d f a
+ b e g
+
+ d h c
+ - f a
+ b e g
+
+ d h c
+ f - a
+ b e g
+
+ d - c
+ f h a
+ b e g
+
+ - d c
+ f h a
+ b e g
+
+ f d c
+ - h a
+ b e g
+
+ f d c
+ h - a
+ b e g
+
+ f d c
+ h a -
+ b e g
+
+ f d -
+ h a c
+ b e g
+
+ f - d
+ h a c
+ b e g
+
+ - f d
+ h a c
+ b e g
+
+ h f d
+ - a c
+ b e g
+
+ h f d
+ a - c
+ b e g
+
+ h - d
+ a f c
+ b e g
+
+ - h d
+ a f c
+ b e g
+
+ a h d
+ - f c
+ b e g
+
+ a h d
+ f - c
+ b e g
+
+ a - d
+ f h c
+ b e g
+
+ - a d
+ f h c
+ b e g
+
+ f a d
+ - h c
+ b e g
+
+ f a d
+ h - c
+ b e g
+
+ f a d
+ h c -
+ b e g
+
+ f a -
+ h c d
+ b e g
+
+ f - a
+ h c d
+ b e g
+
+ - f a
+ h c d
+ b e g
+
+ h f a
+ - c d
+ b e g
+
+ h f a
+ c - d
+ b e g
+
+ h - a
+ c f d
+ b e g
+
+ - h a
+ c f d
+ b e g
+
+ c h a
+ - f d
+ b e g
+
+ c h a
+ f - d
+ b e g
+
+ c - a
+ f h d
+ b e g
+
+ - c a
+ f h d
+ b e g
+
+ f c a
+ - h d
+ b e g
+
+ f c a
+ h - d
+ b e g
+
+ f c a
+ h e d
+ b - g
+
+ f c a
+ h e d
+ - b g
+
+ f c a
+ - e d
+ h b g
+
+ - c a
+ f e d
+ h b g
+
+ c - a
+ f e d
+ h b g
+
+ c a -
+ f e d
+ h b g
+
+ c a d
+ f e -
+ h b g
+
+ c a d
+ f - e
+ h b g
+
+ c - d
+ f a e
+ h b g
+
+ - c d
+ f a e
+ h b g
+
+ f c d
+ - a e
+ h b g
+
+ f c d
+ a - e
+ h b g
+
+ f - d
+ a c e
+ h b g
+
+ - f d
+ a c e
+ h b g
+
+ a f d
+ - c e
+ h b g
+
+ a f d
+ c - e
+ h b g
+
+ a - d
+ c f e
+ h b g
+
+ - a d
+ c f e
+ h b g
+
+ c a d
+ - f e
+ h b g
+
+ c a d
+ h f e
+ - b g
+
+ c a d
+ h f e
+ b - g
+
+ c a d
+ h - e
+ b f g
+
+ c - d
+ h a e
+ b f g
+
+ - c d
+ h a e
+ b f g
+
+ h c d
+ - a e
+ b f g
+
+ h c d
+ a - e
+ b f g
+
+ h - d
+ a c e
+ b f g
+
+ - h d
+ a c e
+ b f g
+
+ a h d
+ - c e
+ b f g
+
+ a h d
+ c - e
+ b f g
+
+ a - d
+ c h e
+ b f g
+
+ - a d
+ c h e
+ b f g
+
+ c a d
+ - h e
+ b f g
+
+ c a d
+ b h e
+ - f g
+
+ c a d
+ b h e
+ f - g
+
+ c a d
+ b - e
+ f h g
+
+ c - d
+ b a e
+ f h g
+
+ - c d
+ b a e
+ f h g
+
+ b c d
+ - a e
+ f h g
+
+ b c d
+ a - e
+ f h g
+
+ b - d
+ a c e
+ f h g
+
+ - b d
+ a c e
+ f h g
+
+ a b d
+ - c e
+ f h g
+
+ a b d
+ c - e
+ f h g
+
+ a - d
+ c b e
+ f h g
+
+ - a d
+ c b e
+ f h g
+
+ c a d
+ - b e
+ f h g
+
+ c a d
+ f b e
+ - h g
+
+ c a d
+ f b e
+ h - g
+
+ c a d
+ f b e
+ h g -
+
+ c a d
+ f b -
+ h g e
+
+ c a -
+ f b d
+ h g e
+
+ c - a
+ f b d
+ h g e
+
+ - c a
+ f b d
+ h g e
+
+ f c a
+ - b d
+ h g e
+
+ f c a
+ b - d
+ h g e
+
+ f - a
+ b c d
+ h g e
+
+ - f a
+ b c d
+ h g e
+
+ b f a
+ - c d
+ h g e
+
+ b f a
+ c - d
+ h g e
+
+ b - a
+ c f d
+ h g e
+
+ - b a
+ c f d
+ h g e
+
+ c b a
+ - f d
+ h g e
+
+ c b a
+ f - d
+ h g e
+
+ c b a
+ f d -
+ h g e
+
+ c b -
+ f d a
+ h g e
+
+ c - b
+ f d a
+ h g e
+
+ - c b
+ f d a
+ h g e
+
+ f c b
+ - d a
+ h g e
+
+ f c b
+ d - a
+ h g e
+
+ f - b
+ d c a
+ h g e
+
+ - f b
+ d c a
+ h g e
+
+ d f b
+ - c a
+ h g e
+
+ d f b
+ c - a
+ h g e
+
+ d - b
+ c f a
+ h g e
+
+ - d b
+ c f a
+ h g e
+
+ c d b
+ - f a
+ h g e
+
+ c d b
+ f - a
+ h g e
+
+ c d b
+ f a -
+ h g e
+
+ c d -
+ f a b
+ h g e
+
+ c - d
+ f a b
+ h g e
+
+ - c d
+ f a b
+ h g e
+
+ f c d
+ - a b
+ h g e
+
+ f c d
+ a - b
+ h g e
+
+ f - d
+ a c b
+ h g e
+
+ - f d
+ a c b
+ h g e
+
+ a f d
+ - c b
+ h g e
+
+ a f d
+ c - b
+ h g e
+
+ a - d
+ c f b
+ h g e
+
+ - a d
+ c f b
+ h g e
+
+ c a d
+ - f b
+ h g e
+
+ c a d
+ f - b
+ h g e
+
+ c a d
+ f g b
+ h - e
+
+ c a d
+ f g b
+ - h e
+
+ c a d
+ - g b
+ f h e
+
+ - a d
+ c g b
+ f h e
+
+ a - d
+ c g b
+ f h e
+
+ a d -
+ c g b
+ f h e
+
+ a d b
+ c g -
+ f h e
+
+ a d b
+ c - g
+ f h e
+
+ a - b
+ c d g
+ f h e
+
+ - a b
+ c d g
+ f h e
+
+ c a b
+ - d g
+ f h e
+
+ c a b
+ d - g
+ f h e
+
+ c - b
+ d a g
+ f h e
+
+ - c b
+ d a g
+ f h e
+
+ d c b
+ - a g
+ f h e
+
+ d c b
+ a - g
+ f h e
+
+ d - b
+ a c g
+ f h e
+
+ - d b
+ a c g
+ f h e
+
+ a d b
+ - c g
+ f h e
+
+ a d b
+ f c g
+ - h e
+
+ a d b
+ f c g
+ h - e
+
+ a d b
+ f - g
+ h c e
+
+ a - b
+ f d g
+ h c e
+
+ - a b
+ f d g
+ h c e
+
+ f a b
+ - d g
+ h c e
+
+ f a b
+ d - g
+ h c e
+
+ f - b
+ d a g
+ h c e
+
+ - f b
+ d a g
+ h c e
+
+ d f b
+ - a g
+ h c e
+
+ d f b
+ a - g
+ h c e
+
+ d - b
+ a f g
+ h c e
+
+ - d b
+ a f g
+ h c e
+
+ a d b
+ - f g
+ h c e
+
+ a d b
+ h f g
+ - c e
+
+ a d b
+ h f g
+ c - e
+
+ a d b
+ h - g
+ c f e
+
+ a - b
+ h d g
+ c f e
+
+ - a b
+ h d g
+ c f e
+
+ h a b
+ - d g
+ c f e
+
+ h a b
+ d - g
+ c f e
+
+ h - b
+ d a g
+ c f e
+
+ - h b
+ d a g
+ c f e
+
+ d h b
+ - a g
+ c f e
+
+ d h b
+ a - g
+ c f e
+
+ d - b
+ a h g
+ c f e
+
+ - d b
+ a h g
+ c f e
+
+ a d b
+ - h g
+ c f e
+
+ a d b
+ c h g
+ - f e
+
+ a d b
+ c h g
+ f - e
+
+ a d b
+ c h g
+ f e -
+
+ a d b
+ c h -
+ f e g
+
+ a d -
+ c h b
+ f e g
+
+ a - d
+ c h b
+ f e g
+
+ - a d
+ c h b
+ f e g
+
+ c a d
+ - h b
+ f e g
+
+ c a d
+ h - b
+ f e g
+
+ c - d
+ h a b
+ f e g
+
+ - c d
+ h a b
+ f e g
+
+ h c d
+ - a b
+ f e g
+
+ h c d
+ a - b
+ f e g
+
+ h - d
+ a c b
+ f e g
+
+ - h d
+ a c b
+ f e g
+
+ a h d
+ - c b
+ f e g
+
+ a h d
+ c - b
+ f e g
+
+ a h d
+ c b -
+ f e g
+
+ a h -
+ c b d
+ f e g
+
+ a - h
+ c b d
+ f e g
+
+ - a h
+ c b d
+ f e g
+
+ c a h
+ - b d
+ f e g
+
+ c a h
+ b - d
+ f e g
+
+ c - h
+ b a d
+ f e g
+
+ - c h
+ b a d
+ f e g
+
+ b c h
+ - a d
+ f e g
+
+ b c h
+ a - d
+ f e g
+
+ b - h
+ a c d
+ f e g
+
+ - b h
+ a c d
+ f e g
+
+ a b h
+ - c d
+ f e g
+
+ a b h
+ c - d
+ f e g
+
+ a b h
+ c d -
+ f e g
+
+ a b -
+ c d h
+ f e g
+
+ a - b
+ c d h
+ f e g
+
+ - a b
+ c d h
+ f e g
+
+ c a b
+ - d h
+ f e g
+
+ c a b
+ d - h
+ f e g
+
+ c - b
+ d a h
+ f e g
+
+ - c b
+ d a h
+ f e g
+
+ d c b
+ - a h
+ f e g
+
+ d c b
+ a - h
+ f e g
+
+ d - b
+ a c h
+ f e g
+
+ - d b
+ a c h
+ f e g
+
+ a d b
+ - c h
+ f e g
+
+ a d b
+ c - h
+ f e g
+
+ a d b
+ c e h
+ f - g
+
+ a d b
+ c e h
+ f g -
+
+ a d b
+ c e -
+ f g h
+
+ a d -
+ c e b
+ f g h
+
+ a - d
+ c e b
+ f g h
+
+ - a d
+ c e b
+ f g h
+
+ c a d
+ - e b
+ f g h
+
+ c a d
+ e - b
+ f g h
+
+ c - d
+ e a b
+ f g h
+
+ - c d
+ e a b
+ f g h
+
+ e c d
+ - a b
+ f g h
+
+ e c d
+ a - b
+ f g h
+
+ e - d
+ a c b
+ f g h
+
+ - e d
+ a c b
+ f g h
+
+ a e d
+ - c b
+ f g h
+
+ a e d
+ c - b
+ f g h
+
+ a e d
+ c b -
+ f g h
+
+ a e -
+ c b d
+ f g h
+
+ a - e
+ c b d
+ f g h
+
+ - a e
+ c b d
+ f g h
+
+ c a e
+ - b d
+ f g h
+
+ c a e
+ b - d
+ f g h
+
+ c - e
+ b a d
+ f g h
+
+ - c e
+ b a d
+ f g h
+
+ b c e
+ - a d
+ f g h
+
+ b c e
+ a - d
+ f g h
+
+ b - e
+ a c d
+ f g h
+
+ - b e
+ a c d
+ f g h
+
+ a b e
+ - c d
+ f g h
+
+ a b e
+ c - d
+ f g h
+
+ a b e
+ c d -
+ f g h
+
+ a b -
+ c d e
+ f g h
+
+ a - b
+ c d e
+ f g h
+
+ - a b
+ c d e
+ f g h
+
+Total nodes: 585, max depth is: 583
+BFS-star:
+ a d b
+ - e h
+ c f g
+
+ a d b
+ c e h
+ - f g
+
+ a d b
+ c e h
+ f - g
+
+ a d b
+ c e h
+ f g -
+
+ a d b
+ c e -
+ f g h
+
+ a d b
+ c - e
+ f g h
+
+ a - b
+ c d e
+ f g h
+
+ - a b
+ c d e
+ f g h
+
+Total nodes: 23, max depth is: 7
