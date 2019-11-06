@@ -11,4 +11,32 @@ BFS:
  c d e
  f g h
 
+Total nodes: 4, max depth is: 2
+DFS:
+ a b -
+ c d e
+ f g h
+
+ a - b
+ c d e
+ f g h
+
+ - a b
+ c d e
+ f g h
+
 Total nodes: 3, max depth is: 2
+BFS-star:
+ a b -
+ c d e
+ f g h
+
+ a - b
+ c d e
+ f g h
+
+ - a b
+ c d e
+ f g h
+
+Total nodes: 4, max depth is: 2

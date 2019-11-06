@@ -72,3 +72,618 @@ BFS:
  f g h
 
 Total nodes: 14619, max depth is: 17
+DFS:
+BFS-star:
+Cur: dehfb-gca Finish: -abcdefgh Sum: 18
+Cur: de-fbhgca Finish: -abcdefgh Sum: 16
+Cur: dehf-bgca Finish: -abcdefgh Sum: 16
+Cur: dehfbagc- Finish: -abcdefgh Sum: 18
+
+Cur: d-efbhgca Finish: -abcdefgh Sum: 14
+
+Cur: -defbhgca Finish: -abcdefgh Sum: 12
+Cur: dbef-hgca Finish: -abcdefgh Sum: 14
+
+Cur: fde-bhgca Finish: -abcdefgh Sum: 14
+
+Cur: dbe-fhgca Finish: -abcdefgh Sum: 14
+Cur: dbefh-gca Finish: -abcdefgh Sum: 16
+Cur: dbefchg-a Finish: -abcdefgh Sum: 14
+
+Cur: fdeb-hgca Finish: -abcdefgh Sum: 16
+Cur: fdegbh-ca Finish: -abcdefgh Sum: 16
+
+Cur: -bedfhgca Finish: -abcdefgh Sum: 12
+Cur: dbegfh-ca Finish: -abcdefgh Sum: 16
+
+Cur: b-edfhgca Finish: -abcdefgh Sum: 14
+
+Cur: dbefch-ga Finish: -abcdefgh Sum: 12
+Cur: dbefchga- Finish: -abcdefgh Sum: 14
+
+Cur: dbe-chfga Finish: -abcdefgh Sum: 10
+
+Cur: -bedchfga Finish: -abcdefgh Sum: 8
+Cur: dbec-hfga Finish: -abcdefgh Sum: 10
+
+Cur: b-edchfga Finish: -abcdefgh Sum: 10
+
+Cur: d-ecbhfga Finish: -abcdefgh Sum: 10
+Cur: dbech-fga Finish: -abcdefgh Sum: 12
+Cur: dbecghf-a Finish: -abcdefgh Sum: 12
+
+Cur: be-dchfga Finish: -abcdefgh Sum: 12
+Cur: bced-hfga Finish: -abcdefgh Sum: 12
+
+Cur: -decbhfga Finish: -abcdefgh Sum: 8
+Cur: de-cbhfga Finish: -abcdefgh Sum: 12
+
+Cur: cde-bhfga Finish: -abcdefgh Sum: 10
+
+Cur: cdeb-hfga Finish: -abcdefgh Sum: 12
+Cur: cdefbh-ga Finish: -abcdefgh Sum: 12
+
+Cur: bce-dhfga Finish: -abcdefgh Sum: 10
+Cur: bcedh-fga Finish: -abcdefgh Sum: 14
+Cur: bcedghf-a Finish: -abcdefgh Sum: 14
+
+Cur: -cebdhfga Finish: -abcdefgh Sum: 10
+Cur: bcefdh-ga Finish: -abcdefgh Sum: 12
+
+Cur: c-ebdhfga Finish: -abcdefgh Sum: 10
+
+Cur: ce-bdhfga Finish: -abcdefgh Sum: 12
+
+Cur: dbecgh-fa Finish: -abcdefgh Sum: 12
+Cur: dbecghfa- Finish: -abcdefgh Sum: 12
+
+Cur: bcefdhg-a Finish: -abcdefgh Sum: 14
+
+Cur: cehbd-fga Finish: -abcdefgh Sum: 14
+
+Cur: dbe-ghcfa Finish: -abcdefgh Sum: 12
+
+Cur: dbecg-fah Finish: -abcdefgh Sum: 10
+
+Cur: db-cgefah Finish: -abcdefgh Sum: 8
+Cur: dbec-gfah Finish: -abcdefgh Sum: 10
+
+Cur: d-bcgefah Finish: -abcdefgh Sum: 6
+
+Cur: -dbcgefah Finish: -abcdefgh Sum: 4
+Cur: dgbc-efah Finish: -abcdefgh Sum: 8
+
+Cur: cdb-gefah Finish: -abcdefgh Sum: 6
+
+Cur: cdbg-efah Finish: -abcdefgh Sum: 8
+Cur: cdbfge-ah Finish: -abcdefgh Sum: 8
+
+Cur: dgb-cefah Finish: -abcdefgh Sum: 8
+Cur: dgbce-fah Finish: -abcdefgh Sum: 10
+Cur: dgbcaef-h Finish: -abcdefgh Sum: 8
+
+Cur: c-bgdefah Finish: -abcdefgh Sum: 6
+Cur: cdbge-fah Finish: -abcdefgh Sum: 10
+Cur: cdbgaef-h Finish: -abcdefgh Sum: 8
+
+Cur: -cbgdefah Finish: -abcdefgh Sum: 6
+Cur: cb-gdefah Finish: -abcdefgh Sum: 8
+
+Cur: gcb-defah Finish: -abcdefgh Sum: 8
+
+Cur: -gbdcefah Finish: -abcdefgh Sum: 6
+Cur: dgbfce-ah Finish: -abcdefgh Sum: 10
+
+Cur: g-bdcefah Finish: -abcdefgh Sum: 8
+
+Cur: cdbfgea-h Finish: -abcdefgh Sum: 10
+
+Cur: dgbcae-fh Finish: -abcdefgh Sum: 8
+Cur: dgbcaefh- Finish: -abcdefgh Sum: 10
+
+Cur: cdbgae-fh Finish: -abcdefgh Sum: 8
+Cur: cdbgaefh- Finish: -abcdefgh Sum: 10
+
+Cur: gcbd-efah Finish: -abcdefgh Sum: 10
+Cur: gcbfde-ah Finish: -abcdefgh Sum: 10
+
+Cur: cbegd-fah Finish: -abcdefgh Sum: 10
+
+Cur: gb-dcefah Finish: -abcdefgh Sum: 10
+
+Cur: dgb-aecfh Finish: -abcdefgh Sum: 8
+
+Cur: cdb-aegfh Finish: -abcdefgh Sum: 6
+
+Cur: -dbcaegfh Finish: -abcdefgh Sum: 4
+Cur: cdba-egfh Finish: -abcdefgh Sum: 8
+
+Cur: d-bcaegfh Finish: -abcdefgh Sum: 6
+
+Cur: db-caegfh Finish: -abcdefgh Sum: 8
+Cur: dabc-egfh Finish: -abcdefgh Sum: 6
+
+Cur: dab-cegfh Finish: -abcdefgh Sum: 6
+Cur: dabce-gfh Finish: -abcdefgh Sum: 8
+Cur: dabcfeg-h Finish: -abcdefgh Sum: 8
+
+Cur: -abdcegfh Finish: -abcdefgh Sum: 4
+Cur: dabgce-fh Finish: -abcdefgh Sum: 8
+
+Cur: a-bdcegfh Finish: -abcdefgh Sum: 6
+
+Cur: ab-dcegfh Finish: -abcdefgh Sum: 8
+Cur: acbd-egfh Finish: -abcdefgh Sum: 8
+
+Cur: c-badegfh Finish: -abcdefgh Sum: 6
+Cur: cdbae-gfh Finish: -abcdefgh Sum: 10
+Cur: cdbafeg-h Finish: -abcdefgh Sum: 10
+
+Cur: -cbadegfh Finish: -abcdefgh Sum: 6
+Cur: cb-adegfh Finish: -abcdefgh Sum: 8
+
+Cur: acb-degfh Finish: -abcdefgh Sum: 6
+
+Cur: acbgde-fh Finish: -abcdefgh Sum: 8
+
+Cur: dbeca-gfh Finish: -abcdefgh Sum: 10
+
+Cur: da-cebgfh Finish: -abcdefgh Sum: 8
+Cur: dabcehgf- Finish: -abcdefgh Sum: 10
+
+Cur: acbde-gfh Finish: -abcdefgh Sum: 10
+Cur: acbdfeg-h Finish: -abcdefgh Sum: 10
+
+Cur: abedc-gfh Finish: -abcdefgh Sum: 10
+
+Cur: dabgcef-h Finish: -abcdefgh Sum: 8
+
+Cur: dabcfe-gh Finish: -abcdefgh Sum: 6
+Cur: dabcfegh- Finish: -abcdefgh Sum: 10
+
+Cur: dab-fecgh Finish: -abcdefgh Sum: 6
+
+Cur: -abdfecgh Finish: -abcdefgh Sum: 4
+Cur: dabf-ecgh Finish: -abcdefgh Sum: 6
+
+Cur: a-bdfecgh Finish: -abcdefgh Sum: 6
+
+Cur: d-bfaecgh Finish: -abcdefgh Sum: 6
+Cur: dabfe-cgh Finish: -abcdefgh Sum: 8
+Cur: dabfgec-h Finish: -abcdefgh Sum: 8
+
+Cur: ab-dfecgh Finish: -abcdefgh Sum: 8
+Cur: afbd-ecgh Finish: -abcdefgh Sum: 8
+
+Cur: -dbfaecgh Finish: -abcdefgh Sum: 4
+Cur: db-faecgh Finish: -abcdefgh Sum: 8
+
+Cur: fdb-aecgh Finish: -abcdefgh Sum: 6
+
+Cur: fdba-ecgh Finish: -abcdefgh Sum: 8
+Cur: fdbcae-gh Finish: -abcdefgh Sum: 6
+
+Cur: fdbcaeg-h Finish: -abcdefgh Sum: 8
+
+Cur: d-acebgfh Finish: -abcdefgh Sum: 8
+
+Cur: da-febcgh Finish: -abcdefgh Sum: 8
+Cur: dabfehcg- Finish: -abcdefgh Sum: 10
+
+Cur: afb-decgh Finish: -abcdefgh Sum: 6
+Cur: afbde-cgh Finish: -abcdefgh Sum: 10
+Cur: afbdgec-h Finish: -abcdefgh Sum: 10
+
+Cur: -fbadecgh Finish: -abcdefgh Sum: 6
+Cur: afbcde-gh Finish: -abcdefgh Sum: 6
+
+Cur: f-badecgh Finish: -abcdefgh Sum: 6
+
+Cur: afbcdeg-h Finish: -abcdefgh Sum: 8
+
+Cur: fb-adecgh Finish: -abcdefgh Sum: 8
+
+Cur: fdbae-cgh Finish: -abcdefgh Sum: 10
+Cur: fdbagec-h Finish: -abcdefgh Sum: 10
+
+Cur: fdbc-egah Finish: -abcdefgh Sum: 8
+Cur: fdbcaegh- Finish: -abcdefgh Sum: 10
+
+Cur: -dacebgfh Finish: -abcdefgh Sum: 6
+Cur: deac-bgfh Finish: -abcdefgh Sum: 10
+
+Cur: cda-ebgfh Finish: -abcdefgh Sum: 8
+
+Cur: afbc-egdh Finish: -abcdefgh Sum: 8
+Cur: afbcdegh- Finish: -abcdefgh Sum: 10
+
+Cur: fbead-cgh Finish: -abcdefgh Sum: 10
+
+Cur: dabfge-ch Finish: -abcdefgh Sum: 8
+Cur: dabfgech- Finish: -abcdefgh Sum: 10
+
+Cur: abedf-cgh Finish: -abcdefgh Sum: 10
+
+Cur: d-afebcgh Finish: -abcdefgh Sum: 8
+
+Cur: dabg-efch Finish: -abcdefgh Sum: 8
+Cur: dabgcefh- Finish: -abcdefgh Sum: 10
+
+Cur: -gbdaecfh Finish: -abcdefgh Sum: 6
+Cur: dgba-ecfh Finish: -abcdefgh Sum: 10
+
+Cur: g-bdaecfh Finish: -abcdefgh Sum: 8
+
+Cur: dbefa-cgh Finish: -abcdefgh Sum: 10
+
+Cur: cbead-gfh Finish: -abcdefgh Sum: 10
+
+Cur: f-bcdegah Finish: -abcdefgh Sum: 6
+Cur: fdb-cegah Finish: -abcdefgh Sum: 8
+Cur: fdbce-gah Finish: -abcdefgh Sum: 10
+
+Cur: -fbcdegah Finish: -abcdefgh Sum: 6
+Cur: fb-cdegah Finish: -abcdefgh Sum: 8
+
+Cur: cfb-degah Finish: -abcdefgh Sum: 8
+
+Cur: acbgdef-h Finish: -abcdefgh Sum: 8
+
+Cur: cdae-bgfh Finish: -abcdefgh Sum: 10
+Cur: cdageb-fh Finish: -abcdefgh Sum: 10
+
+Cur: d-bgaefch Finish: -abcdefgh Sum: 8
+Cur: dab-gefch Finish: -abcdefgh Sum: 6
+Cur: dabge-fch Finish: -abcdefgh Sum: 10
+
+Cur: -abdgefch Finish: -abcdefgh Sum: 4
+
+Cur: a-bdgefch Finish: -abcdefgh Sum: 6
+
+Cur: ab-dgefch Finish: -abcdefgh Sum: 8
+Cur: agbd-efch Finish: -abcdefgh Sum: 8
+
+Cur: -dafebcgh Finish: -abcdefgh Sum: 6
+Cur: deaf-bcgh Finish: -abcdefgh Sum: 10
+
+Cur: fda-ebcgh Finish: -abcdefgh Sum: 8
+
+Cur: -dbgaefch Finish: -abcdefgh Sum: 6
+Cur: db-gaefch Finish: -abcdefgh Sum: 10
+
+Cur: gdb-aefch Finish: -abcdefgh Sum: 8
+
+Cur: abedg-fch Finish: -abcdefgh Sum: 10
+
+Cur: agb-defch Finish: -abcdefgh Sum: 6
+Cur: agbde-fch Finish: -abcdefgh Sum: 10
+Cur: agbdcef-h Finish: -abcdefgh Sum: 8
+
+Cur: -gbadefch Finish: -abcdefgh Sum: 6
+Cur: agbfde-ch Finish: -abcdefgh Sum: 8
+
+Cur: g-badefch Finish: -abcdefgh Sum: 8
+
+Cur: fdae-bcgh Finish: -abcdefgh Sum: 10
+Cur: fdaceb-gh Finish: -abcdefgh Sum: 8
+
+Cur: gdba-efch Finish: -abcdefgh Sum: 10
+Cur: gdbfae-ch Finish: -abcdefgh Sum: 10
+
+Cur: agbdce-fh Finish: -abcdefgh Sum: 8
+Cur: agbdcefh- Finish: -abcdefgh Sum: 10
+
+Cur: agbfdec-h Finish: -abcdefgh Sum: 8
+
+Cur: gb-adefch Finish: -abcdefgh Sum: 10
+
+Cur: fdacebg-h Finish: -abcdefgh Sum: 10
+
+Cur: agb-cedfh Finish: -abcdefgh Sum: 8
+
+Cur: agbf-ecdh Finish: -abcdefgh Sum: 8
+Cur: agbfdech- Finish: -abcdefgh Sum: 10
+
+Cur: -gbacedfh Finish: -abcdefgh Sum: 8
+Cur: agbc-edfh Finish: -abcdefgh Sum: 8
+
+Cur: a-bfgecdh Finish: -abcdefgh Sum: 6
+Cur: agb-fecdh Finish: -abcdefgh Sum: 8
+Cur: agbfe-cdh Finish: -abcdefgh Sum: 10
+
+Cur: -abfgecdh Finish: -abcdefgh Sum: 4
+Cur: ab-fgecdh Finish: -abcdefgh Sum: 8
+
+Cur: fab-gecdh Finish: -abcdefgh Sum: 6
+
+Cur: fabg-ecdh Finish: -abcdefgh Sum: 8
+Cur: fabcge-dh Finish: -abcdefgh Sum: 6
+
+Cur: fabcged-h Finish: -abcdefgh Sum: 8
+
+Cur: g-bacedfh Finish: -abcdefgh Sum: 10
+
+Cur: -gbafecdh Finish: -abcdefgh Sum: 8
+Cur: agbcfe-dh Finish: -abcdefgh Sum: 8
+
+Cur: a-bcgedfh Finish: -abcdefgh Sum: 6
+Cur: agbce-dfh Finish: -abcdefgh Sum: 10
+Cur: agbcfed-h Finish: -abcdefgh Sum: 10
+
+Cur: -abcgedfh Finish: -abcdefgh Sum: 4
+Cur: ab-cgedfh Finish: -abcdefgh Sum: 8
+
+Cur: cab-gedfh Finish: -abcdefgh Sum: 6
+
+Cur: cabg-edfh Finish: -abcdefgh Sum: 8
+Cur: cabdge-fh Finish: -abcdefgh Sum: 6
+
+Cur: cabdgef-h Finish: -abcdefgh Sum: 6
+
+Cur: cabd-efgh Finish: -abcdefgh Sum: 4
+Cur: cabdgefh- Finish: -abcdefgh Sum: 8
+
+Cur: c-bdaefgh Finish: -abcdefgh Sum: 4
+Cur: cab-defgh Finish: -abcdefgh Sum: 2
+Cur: cabde-fgh Finish: -abcdefgh Sum: 6
+
+Cur: -abcdefgh Finish: -abcdefgh Sum: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ d e h
+ f b -
+ g c a
+
+ d e -
+ f b h
+ g c a
+
+ d - e
+ f b h
+ g c a
+
+ d b e
+ f - h
+ g c a
+
+ d b e
+ f c h
+ g - a
+
+ d b e
+ f c h
+ - g a
+
+ d b e
+ - c h
+ f g a
+
+ d b e
+ c - h
+ f g a
+
+ d b e
+ c g h
+ f - a
+
+ d b e
+ c g h
+ f a -
+
+ d b e
+ c g -
+ f a h
+
+ d b -
+ c g e
+ f a h
+
+ d - b
+ c g e
+ f a h
+
+ - d b
+ c g e
+ f a h
+
+ c d b
+ - g e
+ f a h
+
+ c d b
+ g - e
+ f a h
+
+ c d b
+ g a e
+ f - h
+
+ c d b
+ g a e
+ - f h
+
+ c d b
+ - a e
+ g f h
+
+ - d b
+ c a e
+ g f h
+
+ d - b
+ c a e
+ g f h
+
+ d a b
+ c - e
+ g f h
+
+ d a b
+ - c e
+ g f h
+
+ d a b
+ g c e
+ - f h
+
+ d a b
+ g c e
+ f - h
+
+ d a b
+ g - e
+ f c h
+
+ d a b
+ - g e
+ f c h
+
+ - a b
+ d g e
+ f c h
+
+ a - b
+ d g e
+ f c h
+
+ a g b
+ d - e
+ f c h
+
+ a g b
+ d c e
+ f - h
+
+ a g b
+ d c e
+ - f h
+
+ a g b
+ - c e
+ d f h
+
+ a g b
+ c - e
+ d f h
+
+ a - b
+ c g e
+ d f h
+
+ - a b
+ c g e
+ d f h
+
+ c a b
+ - g e
+ d f h
+
+ c a b
+ d g e
+ - f h
+
+ c a b
+ d g e
+ f - h
+
+ c a b
+ d - e
+ f g h
+
+ c a b
+ - d e
+ f g h
+
+ - a b
+ c d e
+ f g h
+
+Total nodes: 222, max depth is: 41
