@@ -8,7 +8,8 @@
 using namespace std;
 
 void bfs(string start, string finsh, vector<vector<short int>> &index);
-void printPath(map<string, short int> visited, string finish);
+void printPath(map<string, short int> &visited, vector<vector<short int>> &index, string &start, string cur, int &nodes_count);
+void printFormated(string cur);
 
 int main()
 {
@@ -28,6 +29,7 @@ int main()
         {4, 6, 8},
         {5, 7}};
 
+    cout << "BFS:" << endl;
     bfs(start, finish, index);
 }
 
@@ -56,6 +58,11 @@ void bfs(string start, string finish, vector<vector<short int>> &index)
 
         for (auto i = 0; i < pos_swaps.size(); i++)
         {
+            auto temp_cur = visited.find(finish);
+            if (temp_cur != visited.end())
+            {
+                break;
+            }
             string swapped = cur;
             swap(swapped[swapped.find('-')], swapped[pos_swaps[i]]);
 
@@ -65,18 +72,38 @@ void bfs(string start, string finish, vector<vector<short int>> &index)
                 queue.push_back(swapped);
             }
         }
-        if (visited.find(finish) != visited.end()) {
-            cout << "Found it <<<<<\n";
-            break;
-        }
     }
-    printPath(visited, finish);
+
+    int nodes_count = 0;
+    printPath(visited, index, start, finish, nodes_count);
+    cout << "Total nodes: " << visited.size() << ", max depth is: " << nodes_count << endl;
 }
 
-void printPath(map<string, short int> visited, string finish)
+void printPath(map<string, short int> &visited, vector<vector<short int>> &index, string &start, string cur, int &nodes_count)
 {
-    // if ( == )
-    // {
-    //     return;
-    // }
+    auto temp_cur = visited.find(cur);
+    string swapped = cur;
+    swap(swapped[swapped.find('-')], swapped[temp_cur->second]);
+
+    if (cur == start)
+    {
+        printFormated(cur);
+        return;
+    }
+    nodes_count++;
+    printPath(visited, index, start, swapped, nodes_count);
+    printFormated(cur);
+}
+
+void printFormated(string cur)
+{
+    for (auto i = 0; i < 3; i++)
+    {
+        for (auto j = 0; j < 3; j++)
+        {
+            cout << " " << cur[i * 3 + j];
+        }
+        cout << endl;
+    }
+    cout << endl;
 }
