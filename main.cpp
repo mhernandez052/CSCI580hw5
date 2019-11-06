@@ -10,7 +10,7 @@
 using namespace std;
 
 void bfs(string start, string finsh, vector<vector<short int>> &index);
-void dfs(string cur, string goal, vector<vector<short int>> &index, map<string, short int> &tree, bool &found, int &count);
+void dfs(string cur, string goal, vector<vector<short int>> &index, map<string, short int> &tree, bool &found, int &count, int &max);
 void infs(string start, string finish, vector<vector<short int>> &index);
 int infsManDis(string cur, string finish);
 void printPath(map<string, short int> &visited, vector<vector<short int>> &index, string cur, int &nodes_count);
@@ -56,9 +56,10 @@ int main()
     cout << "DFS:" << endl;
     bool found = false;
     int count = 0;
+    int max = 0;
     map<string, short int> tree;
-    tree.insert(pair<string, short int>(start, start.find('-')));
-    // dfs(start, finish, index, tree, found, count);
+    tree.insert(pair<string, short int>(start, -1));
+    dfs(start, finish, index, tree, found, count, max);
 
     cout << "BFS-star:" << endl;
     infs(start, finish, index);
@@ -113,11 +114,14 @@ void bfs(string start, string finish, vector<vector<short int>> &index)
     cout << "Total nodes: " << visited.size() << ", max depth is: " << nodes_count << endl;
 }
 
-void dfs(string cur, string goal, vector<vector<short int>> &index, map<string, short int> &tree, bool &found, int &count)
+void dfs(string cur, string goal, vector<vector<short int>> &index, map<string, short int> &tree, bool &found, int &count, int &max)
 {
     if (cur == goal)
     {
         found = true;
+        int nodes_count = 0;
+        printPath(tree, index, cur, nodes_count);
+        /*
         for (int j = 0; j < 3; j++)
         {
             int u = j * 3;
@@ -127,10 +131,16 @@ void dfs(string cur, string goal, vector<vector<short int>> &index, map<string, 
             cout << endl;
         }
         cout << endl;
+        */
         cout << "Total nodes: " << tree.size() << ", max depth is: " << count << endl;
+        
         return;
     }
     count++;
+    if (count > max)
+    {
+      max = count;
+    }
     // cout<<index[cur.find('-')].size()<<endl;
     for (int i = 0; i < (int)index[cur.find('-')].size(); i++)
     {
@@ -141,6 +151,7 @@ void dfs(string cur, string goal, vector<vector<short int>> &index, map<string, 
             swap(newCur[newCur.find('-')], newCur[index[newCur.find('-')][i]]);
             if (tree.find(newCur) == tree.end())
             {
+                /*
                 for (int j = 0; j < 3; j++)
                 {
                     int u = j * 3;
@@ -150,8 +161,9 @@ void dfs(string cur, string goal, vector<vector<short int>> &index, map<string, 
                     cout << endl;
                 }
                 cout << endl;
+                */
                 tree.insert(pair<string, short int>(newCur, cur.find('-')));
-                dfs(newCur, goal, index, tree, found, count);
+                dfs(newCur, goal, index, tree, found, count, max);
             }
             else
             {

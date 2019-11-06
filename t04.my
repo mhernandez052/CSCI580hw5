@@ -73,450 +73,19713 @@ BFS:
 
 Total nodes: 14619, max depth is: 17
 DFS:
+ d e h
+ f b -
+ g c a
+
+ d e -
+ f b h
+ g c a
+
+ d - e
+ f b h
+ g c a
+
+ - d e
+ f b h
+ g c a
+
+ f d e
+ - b h
+ g c a
+
+ f d e
+ b - h
+ g c a
+
+ f - e
+ b d h
+ g c a
+
+ - f e
+ b d h
+ g c a
+
+ b f e
+ - d h
+ g c a
+
+ b f e
+ d - h
+ g c a
+
+ b - e
+ d f h
+ g c a
+
+ - b e
+ d f h
+ g c a
+
+ d b e
+ - f h
+ g c a
+
+ d b e
+ f - h
+ g c a
+
+ d b e
+ f h -
+ g c a
+
+ d b -
+ f h e
+ g c a
+
+ d - b
+ f h e
+ g c a
+
+ - d b
+ f h e
+ g c a
+
+ f d b
+ - h e
+ g c a
+
+ f d b
+ h - e
+ g c a
+
+ f - b
+ h d e
+ g c a
+
+ - f b
+ h d e
+ g c a
+
+ h f b
+ - d e
+ g c a
+
+ h f b
+ d - e
+ g c a
+
+ h - b
+ d f e
+ g c a
+
+ - h b
+ d f e
+ g c a
+
+ d h b
+ - f e
+ g c a
+
+ d h b
+ f - e
+ g c a
+
+ d h b
+ f e -
+ g c a
+
+ d h -
+ f e b
+ g c a
+
+ d - h
+ f e b
+ g c a
+
+ - d h
+ f e b
+ g c a
+
+ f d h
+ - e b
+ g c a
+
+ f d h
+ e - b
+ g c a
+
+ f - h
+ e d b
+ g c a
+
+ - f h
+ e d b
+ g c a
+
+ e f h
+ - d b
+ g c a
+
+ e f h
+ d - b
+ g c a
+
+ e - h
+ d f b
+ g c a
+
+ - e h
+ d f b
+ g c a
+
+ d e h
+ - f b
+ g c a
+
+ d e h
+ f - b
+ g c a
+
+ d e h
+ f c b
+ g - a
+
+ d e h
+ f c b
+ - g a
+
+ d e h
+ - c b
+ f g a
+
+ - e h
+ d c b
+ f g a
+
+ e - h
+ d c b
+ f g a
+
+ e h -
+ d c b
+ f g a
+
+ e h b
+ d c -
+ f g a
+
+ e h b
+ d - c
+ f g a
+
+ e - b
+ d h c
+ f g a
+
+ - e b
+ d h c
+ f g a
+
+ d e b
+ - h c
+ f g a
+
+ d e b
+ h - c
+ f g a
+
+ d - b
+ h e c
+ f g a
+
+ - d b
+ h e c
+ f g a
+
+ h d b
+ - e c
+ f g a
+
+ h d b
+ e - c
+ f g a
+
+ h - b
+ e d c
+ f g a
+
+ - h b
+ e d c
+ f g a
+
+ e h b
+ - d c
+ f g a
+
+ e h b
+ f d c
+ - g a
+
+ e h b
+ f d c
+ g - a
+
+ e h b
+ f - c
+ g d a
+
+ e - b
+ f h c
+ g d a
+
+ - e b
+ f h c
+ g d a
+
+ f e b
+ - h c
+ g d a
+
+ f e b
+ h - c
+ g d a
+
+ f - b
+ h e c
+ g d a
+
+ - f b
+ h e c
+ g d a
+
+ h f b
+ - e c
+ g d a
+
+ h f b
+ e - c
+ g d a
+
+ h - b
+ e f c
+ g d a
+
+ - h b
+ e f c
+ g d a
+
+ e h b
+ - f c
+ g d a
+
+ e h b
+ g f c
+ - d a
+
+ e h b
+ g f c
+ d - a
+
+ e h b
+ g - c
+ d f a
+
+ e - b
+ g h c
+ d f a
+
+ - e b
+ g h c
+ d f a
+
+ g e b
+ - h c
+ d f a
+
+ g e b
+ h - c
+ d f a
+
+ g - b
+ h e c
+ d f a
+
+ - g b
+ h e c
+ d f a
+
+ h g b
+ - e c
+ d f a
+
+ h g b
+ e - c
+ d f a
+
+ h - b
+ e g c
+ d f a
+
+ - h b
+ e g c
+ d f a
+
+ e h b
+ - g c
+ d f a
+
+ e h b
+ d g c
+ - f a
+
+ e h b
+ d g c
+ f - a
+
+ e h b
+ d g c
+ f a -
+
+ e h b
+ d g -
+ f a c
+
+ e h -
+ d g b
+ f a c
+
+ e - h
+ d g b
+ f a c
+
+ - e h
+ d g b
+ f a c
+
+ d e h
+ - g b
+ f a c
+
+ d e h
+ g - b
+ f a c
+
+ d - h
+ g e b
+ f a c
+
+ - d h
+ g e b
+ f a c
+
+ g d h
+ - e b
+ f a c
+
+ g d h
+ e - b
+ f a c
+
+ g - h
+ e d b
+ f a c
+
+ - g h
+ e d b
+ f a c
+
+ e g h
+ - d b
+ f a c
+
+ e g h
+ d - b
+ f a c
+
+ e g h
+ d b -
+ f a c
+
+ e g -
+ d b h
+ f a c
+
+ e - g
+ d b h
+ f a c
+
+ - e g
+ d b h
+ f a c
+
+ d e g
+ - b h
+ f a c
+
+ d e g
+ b - h
+ f a c
+
+ d - g
+ b e h
+ f a c
+
+ - d g
+ b e h
+ f a c
+
+ b d g
+ - e h
+ f a c
+
+ b d g
+ e - h
+ f a c
+
+ b - g
+ e d h
+ f a c
+
+ - b g
+ e d h
+ f a c
+
+ e b g
+ - d h
+ f a c
+
+ e b g
+ d - h
+ f a c
+
+ e b g
+ d h -
+ f a c
+
+ e b -
+ d h g
+ f a c
+
+ e - b
+ d h g
+ f a c
+
+ - e b
+ d h g
+ f a c
+
+ d e b
+ - h g
+ f a c
+
+ d e b
+ h - g
+ f a c
+
+ d - b
+ h e g
+ f a c
+
+ - d b
+ h e g
+ f a c
+
+ h d b
+ - e g
+ f a c
+
+ h d b
+ e - g
+ f a c
+
+ h - b
+ e d g
+ f a c
+
+ - h b
+ e d g
+ f a c
+
+ e h b
+ - d g
+ f a c
+
+ e h b
+ d - g
+ f a c
+
+ e h b
+ d a g
+ f - c
+
+ e h b
+ d a g
+ - f c
+
+ e h b
+ - a g
+ d f c
+
+ - h b
+ e a g
+ d f c
+
+ h - b
+ e a g
+ d f c
+
+ h b -
+ e a g
+ d f c
+
+ h b g
+ e a -
+ d f c
+
+ h b g
+ e - a
+ d f c
+
+ h - g
+ e b a
+ d f c
+
+ - h g
+ e b a
+ d f c
+
+ e h g
+ - b a
+ d f c
+
+ e h g
+ b - a
+ d f c
+
+ e - g
+ b h a
+ d f c
+
+ - e g
+ b h a
+ d f c
+
+ b e g
+ - h a
+ d f c
+
+ b e g
+ h - a
+ d f c
+
+ b - g
+ h e a
+ d f c
+
+ - b g
+ h e a
+ d f c
+
+ h b g
+ - e a
+ d f c
+
+ h b g
+ d e a
+ - f c
+
+ h b g
+ d e a
+ f - c
+
+ h b g
+ d - a
+ f e c
+
+ h - g
+ d b a
+ f e c
+
+ - h g
+ d b a
+ f e c
+
+ d h g
+ - b a
+ f e c
+
+ d h g
+ b - a
+ f e c
+
+ d - g
+ b h a
+ f e c
+
+ - d g
+ b h a
+ f e c
+
+ b d g
+ - h a
+ f e c
+
+ b d g
+ h - a
+ f e c
+
+ b - g
+ h d a
+ f e c
+
+ - b g
+ h d a
+ f e c
+
+ h b g
+ - d a
+ f e c
+
+ h b g
+ f d a
+ - e c
+
+ h b g
+ f d a
+ e - c
+
+ h b g
+ f - a
+ e d c
+
+ h - g
+ f b a
+ e d c
+
+ - h g
+ f b a
+ e d c
+
+ f h g
+ - b a
+ e d c
+
+ f h g
+ b - a
+ e d c
+
+ f - g
+ b h a
+ e d c
+
+ - f g
+ b h a
+ e d c
+
+ b f g
+ - h a
+ e d c
+
+ b f g
+ h - a
+ e d c
+
+ b - g
+ h f a
+ e d c
+
+ - b g
+ h f a
+ e d c
+
+ h b g
+ - f a
+ e d c
+
+ h b g
+ e f a
+ - d c
+
+ h b g
+ e f a
+ d - c
+
+ h b g
+ e f a
+ d c -
+
+ h b g
+ e f -
+ d c a
+
+ h b -
+ e f g
+ d c a
+
+ h - b
+ e f g
+ d c a
+
+ - h b
+ e f g
+ d c a
+
+ e h b
+ - f g
+ d c a
+
+ e h b
+ f - g
+ d c a
+
+ e - b
+ f h g
+ d c a
+
+ - e b
+ f h g
+ d c a
+
+ f e b
+ - h g
+ d c a
+
+ f e b
+ h - g
+ d c a
+
+ f - b
+ h e g
+ d c a
+
+ - f b
+ h e g
+ d c a
+
+ h f b
+ - e g
+ d c a
+
+ h f b
+ e - g
+ d c a
+
+ h f b
+ e g -
+ d c a
+
+ h f -
+ e g b
+ d c a
+
+ h - f
+ e g b
+ d c a
+
+ - h f
+ e g b
+ d c a
+
+ e h f
+ - g b
+ d c a
+
+ e h f
+ g - b
+ d c a
+
+ e - f
+ g h b
+ d c a
+
+ - e f
+ g h b
+ d c a
+
+ g e f
+ - h b
+ d c a
+
+ g e f
+ h - b
+ d c a
+
+ g - f
+ h e b
+ d c a
+
+ - g f
+ h e b
+ d c a
+
+ h g f
+ - e b
+ d c a
+
+ h g f
+ e - b
+ d c a
+
+ h g f
+ e b -
+ d c a
+
+ h g -
+ e b f
+ d c a
+
+ h - g
+ e b f
+ d c a
+
+ - h g
+ e b f
+ d c a
+
+ e h g
+ - b f
+ d c a
+
+ e h g
+ b - f
+ d c a
+
+ e - g
+ b h f
+ d c a
+
+ - e g
+ b h f
+ d c a
+
+ b e g
+ - h f
+ d c a
+
+ b e g
+ h - f
+ d c a
+
+ b - g
+ h e f
+ d c a
+
+ - b g
+ h e f
+ d c a
+
+ h b g
+ - e f
+ d c a
+
+ h b g
+ e - f
+ d c a
+
+ h b g
+ e c f
+ d - a
+
+ h b g
+ e c f
+ - d a
+
+ h b g
+ - c f
+ e d a
+
+ - b g
+ h c f
+ e d a
+
+ b - g
+ h c f
+ e d a
+
+ b g -
+ h c f
+ e d a
+
+ b g f
+ h c -
+ e d a
+
+ b g f
+ h - c
+ e d a
+
+ b - f
+ h g c
+ e d a
+
+ - b f
+ h g c
+ e d a
+
+ h b f
+ - g c
+ e d a
+
+ h b f
+ g - c
+ e d a
+
+ h - f
+ g b c
+ e d a
+
+ - h f
+ g b c
+ e d a
+
+ g h f
+ - b c
+ e d a
+
+ g h f
+ b - c
+ e d a
+
+ g - f
+ b h c
+ e d a
+
+ - g f
+ b h c
+ e d a
+
+ b g f
+ - h c
+ e d a
+
+ b g f
+ e h c
+ - d a
+
+ b g f
+ e h c
+ d - a
+
+ b g f
+ e - c
+ d h a
+
+ b - f
+ e g c
+ d h a
+
+ - b f
+ e g c
+ d h a
+
+ e b f
+ - g c
+ d h a
+
+ e b f
+ g - c
+ d h a
+
+ e - f
+ g b c
+ d h a
+
+ - e f
+ g b c
+ d h a
+
+ g e f
+ - b c
+ d h a
+
+ g e f
+ b - c
+ d h a
+
+ g - f
+ b e c
+ d h a
+
+ - g f
+ b e c
+ d h a
+
+ b g f
+ - e c
+ d h a
+
+ b g f
+ d e c
+ - h a
+
+ b g f
+ d e c
+ h - a
+
+ b g f
+ d - c
+ h e a
+
+ b - f
+ d g c
+ h e a
+
+ - b f
+ d g c
+ h e a
+
+ d b f
+ - g c
+ h e a
+
+ d b f
+ g - c
+ h e a
+
+ d - f
+ g b c
+ h e a
+
+ - d f
+ g b c
+ h e a
+
+ g d f
+ - b c
+ h e a
+
+ g d f
+ b - c
+ h e a
+
+ g - f
+ b d c
+ h e a
+
+ - g f
+ b d c
+ h e a
+
+ b g f
+ - d c
+ h e a
+
+ b g f
+ h d c
+ - e a
+
+ b g f
+ h d c
+ e - a
+
+ b g f
+ h d c
+ e a -
+
+ b g f
+ h d -
+ e a c
+
+ b g -
+ h d f
+ e a c
+
+ b - g
+ h d f
+ e a c
+
+ - b g
+ h d f
+ e a c
+
+ h b g
+ - d f
+ e a c
+
+ h b g
+ d - f
+ e a c
+
+ h - g
+ d b f
+ e a c
+
+ - h g
+ d b f
+ e a c
+
+ d h g
+ - b f
+ e a c
+
+ d h g
+ b - f
+ e a c
+
+ d - g
+ b h f
+ e a c
+
+ - d g
+ b h f
+ e a c
+
+ b d g
+ - h f
+ e a c
+
+ b d g
+ h - f
+ e a c
+
+ b d g
+ h f -
+ e a c
+
+ b d -
+ h f g
+ e a c
+
+ b - d
+ h f g
+ e a c
+
+ - b d
+ h f g
+ e a c
+
+ h b d
+ - f g
+ e a c
+
+ h b d
+ f - g
+ e a c
+
+ h - d
+ f b g
+ e a c
+
+ - h d
+ f b g
+ e a c
+
+ f h d
+ - b g
+ e a c
+
+ f h d
+ b - g
+ e a c
+
+ f - d
+ b h g
+ e a c
+
+ - f d
+ b h g
+ e a c
+
+ b f d
+ - h g
+ e a c
+
+ b f d
+ h - g
+ e a c
+
+ b f d
+ h g -
+ e a c
+
+ b f -
+ h g d
+ e a c
+
+ b - f
+ h g d
+ e a c
+
+ - b f
+ h g d
+ e a c
+
+ h b f
+ - g d
+ e a c
+
+ h b f
+ g - d
+ e a c
+
+ h - f
+ g b d
+ e a c
+
+ - h f
+ g b d
+ e a c
+
+ g h f
+ - b d
+ e a c
+
+ g h f
+ b - d
+ e a c
+
+ g - f
+ b h d
+ e a c
+
+ - g f
+ b h d
+ e a c
+
+ b g f
+ - h d
+ e a c
+
+ b g f
+ h - d
+ e a c
+
+ b g f
+ h a d
+ e - c
+
+ b g f
+ h a d
+ - e c
+
+ b g f
+ - a d
+ h e c
+
+ - g f
+ b a d
+ h e c
+
+ g - f
+ b a d
+ h e c
+
+ g f -
+ b a d
+ h e c
+
+ g f d
+ b a -
+ h e c
+
+ g f d
+ b - a
+ h e c
+
+ g - d
+ b f a
+ h e c
+
+ - g d
+ b f a
+ h e c
+
+ b g d
+ - f a
+ h e c
+
+ b g d
+ f - a
+ h e c
+
+ b - d
+ f g a
+ h e c
+
+ - b d
+ f g a
+ h e c
+
+ f b d
+ - g a
+ h e c
+
+ f b d
+ g - a
+ h e c
+
+ f - d
+ g b a
+ h e c
+
+ - f d
+ g b a
+ h e c
+
+ g f d
+ - b a
+ h e c
+
+ g f d
+ h b a
+ - e c
+
+ g f d
+ h b a
+ e - c
+
+ g f d
+ h - a
+ e b c
+
+ g - d
+ h f a
+ e b c
+
+ - g d
+ h f a
+ e b c
+
+ h g d
+ - f a
+ e b c
+
+ h g d
+ f - a
+ e b c
+
+ h - d
+ f g a
+ e b c
+
+ - h d
+ f g a
+ e b c
+
+ f h d
+ - g a
+ e b c
+
+ f h d
+ g - a
+ e b c
+
+ f - d
+ g h a
+ e b c
+
+ - f d
+ g h a
+ e b c
+
+ g f d
+ - h a
+ e b c
+
+ g f d
+ e h a
+ - b c
+
+ g f d
+ e h a
+ b - c
+
+ g f d
+ e - a
+ b h c
+
+ g - d
+ e f a
+ b h c
+
+ - g d
+ e f a
+ b h c
+
+ e g d
+ - f a
+ b h c
+
+ e g d
+ f - a
+ b h c
+
+ e - d
+ f g a
+ b h c
+
+ - e d
+ f g a
+ b h c
+
+ f e d
+ - g a
+ b h c
+
+ f e d
+ g - a
+ b h c
+
+ f - d
+ g e a
+ b h c
+
+ - f d
+ g e a
+ b h c
+
+ g f d
+ - e a
+ b h c
+
+ g f d
+ b e a
+ - h c
+
+ g f d
+ b e a
+ h - c
+
+ g f d
+ b e a
+ h c -
+
+ g f d
+ b e -
+ h c a
+
+ g f -
+ b e d
+ h c a
+
+ g - f
+ b e d
+ h c a
+
+ - g f
+ b e d
+ h c a
+
+ b g f
+ - e d
+ h c a
+
+ b g f
+ e - d
+ h c a
+
+ b - f
+ e g d
+ h c a
+
+ - b f
+ e g d
+ h c a
+
+ e b f
+ - g d
+ h c a
+
+ e b f
+ g - d
+ h c a
+
+ e - f
+ g b d
+ h c a
+
+ - e f
+ g b d
+ h c a
+
+ g e f
+ - b d
+ h c a
+
+ g e f
+ b - d
+ h c a
+
+ g e f
+ b d -
+ h c a
+
+ g e -
+ b d f
+ h c a
+
+ g - e
+ b d f
+ h c a
+
+ - g e
+ b d f
+ h c a
+
+ b g e
+ - d f
+ h c a
+
+ b g e
+ d - f
+ h c a
+
+ b - e
+ d g f
+ h c a
+
+ - b e
+ d g f
+ h c a
+
+ d b e
+ - g f
+ h c a
+
+ d b e
+ g - f
+ h c a
+
+ d - e
+ g b f
+ h c a
+
+ - d e
+ g b f
+ h c a
+
+ g d e
+ - b f
+ h c a
+
+ g d e
+ b - f
+ h c a
+
+ g d e
+ b f -
+ h c a
+
+ g d -
+ b f e
+ h c a
+
+ g - d
+ b f e
+ h c a
+
+ - g d
+ b f e
+ h c a
+
+ b g d
+ - f e
+ h c a
+
+ b g d
+ f - e
+ h c a
+
+ b - d
+ f g e
+ h c a
+
+ - b d
+ f g e
+ h c a
+
+ f b d
+ - g e
+ h c a
+
+ f b d
+ g - e
+ h c a
+
+ f - d
+ g b e
+ h c a
+
+ - f d
+ g b e
+ h c a
+
+ g f d
+ - b e
+ h c a
+
+ g f d
+ b - e
+ h c a
+
+ g f d
+ b c e
+ h - a
+
+ g f d
+ b c e
+ - h a
+
+ g f d
+ - c e
+ b h a
+
+ - f d
+ g c e
+ b h a
+
+ f - d
+ g c e
+ b h a
+
+ f d -
+ g c e
+ b h a
+
+ f d e
+ g c -
+ b h a
+
+ f d e
+ g - c
+ b h a
+
+ f - e
+ g d c
+ b h a
+
+ - f e
+ g d c
+ b h a
+
+ g f e
+ - d c
+ b h a
+
+ g f e
+ d - c
+ b h a
+
+ g - e
+ d f c
+ b h a
+
+ - g e
+ d f c
+ b h a
+
+ d g e
+ - f c
+ b h a
+
+ d g e
+ f - c
+ b h a
+
+ d - e
+ f g c
+ b h a
+
+ - d e
+ f g c
+ b h a
+
+ f d e
+ - g c
+ b h a
+
+ f d e
+ b g c
+ - h a
+
+ f d e
+ b g c
+ h - a
+
+ f d e
+ b - c
+ h g a
+
+ f - e
+ b d c
+ h g a
+
+ - f e
+ b d c
+ h g a
+
+ b f e
+ - d c
+ h g a
+
+ b f e
+ d - c
+ h g a
+
+ b - e
+ d f c
+ h g a
+
+ - b e
+ d f c
+ h g a
+
+ d b e
+ - f c
+ h g a
+
+ d b e
+ f - c
+ h g a
+
+ d - e
+ f b c
+ h g a
+
+ - d e
+ f b c
+ h g a
+
+ f d e
+ - b c
+ h g a
+
+ f d e
+ h b c
+ - g a
+
+ f d e
+ h b c
+ g - a
+
+ f d e
+ h - c
+ g b a
+
+ f - e
+ h d c
+ g b a
+
+ - f e
+ h d c
+ g b a
+
+ h f e
+ - d c
+ g b a
+
+ h f e
+ d - c
+ g b a
+
+ h - e
+ d f c
+ g b a
+
+ - h e
+ d f c
+ g b a
+
+ d h e
+ - f c
+ g b a
+
+ d h e
+ f - c
+ g b a
+
+ d - e
+ f h c
+ g b a
+
+ - d e
+ f h c
+ g b a
+
+ f d e
+ - h c
+ g b a
+
+ f d e
+ g h c
+ - b a
+
+ f d e
+ g h c
+ b - a
+
+ f d e
+ g h c
+ b a -
+
+ f d e
+ g h -
+ b a c
+
+ f d -
+ g h e
+ b a c
+
+ f - d
+ g h e
+ b a c
+
+ - f d
+ g h e
+ b a c
+
+ g f d
+ - h e
+ b a c
+
+ g f d
+ h - e
+ b a c
+
+ g - d
+ h f e
+ b a c
+
+ - g d
+ h f e
+ b a c
+
+ h g d
+ - f e
+ b a c
+
+ h g d
+ f - e
+ b a c
+
+ h - d
+ f g e
+ b a c
+
+ - h d
+ f g e
+ b a c
+
+ f h d
+ - g e
+ b a c
+
+ f h d
+ g - e
+ b a c
+
+ f h d
+ g e -
+ b a c
+
+ f h -
+ g e d
+ b a c
+
+ f - h
+ g e d
+ b a c
+
+ - f h
+ g e d
+ b a c
+
+ g f h
+ - e d
+ b a c
+
+ g f h
+ e - d
+ b a c
+
+ g - h
+ e f d
+ b a c
+
+ - g h
+ e f d
+ b a c
+
+ e g h
+ - f d
+ b a c
+
+ e g h
+ f - d
+ b a c
+
+ e - h
+ f g d
+ b a c
+
+ - e h
+ f g d
+ b a c
+
+ f e h
+ - g d
+ b a c
+
+ f e h
+ g - d
+ b a c
+
+ f e h
+ g d -
+ b a c
+
+ f e -
+ g d h
+ b a c
+
+ f - e
+ g d h
+ b a c
+
+ - f e
+ g d h
+ b a c
+
+ g f e
+ - d h
+ b a c
+
+ g f e
+ d - h
+ b a c
+
+ g - e
+ d f h
+ b a c
+
+ - g e
+ d f h
+ b a c
+
+ d g e
+ - f h
+ b a c
+
+ d g e
+ f - h
+ b a c
+
+ d - e
+ f g h
+ b a c
+
+ - d e
+ f g h
+ b a c
+
+ f d e
+ - g h
+ b a c
+
+ f d e
+ g - h
+ b a c
+
+ f d e
+ g a h
+ b - c
+
+ f d e
+ g a h
+ - b c
+
+ f d e
+ - a h
+ g b c
+
+ - d e
+ f a h
+ g b c
+
+ d - e
+ f a h
+ g b c
+
+ d e -
+ f a h
+ g b c
+
+ d e h
+ f a -
+ g b c
+
+ d e h
+ f - a
+ g b c
+
+ d - h
+ f e a
+ g b c
+
+ - d h
+ f e a
+ g b c
+
+ f d h
+ - e a
+ g b c
+
+ f d h
+ e - a
+ g b c
+
+ f - h
+ e d a
+ g b c
+
+ - f h
+ e d a
+ g b c
+
+ e f h
+ - d a
+ g b c
+
+ e f h
+ d - a
+ g b c
+
+ e - h
+ d f a
+ g b c
+
+ - e h
+ d f a
+ g b c
+
+ d e h
+ - f a
+ g b c
+
+ d e h
+ g f a
+ - b c
+
+ d e h
+ g f a
+ b - c
+
+ d e h
+ g - a
+ b f c
+
+ d - h
+ g e a
+ b f c
+
+ - d h
+ g e a
+ b f c
+
+ g d h
+ - e a
+ b f c
+
+ g d h
+ e - a
+ b f c
+
+ g - h
+ e d a
+ b f c
+
+ - g h
+ e d a
+ b f c
+
+ e g h
+ - d a
+ b f c
+
+ e g h
+ d - a
+ b f c
+
+ e - h
+ d g a
+ b f c
+
+ - e h
+ d g a
+ b f c
+
+ d e h
+ - g a
+ b f c
+
+ d e h
+ b g a
+ - f c
+
+ d e h
+ b g a
+ f - c
+
+ d e h
+ b - a
+ f g c
+
+ d - h
+ b e a
+ f g c
+
+ - d h
+ b e a
+ f g c
+
+ b d h
+ - e a
+ f g c
+
+ b d h
+ e - a
+ f g c
+
+ b - h
+ e d a
+ f g c
+
+ - b h
+ e d a
+ f g c
+
+ e b h
+ - d a
+ f g c
+
+ e b h
+ d - a
+ f g c
+
+ e - h
+ d b a
+ f g c
+
+ e h -
+ d b a
+ f g c
+
+ e h a
+ d b -
+ f g c
+
+ e h a
+ d - b
+ f g c
+
+ e - a
+ d h b
+ f g c
+
+ - e a
+ d h b
+ f g c
+
+ d e a
+ - h b
+ f g c
+
+ d e a
+ h - b
+ f g c
+
+ d - a
+ h e b
+ f g c
+
+ - d a
+ h e b
+ f g c
+
+ h d a
+ - e b
+ f g c
+
+ h d a
+ e - b
+ f g c
+
+ h - a
+ e d b
+ f g c
+
+ - h a
+ e d b
+ f g c
+
+ e h a
+ - d b
+ f g c
+
+ e h a
+ f d b
+ - g c
+
+ e h a
+ f d b
+ g - c
+
+ e h a
+ f - b
+ g d c
+
+ e - a
+ f h b
+ g d c
+
+ - e a
+ f h b
+ g d c
+
+ f e a
+ - h b
+ g d c
+
+ f e a
+ h - b
+ g d c
+
+ f - a
+ h e b
+ g d c
+
+ - f a
+ h e b
+ g d c
+
+ h f a
+ - e b
+ g d c
+
+ h f a
+ e - b
+ g d c
+
+ h - a
+ e f b
+ g d c
+
+ - h a
+ e f b
+ g d c
+
+ e h a
+ - f b
+ g d c
+
+ e h a
+ g f b
+ - d c
+
+ e h a
+ g f b
+ d - c
+
+ e h a
+ g - b
+ d f c
+
+ e - a
+ g h b
+ d f c
+
+ - e a
+ g h b
+ d f c
+
+ g e a
+ - h b
+ d f c
+
+ g e a
+ h - b
+ d f c
+
+ g - a
+ h e b
+ d f c
+
+ - g a
+ h e b
+ d f c
+
+ h g a
+ - e b
+ d f c
+
+ h g a
+ e - b
+ d f c
+
+ h - a
+ e g b
+ d f c
+
+ - h a
+ e g b
+ d f c
+
+ e h a
+ - g b
+ d f c
+
+ e h a
+ d g b
+ - f c
+
+ e h a
+ d g b
+ f - c
+
+ e h a
+ d g b
+ f c -
+
+ e h a
+ d g -
+ f c b
+
+ e h -
+ d g a
+ f c b
+
+ e - h
+ d g a
+ f c b
+
+ - e h
+ d g a
+ f c b
+
+ d e h
+ - g a
+ f c b
+
+ d e h
+ g - a
+ f c b
+
+ d - h
+ g e a
+ f c b
+
+ - d h
+ g e a
+ f c b
+
+ g d h
+ - e a
+ f c b
+
+ g d h
+ e - a
+ f c b
+
+ g - h
+ e d a
+ f c b
+
+ - g h
+ e d a
+ f c b
+
+ e g h
+ - d a
+ f c b
+
+ e g h
+ d - a
+ f c b
+
+ e g h
+ d a -
+ f c b
+
+ e g -
+ d a h
+ f c b
+
+ e - g
+ d a h
+ f c b
+
+ - e g
+ d a h
+ f c b
+
+ d e g
+ - a h
+ f c b
+
+ d e g
+ a - h
+ f c b
+
+ d - g
+ a e h
+ f c b
+
+ - d g
+ a e h
+ f c b
+
+ a d g
+ - e h
+ f c b
+
+ a d g
+ e - h
+ f c b
+
+ a - g
+ e d h
+ f c b
+
+ - a g
+ e d h
+ f c b
+
+ e a g
+ - d h
+ f c b
+
+ e a g
+ d - h
+ f c b
+
+ e a g
+ d h -
+ f c b
+
+ e a -
+ d h g
+ f c b
+
+ e - a
+ d h g
+ f c b
+
+ - e a
+ d h g
+ f c b
+
+ d e a
+ - h g
+ f c b
+
+ d e a
+ h - g
+ f c b
+
+ d - a
+ h e g
+ f c b
+
+ - d a
+ h e g
+ f c b
+
+ h d a
+ - e g
+ f c b
+
+ h d a
+ e - g
+ f c b
+
+ h - a
+ e d g
+ f c b
+
+ - h a
+ e d g
+ f c b
+
+ e h a
+ - d g
+ f c b
+
+ e h a
+ d - g
+ f c b
+
+ e h a
+ d c g
+ f - b
+
+ e h a
+ d c g
+ - f b
+
+ e h a
+ - c g
+ d f b
+
+ - h a
+ e c g
+ d f b
+
+ h - a
+ e c g
+ d f b
+
+ h a -
+ e c g
+ d f b
+
+ h a g
+ e c -
+ d f b
+
+ h a g
+ e - c
+ d f b
+
+ h - g
+ e a c
+ d f b
+
+ - h g
+ e a c
+ d f b
+
+ e h g
+ - a c
+ d f b
+
+ e h g
+ a - c
+ d f b
+
+ e - g
+ a h c
+ d f b
+
+ - e g
+ a h c
+ d f b
+
+ a e g
+ - h c
+ d f b
+
+ a e g
+ h - c
+ d f b
+
+ a - g
+ h e c
+ d f b
+
+ - a g
+ h e c
+ d f b
+
+ h a g
+ - e c
+ d f b
+
+ h a g
+ d e c
+ - f b
+
+ h a g
+ d e c
+ f - b
+
+ h a g
+ d - c
+ f e b
+
+ h - g
+ d a c
+ f e b
+
+ - h g
+ d a c
+ f e b
+
+ d h g
+ - a c
+ f e b
+
+ d h g
+ a - c
+ f e b
+
+ d - g
+ a h c
+ f e b
+
+ - d g
+ a h c
+ f e b
+
+ a d g
+ - h c
+ f e b
+
+ a d g
+ h - c
+ f e b
+
+ a - g
+ h d c
+ f e b
+
+ - a g
+ h d c
+ f e b
+
+ h a g
+ - d c
+ f e b
+
+ h a g
+ f d c
+ - e b
+
+ h a g
+ f d c
+ e - b
+
+ h a g
+ f - c
+ e d b
+
+ h - g
+ f a c
+ e d b
+
+ - h g
+ f a c
+ e d b
+
+ f h g
+ - a c
+ e d b
+
+ f h g
+ a - c
+ e d b
+
+ f - g
+ a h c
+ e d b
+
+ - f g
+ a h c
+ e d b
+
+ a f g
+ - h c
+ e d b
+
+ a f g
+ h - c
+ e d b
+
+ a - g
+ h f c
+ e d b
+
+ - a g
+ h f c
+ e d b
+
+ h a g
+ - f c
+ e d b
+
+ h a g
+ e f c
+ - d b
+
+ h a g
+ e f c
+ d - b
+
+ h a g
+ e f c
+ d b -
+
+ h a g
+ e f -
+ d b c
+
+ h a -
+ e f g
+ d b c
+
+ h - a
+ e f g
+ d b c
+
+ - h a
+ e f g
+ d b c
+
+ e h a
+ - f g
+ d b c
+
+ e h a
+ f - g
+ d b c
+
+ e - a
+ f h g
+ d b c
+
+ - e a
+ f h g
+ d b c
+
+ f e a
+ - h g
+ d b c
+
+ f e a
+ h - g
+ d b c
+
+ f - a
+ h e g
+ d b c
+
+ - f a
+ h e g
+ d b c
+
+ h f a
+ - e g
+ d b c
+
+ h f a
+ e - g
+ d b c
+
+ h f a
+ e g -
+ d b c
+
+ h f -
+ e g a
+ d b c
+
+ h - f
+ e g a
+ d b c
+
+ - h f
+ e g a
+ d b c
+
+ e h f
+ - g a
+ d b c
+
+ e h f
+ g - a
+ d b c
+
+ e - f
+ g h a
+ d b c
+
+ - e f
+ g h a
+ d b c
+
+ g e f
+ - h a
+ d b c
+
+ g e f
+ h - a
+ d b c
+
+ g - f
+ h e a
+ d b c
+
+ - g f
+ h e a
+ d b c
+
+ h g f
+ - e a
+ d b c
+
+ h g f
+ e - a
+ d b c
+
+ h g f
+ e a -
+ d b c
+
+ h g -
+ e a f
+ d b c
+
+ h - g
+ e a f
+ d b c
+
+ - h g
+ e a f
+ d b c
+
+ e h g
+ - a f
+ d b c
+
+ e h g
+ a - f
+ d b c
+
+ e - g
+ a h f
+ d b c
+
+ - e g
+ a h f
+ d b c
+
+ a e g
+ - h f
+ d b c
+
+ a e g
+ h - f
+ d b c
+
+ a - g
+ h e f
+ d b c
+
+ - a g
+ h e f
+ d b c
+
+ h a g
+ - e f
+ d b c
+
+ h a g
+ e - f
+ d b c
+
+ h a g
+ e b f
+ d - c
+
+ h a g
+ e b f
+ - d c
+
+ h a g
+ - b f
+ e d c
+
+ - a g
+ h b f
+ e d c
+
+ a - g
+ h b f
+ e d c
+
+ a g -
+ h b f
+ e d c
+
+ a g f
+ h b -
+ e d c
+
+ a g f
+ h - b
+ e d c
+
+ a - f
+ h g b
+ e d c
+
+ - a f
+ h g b
+ e d c
+
+ h a f
+ - g b
+ e d c
+
+ h a f
+ g - b
+ e d c
+
+ h - f
+ g a b
+ e d c
+
+ - h f
+ g a b
+ e d c
+
+ g h f
+ - a b
+ e d c
+
+ g h f
+ a - b
+ e d c
+
+ g - f
+ a h b
+ e d c
+
+ - g f
+ a h b
+ e d c
+
+ a g f
+ - h b
+ e d c
+
+ a g f
+ e h b
+ - d c
+
+ a g f
+ e h b
+ d - c
+
+ a g f
+ e - b
+ d h c
+
+ a - f
+ e g b
+ d h c
+
+ - a f
+ e g b
+ d h c
+
+ e a f
+ - g b
+ d h c
+
+ e a f
+ g - b
+ d h c
+
+ e - f
+ g a b
+ d h c
+
+ - e f
+ g a b
+ d h c
+
+ g e f
+ - a b
+ d h c
+
+ g e f
+ a - b
+ d h c
+
+ g - f
+ a e b
+ d h c
+
+ - g f
+ a e b
+ d h c
+
+ a g f
+ - e b
+ d h c
+
+ a g f
+ d e b
+ - h c
+
+ a g f
+ d e b
+ h - c
+
+ a g f
+ d - b
+ h e c
+
+ a - f
+ d g b
+ h e c
+
+ - a f
+ d g b
+ h e c
+
+ d a f
+ - g b
+ h e c
+
+ d a f
+ g - b
+ h e c
+
+ d - f
+ g a b
+ h e c
+
+ - d f
+ g a b
+ h e c
+
+ g d f
+ - a b
+ h e c
+
+ g d f
+ a - b
+ h e c
+
+ g - f
+ a d b
+ h e c
+
+ - g f
+ a d b
+ h e c
+
+ a g f
+ - d b
+ h e c
+
+ a g f
+ h d b
+ - e c
+
+ a g f
+ h d b
+ e - c
+
+ a g f
+ h d b
+ e c -
+
+ a g f
+ h d -
+ e c b
+
+ a g -
+ h d f
+ e c b
+
+ a - g
+ h d f
+ e c b
+
+ - a g
+ h d f
+ e c b
+
+ h a g
+ - d f
+ e c b
+
+ h a g
+ d - f
+ e c b
+
+ h - g
+ d a f
+ e c b
+
+ - h g
+ d a f
+ e c b
+
+ d h g
+ - a f
+ e c b
+
+ d h g
+ a - f
+ e c b
+
+ d - g
+ a h f
+ e c b
+
+ - d g
+ a h f
+ e c b
+
+ a d g
+ - h f
+ e c b
+
+ a d g
+ h - f
+ e c b
+
+ a d g
+ h f -
+ e c b
+
+ a d -
+ h f g
+ e c b
+
+ a - d
+ h f g
+ e c b
+
+ - a d
+ h f g
+ e c b
+
+ h a d
+ - f g
+ e c b
+
+ h a d
+ f - g
+ e c b
+
+ h - d
+ f a g
+ e c b
+
+ - h d
+ f a g
+ e c b
+
+ f h d
+ - a g
+ e c b
+
+ f h d
+ a - g
+ e c b
+
+ f - d
+ a h g
+ e c b
+
+ - f d
+ a h g
+ e c b
+
+ a f d
+ - h g
+ e c b
+
+ a f d
+ h - g
+ e c b
+
+ a f d
+ h g -
+ e c b
+
+ a f -
+ h g d
+ e c b
+
+ a - f
+ h g d
+ e c b
+
+ - a f
+ h g d
+ e c b
+
+ h a f
+ - g d
+ e c b
+
+ h a f
+ g - d
+ e c b
+
+ h - f
+ g a d
+ e c b
+
+ - h f
+ g a d
+ e c b
+
+ g h f
+ - a d
+ e c b
+
+ g h f
+ a - d
+ e c b
+
+ g - f
+ a h d
+ e c b
+
+ - g f
+ a h d
+ e c b
+
+ a g f
+ - h d
+ e c b
+
+ a g f
+ h - d
+ e c b
+
+ a g f
+ h c d
+ e - b
+
+ a g f
+ h c d
+ - e b
+
+ a g f
+ - c d
+ h e b
+
+ - g f
+ a c d
+ h e b
+
+ g - f
+ a c d
+ h e b
+
+ g f -
+ a c d
+ h e b
+
+ g f d
+ a c -
+ h e b
+
+ g f d
+ a - c
+ h e b
+
+ g - d
+ a f c
+ h e b
+
+ - g d
+ a f c
+ h e b
+
+ a g d
+ - f c
+ h e b
+
+ a g d
+ f - c
+ h e b
+
+ a - d
+ f g c
+ h e b
+
+ - a d
+ f g c
+ h e b
+
+ f a d
+ - g c
+ h e b
+
+ f a d
+ g - c
+ h e b
+
+ f - d
+ g a c
+ h e b
+
+ - f d
+ g a c
+ h e b
+
+ g f d
+ - a c
+ h e b
+
+ g f d
+ h a c
+ - e b
+
+ g f d
+ h a c
+ e - b
+
+ g f d
+ h - c
+ e a b
+
+ g - d
+ h f c
+ e a b
+
+ - g d
+ h f c
+ e a b
+
+ h g d
+ - f c
+ e a b
+
+ h g d
+ f - c
+ e a b
+
+ h - d
+ f g c
+ e a b
+
+ - h d
+ f g c
+ e a b
+
+ f h d
+ - g c
+ e a b
+
+ f h d
+ g - c
+ e a b
+
+ f - d
+ g h c
+ e a b
+
+ - f d
+ g h c
+ e a b
+
+ g f d
+ - h c
+ e a b
+
+ g f d
+ e h c
+ - a b
+
+ g f d
+ e h c
+ a - b
+
+ g f d
+ e - c
+ a h b
+
+ g - d
+ e f c
+ a h b
+
+ - g d
+ e f c
+ a h b
+
+ e g d
+ - f c
+ a h b
+
+ e g d
+ f - c
+ a h b
+
+ e - d
+ f g c
+ a h b
+
+ - e d
+ f g c
+ a h b
+
+ f e d
+ - g c
+ a h b
+
+ f e d
+ g - c
+ a h b
+
+ f - d
+ g e c
+ a h b
+
+ - f d
+ g e c
+ a h b
+
+ g f d
+ - e c
+ a h b
+
+ g f d
+ a e c
+ - h b
+
+ g f d
+ a e c
+ h - b
+
+ g f d
+ a e c
+ h b -
+
+ g f d
+ a e -
+ h b c
+
+ g f -
+ a e d
+ h b c
+
+ g - f
+ a e d
+ h b c
+
+ - g f
+ a e d
+ h b c
+
+ a g f
+ - e d
+ h b c
+
+ a g f
+ e - d
+ h b c
+
+ a - f
+ e g d
+ h b c
+
+ - a f
+ e g d
+ h b c
+
+ e a f
+ - g d
+ h b c
+
+ e a f
+ g - d
+ h b c
+
+ e - f
+ g a d
+ h b c
+
+ - e f
+ g a d
+ h b c
+
+ g e f
+ - a d
+ h b c
+
+ g e f
+ a - d
+ h b c
+
+ g e f
+ a d -
+ h b c
+
+ g e -
+ a d f
+ h b c
+
+ g - e
+ a d f
+ h b c
+
+ - g e
+ a d f
+ h b c
+
+ a g e
+ - d f
+ h b c
+
+ a g e
+ d - f
+ h b c
+
+ a - e
+ d g f
+ h b c
+
+ - a e
+ d g f
+ h b c
+
+ d a e
+ - g f
+ h b c
+
+ d a e
+ g - f
+ h b c
+
+ d - e
+ g a f
+ h b c
+
+ - d e
+ g a f
+ h b c
+
+ g d e
+ - a f
+ h b c
+
+ g d e
+ a - f
+ h b c
+
+ g d e
+ a f -
+ h b c
+
+ g d -
+ a f e
+ h b c
+
+ g - d
+ a f e
+ h b c
+
+ - g d
+ a f e
+ h b c
+
+ a g d
+ - f e
+ h b c
+
+ a g d
+ f - e
+ h b c
+
+ a - d
+ f g e
+ h b c
+
+ - a d
+ f g e
+ h b c
+
+ f a d
+ - g e
+ h b c
+
+ f a d
+ g - e
+ h b c
+
+ f - d
+ g a e
+ h b c
+
+ - f d
+ g a e
+ h b c
+
+ g f d
+ - a e
+ h b c
+
+ g f d
+ a - e
+ h b c
+
+ g f d
+ a b e
+ h - c
+
+ g f d
+ a b e
+ - h c
+
+ g f d
+ - b e
+ a h c
+
+ - f d
+ g b e
+ a h c
+
+ f - d
+ g b e
+ a h c
+
+ f d -
+ g b e
+ a h c
+
+ f d e
+ g b -
+ a h c
+
+ f d e
+ g - b
+ a h c
+
+ f - e
+ g d b
+ a h c
+
+ - f e
+ g d b
+ a h c
+
+ g f e
+ - d b
+ a h c
+
+ g f e
+ d - b
+ a h c
+
+ g - e
+ d f b
+ a h c
+
+ - g e
+ d f b
+ a h c
+
+ d g e
+ - f b
+ a h c
+
+ d g e
+ f - b
+ a h c
+
+ d - e
+ f g b
+ a h c
+
+ - d e
+ f g b
+ a h c
+
+ f d e
+ - g b
+ a h c
+
+ f d e
+ a g b
+ - h c
+
+ f d e
+ a g b
+ h - c
+
+ f d e
+ a - b
+ h g c
+
+ f - e
+ a d b
+ h g c
+
+ - f e
+ a d b
+ h g c
+
+ a f e
+ - d b
+ h g c
+
+ a f e
+ d - b
+ h g c
+
+ a - e
+ d f b
+ h g c
+
+ - a e
+ d f b
+ h g c
+
+ d a e
+ - f b
+ h g c
+
+ d a e
+ f - b
+ h g c
+
+ d - e
+ f a b
+ h g c
+
+ - d e
+ f a b
+ h g c
+
+ f d e
+ - a b
+ h g c
+
+ f d e
+ h a b
+ - g c
+
+ f d e
+ h a b
+ g - c
+
+ f d e
+ h - b
+ g a c
+
+ f - e
+ h d b
+ g a c
+
+ - f e
+ h d b
+ g a c
+
+ h f e
+ - d b
+ g a c
+
+ h f e
+ d - b
+ g a c
+
+ h - e
+ d f b
+ g a c
+
+ - h e
+ d f b
+ g a c
+
+ d h e
+ - f b
+ g a c
+
+ d h e
+ f - b
+ g a c
+
+ d - e
+ f h b
+ g a c
+
+ - d e
+ f h b
+ g a c
+
+ f d e
+ - h b
+ g a c
+
+ f d e
+ g h b
+ - a c
+
+ f d e
+ g h b
+ a - c
+
+ f d e
+ g h b
+ a c -
+
+ f d e
+ g h -
+ a c b
+
+ f d -
+ g h e
+ a c b
+
+ f - d
+ g h e
+ a c b
+
+ - f d
+ g h e
+ a c b
+
+ g f d
+ - h e
+ a c b
+
+ g f d
+ h - e
+ a c b
+
+ g - d
+ h f e
+ a c b
+
+ - g d
+ h f e
+ a c b
+
+ h g d
+ - f e
+ a c b
+
+ h g d
+ f - e
+ a c b
+
+ h - d
+ f g e
+ a c b
+
+ - h d
+ f g e
+ a c b
+
+ f h d
+ - g e
+ a c b
+
+ f h d
+ g - e
+ a c b
+
+ f h d
+ g e -
+ a c b
+
+ f h -
+ g e d
+ a c b
+
+ f - h
+ g e d
+ a c b
+
+ - f h
+ g e d
+ a c b
+
+ g f h
+ - e d
+ a c b
+
+ g f h
+ e - d
+ a c b
+
+ g - h
+ e f d
+ a c b
+
+ - g h
+ e f d
+ a c b
+
+ e g h
+ - f d
+ a c b
+
+ e g h
+ f - d
+ a c b
+
+ e - h
+ f g d
+ a c b
+
+ - e h
+ f g d
+ a c b
+
+ f e h
+ - g d
+ a c b
+
+ f e h
+ g - d
+ a c b
+
+ f e h
+ g d -
+ a c b
+
+ f e -
+ g d h
+ a c b
+
+ f - e
+ g d h
+ a c b
+
+ - f e
+ g d h
+ a c b
+
+ g f e
+ - d h
+ a c b
+
+ g f e
+ d - h
+ a c b
+
+ g - e
+ d f h
+ a c b
+
+ - g e
+ d f h
+ a c b
+
+ d g e
+ - f h
+ a c b
+
+ d g e
+ f - h
+ a c b
+
+ d - e
+ f g h
+ a c b
+
+ - d e
+ f g h
+ a c b
+
+ f d e
+ - g h
+ a c b
+
+ f d e
+ g - h
+ a c b
+
+ f d e
+ g c h
+ a - b
+
+ f d e
+ g c h
+ - a b
+
+ f d e
+ - c h
+ g a b
+
+ - d e
+ f c h
+ g a b
+
+ d - e
+ f c h
+ g a b
+
+ d e -
+ f c h
+ g a b
+
+ d e h
+ f c -
+ g a b
+
+ d e h
+ f - c
+ g a b
+
+ d - h
+ f e c
+ g a b
+
+ - d h
+ f e c
+ g a b
+
+ f d h
+ - e c
+ g a b
+
+ f d h
+ e - c
+ g a b
+
+ f - h
+ e d c
+ g a b
+
+ - f h
+ e d c
+ g a b
+
+ e f h
+ - d c
+ g a b
+
+ e f h
+ d - c
+ g a b
+
+ e - h
+ d f c
+ g a b
+
+ - e h
+ d f c
+ g a b
+
+ d e h
+ - f c
+ g a b
+
+ d e h
+ g f c
+ - a b
+
+ d e h
+ g f c
+ a - b
+
+ d e h
+ g - c
+ a f b
+
+ d - h
+ g e c
+ a f b
+
+ - d h
+ g e c
+ a f b
+
+ g d h
+ - e c
+ a f b
+
+ g d h
+ e - c
+ a f b
+
+ g - h
+ e d c
+ a f b
+
+ - g h
+ e d c
+ a f b
+
+ e g h
+ - d c
+ a f b
+
+ e g h
+ d - c
+ a f b
+
+ e - h
+ d g c
+ a f b
+
+ - e h
+ d g c
+ a f b
+
+ d e h
+ - g c
+ a f b
+
+ d e h
+ a g c
+ - f b
+
+ d e h
+ a g c
+ f - b
+
+ d e h
+ a - c
+ f g b
+
+ d - h
+ a e c
+ f g b
+
+ - d h
+ a e c
+ f g b
+
+ a d h
+ - e c
+ f g b
+
+ a d h
+ e - c
+ f g b
+
+ a - h
+ e d c
+ f g b
+
+ - a h
+ e d c
+ f g b
+
+ e a h
+ - d c
+ f g b
+
+ e a h
+ d - c
+ f g b
+
+ e - h
+ d a c
+ f g b
+
+ e h -
+ d a c
+ f g b
+
+ e h c
+ d a -
+ f g b
+
+ e h c
+ d - a
+ f g b
+
+ e - c
+ d h a
+ f g b
+
+ - e c
+ d h a
+ f g b
+
+ d e c
+ - h a
+ f g b
+
+ d e c
+ h - a
+ f g b
+
+ d - c
+ h e a
+ f g b
+
+ - d c
+ h e a
+ f g b
+
+ h d c
+ - e a
+ f g b
+
+ h d c
+ e - a
+ f g b
+
+ h - c
+ e d a
+ f g b
+
+ - h c
+ e d a
+ f g b
+
+ e h c
+ - d a
+ f g b
+
+ e h c
+ f d a
+ - g b
+
+ e h c
+ f d a
+ g - b
+
+ e h c
+ f - a
+ g d b
+
+ e - c
+ f h a
+ g d b
+
+ - e c
+ f h a
+ g d b
+
+ f e c
+ - h a
+ g d b
+
+ f e c
+ h - a
+ g d b
+
+ f - c
+ h e a
+ g d b
+
+ - f c
+ h e a
+ g d b
+
+ h f c
+ - e a
+ g d b
+
+ h f c
+ e - a
+ g d b
+
+ h - c
+ e f a
+ g d b
+
+ - h c
+ e f a
+ g d b
+
+ e h c
+ - f a
+ g d b
+
+ e h c
+ g f a
+ - d b
+
+ e h c
+ g f a
+ d - b
+
+ e h c
+ g - a
+ d f b
+
+ e - c
+ g h a
+ d f b
+
+ - e c
+ g h a
+ d f b
+
+ g e c
+ - h a
+ d f b
+
+ g e c
+ h - a
+ d f b
+
+ g - c
+ h e a
+ d f b
+
+ - g c
+ h e a
+ d f b
+
+ h g c
+ - e a
+ d f b
+
+ h g c
+ e - a
+ d f b
+
+ h - c
+ e g a
+ d f b
+
+ - h c
+ e g a
+ d f b
+
+ e h c
+ - g a
+ d f b
+
+ e h c
+ d g a
+ - f b
+
+ e h c
+ d g a
+ f - b
+
+ e h c
+ d g a
+ f b -
+
+ e h c
+ d g -
+ f b a
+
+ e h -
+ d g c
+ f b a
+
+ e - h
+ d g c
+ f b a
+
+ - e h
+ d g c
+ f b a
+
+ d e h
+ - g c
+ f b a
+
+ d e h
+ g - c
+ f b a
+
+ d - h
+ g e c
+ f b a
+
+ - d h
+ g e c
+ f b a
+
+ g d h
+ - e c
+ f b a
+
+ g d h
+ e - c
+ f b a
+
+ g - h
+ e d c
+ f b a
+
+ - g h
+ e d c
+ f b a
+
+ e g h
+ - d c
+ f b a
+
+ e g h
+ d - c
+ f b a
+
+ e g h
+ d c -
+ f b a
+
+ e g -
+ d c h
+ f b a
+
+ e - g
+ d c h
+ f b a
+
+ - e g
+ d c h
+ f b a
+
+ d e g
+ - c h
+ f b a
+
+ d e g
+ c - h
+ f b a
+
+ d - g
+ c e h
+ f b a
+
+ - d g
+ c e h
+ f b a
+
+ c d g
+ - e h
+ f b a
+
+ c d g
+ e - h
+ f b a
+
+ c - g
+ e d h
+ f b a
+
+ - c g
+ e d h
+ f b a
+
+ e c g
+ - d h
+ f b a
+
+ e c g
+ d - h
+ f b a
+
+ e c g
+ d h -
+ f b a
+
+ e c -
+ d h g
+ f b a
+
+ e - c
+ d h g
+ f b a
+
+ - e c
+ d h g
+ f b a
+
+ d e c
+ - h g
+ f b a
+
+ d e c
+ h - g
+ f b a
+
+ d - c
+ h e g
+ f b a
+
+ - d c
+ h e g
+ f b a
+
+ h d c
+ - e g
+ f b a
+
+ h d c
+ e - g
+ f b a
+
+ h - c
+ e d g
+ f b a
+
+ - h c
+ e d g
+ f b a
+
+ e h c
+ - d g
+ f b a
+
+ e h c
+ d - g
+ f b a
+
+ e h c
+ d b g
+ f - a
+
+ e h c
+ d b g
+ - f a
+
+ e h c
+ - b g
+ d f a
+
+ - h c
+ e b g
+ d f a
+
+ h - c
+ e b g
+ d f a
+
+ h c -
+ e b g
+ d f a
+
+ h c g
+ e b -
+ d f a
+
+ h c g
+ e - b
+ d f a
+
+ h - g
+ e c b
+ d f a
+
+ - h g
+ e c b
+ d f a
+
+ e h g
+ - c b
+ d f a
+
+ e h g
+ c - b
+ d f a
+
+ e - g
+ c h b
+ d f a
+
+ - e g
+ c h b
+ d f a
+
+ c e g
+ - h b
+ d f a
+
+ c e g
+ h - b
+ d f a
+
+ c - g
+ h e b
+ d f a
+
+ - c g
+ h e b
+ d f a
+
+ h c g
+ - e b
+ d f a
+
+ h c g
+ d e b
+ - f a
+
+ h c g
+ d e b
+ f - a
+
+ h c g
+ d - b
+ f e a
+
+ h - g
+ d c b
+ f e a
+
+ - h g
+ d c b
+ f e a
+
+ d h g
+ - c b
+ f e a
+
+ d h g
+ c - b
+ f e a
+
+ d - g
+ c h b
+ f e a
+
+ - d g
+ c h b
+ f e a
+
+ c d g
+ - h b
+ f e a
+
+ c d g
+ h - b
+ f e a
+
+ c - g
+ h d b
+ f e a
+
+ - c g
+ h d b
+ f e a
+
+ h c g
+ - d b
+ f e a
+
+ h c g
+ f d b
+ - e a
+
+ h c g
+ f d b
+ e - a
+
+ h c g
+ f - b
+ e d a
+
+ h - g
+ f c b
+ e d a
+
+ - h g
+ f c b
+ e d a
+
+ f h g
+ - c b
+ e d a
+
+ f h g
+ c - b
+ e d a
+
+ f - g
+ c h b
+ e d a
+
+ - f g
+ c h b
+ e d a
+
+ c f g
+ - h b
+ e d a
+
+ c f g
+ h - b
+ e d a
+
+ c - g
+ h f b
+ e d a
+
+ - c g
+ h f b
+ e d a
+
+ h c g
+ - f b
+ e d a
+
+ h c g
+ e f b
+ - d a
+
+ h c g
+ e f b
+ d - a
+
+ h c g
+ e f b
+ d a -
+
+ h c g
+ e f -
+ d a b
+
+ h c -
+ e f g
+ d a b
+
+ h - c
+ e f g
+ d a b
+
+ - h c
+ e f g
+ d a b
+
+ e h c
+ - f g
+ d a b
+
+ e h c
+ f - g
+ d a b
+
+ e - c
+ f h g
+ d a b
+
+ - e c
+ f h g
+ d a b
+
+ f e c
+ - h g
+ d a b
+
+ f e c
+ h - g
+ d a b
+
+ f - c
+ h e g
+ d a b
+
+ - f c
+ h e g
+ d a b
+
+ h f c
+ - e g
+ d a b
+
+ h f c
+ e - g
+ d a b
+
+ h f c
+ e g -
+ d a b
+
+ h f -
+ e g c
+ d a b
+
+ h - f
+ e g c
+ d a b
+
+ - h f
+ e g c
+ d a b
+
+ e h f
+ - g c
+ d a b
+
+ e h f
+ g - c
+ d a b
+
+ e - f
+ g h c
+ d a b
+
+ - e f
+ g h c
+ d a b
+
+ g e f
+ - h c
+ d a b
+
+ g e f
+ h - c
+ d a b
+
+ g - f
+ h e c
+ d a b
+
+ - g f
+ h e c
+ d a b
+
+ h g f
+ - e c
+ d a b
+
+ h g f
+ e - c
+ d a b
+
+ h g f
+ e c -
+ d a b
+
+ h g -
+ e c f
+ d a b
+
+ h - g
+ e c f
+ d a b
+
+ - h g
+ e c f
+ d a b
+
+ e h g
+ - c f
+ d a b
+
+ e h g
+ c - f
+ d a b
+
+ e - g
+ c h f
+ d a b
+
+ - e g
+ c h f
+ d a b
+
+ c e g
+ - h f
+ d a b
+
+ c e g
+ h - f
+ d a b
+
+ c - g
+ h e f
+ d a b
+
+ - c g
+ h e f
+ d a b
+
+ h c g
+ - e f
+ d a b
+
+ h c g
+ e - f
+ d a b
+
+ h c g
+ e a f
+ d - b
+
+ h c g
+ e a f
+ - d b
+
+ h c g
+ - a f
+ e d b
+
+ - c g
+ h a f
+ e d b
+
+ c - g
+ h a f
+ e d b
+
+ c g -
+ h a f
+ e d b
+
+ c g f
+ h a -
+ e d b
+
+ c g f
+ h - a
+ e d b
+
+ c - f
+ h g a
+ e d b
+
+ - c f
+ h g a
+ e d b
+
+ h c f
+ - g a
+ e d b
+
+ h c f
+ g - a
+ e d b
+
+ h - f
+ g c a
+ e d b
+
+ - h f
+ g c a
+ e d b
+
+ g h f
+ - c a
+ e d b
+
+ g h f
+ c - a
+ e d b
+
+ g - f
+ c h a
+ e d b
+
+ - g f
+ c h a
+ e d b
+
+ c g f
+ - h a
+ e d b
+
+ c g f
+ e h a
+ - d b
+
+ c g f
+ e h a
+ d - b
+
+ c g f
+ e - a
+ d h b
+
+ c - f
+ e g a
+ d h b
+
+ - c f
+ e g a
+ d h b
+
+ e c f
+ - g a
+ d h b
+
+ e c f
+ g - a
+ d h b
+
+ e - f
+ g c a
+ d h b
+
+ - e f
+ g c a
+ d h b
+
+ g e f
+ - c a
+ d h b
+
+ g e f
+ c - a
+ d h b
+
+ g - f
+ c e a
+ d h b
+
+ - g f
+ c e a
+ d h b
+
+ c g f
+ - e a
+ d h b
+
+ c g f
+ d e a
+ - h b
+
+ c g f
+ d e a
+ h - b
+
+ c g f
+ d - a
+ h e b
+
+ c - f
+ d g a
+ h e b
+
+ - c f
+ d g a
+ h e b
+
+ d c f
+ - g a
+ h e b
+
+ d c f
+ g - a
+ h e b
+
+ d - f
+ g c a
+ h e b
+
+ - d f
+ g c a
+ h e b
+
+ g d f
+ - c a
+ h e b
+
+ g d f
+ c - a
+ h e b
+
+ g - f
+ c d a
+ h e b
+
+ - g f
+ c d a
+ h e b
+
+ c g f
+ - d a
+ h e b
+
+ c g f
+ h d a
+ - e b
+
+ c g f
+ h d a
+ e - b
+
+ c g f
+ h d a
+ e b -
+
+ c g f
+ h d -
+ e b a
+
+ c g -
+ h d f
+ e b a
+
+ c - g
+ h d f
+ e b a
+
+ - c g
+ h d f
+ e b a
+
+ h c g
+ - d f
+ e b a
+
+ h c g
+ d - f
+ e b a
+
+ h - g
+ d c f
+ e b a
+
+ - h g
+ d c f
+ e b a
+
+ d h g
+ - c f
+ e b a
+
+ d h g
+ c - f
+ e b a
+
+ d - g
+ c h f
+ e b a
+
+ - d g
+ c h f
+ e b a
+
+ c d g
+ - h f
+ e b a
+
+ c d g
+ h - f
+ e b a
+
+ c d g
+ h f -
+ e b a
+
+ c d -
+ h f g
+ e b a
+
+ c - d
+ h f g
+ e b a
+
+ - c d
+ h f g
+ e b a
+
+ h c d
+ - f g
+ e b a
+
+ h c d
+ f - g
+ e b a
+
+ h - d
+ f c g
+ e b a
+
+ - h d
+ f c g
+ e b a
+
+ f h d
+ - c g
+ e b a
+
+ f h d
+ c - g
+ e b a
+
+ f - d
+ c h g
+ e b a
+
+ - f d
+ c h g
+ e b a
+
+ c f d
+ - h g
+ e b a
+
+ c f d
+ h - g
+ e b a
+
+ c f d
+ h g -
+ e b a
+
+ c f -
+ h g d
+ e b a
+
+ c - f
+ h g d
+ e b a
+
+ - c f
+ h g d
+ e b a
+
+ h c f
+ - g d
+ e b a
+
+ h c f
+ g - d
+ e b a
+
+ h - f
+ g c d
+ e b a
+
+ - h f
+ g c d
+ e b a
+
+ g h f
+ - c d
+ e b a
+
+ g h f
+ c - d
+ e b a
+
+ g - f
+ c h d
+ e b a
+
+ - g f
+ c h d
+ e b a
+
+ c g f
+ - h d
+ e b a
+
+ c g f
+ h - d
+ e b a
+
+ c g f
+ h b d
+ e - a
+
+ c g f
+ h b d
+ - e a
+
+ c g f
+ - b d
+ h e a
+
+ - g f
+ c b d
+ h e a
+
+ g - f
+ c b d
+ h e a
+
+ g f -
+ c b d
+ h e a
+
+ g f d
+ c b -
+ h e a
+
+ g f d
+ c - b
+ h e a
+
+ g - d
+ c f b
+ h e a
+
+ - g d
+ c f b
+ h e a
+
+ c g d
+ - f b
+ h e a
+
+ c g d
+ f - b
+ h e a
+
+ c - d
+ f g b
+ h e a
+
+ - c d
+ f g b
+ h e a
+
+ f c d
+ - g b
+ h e a
+
+ f c d
+ g - b
+ h e a
+
+ f - d
+ g c b
+ h e a
+
+ - f d
+ g c b
+ h e a
+
+ g f d
+ - c b
+ h e a
+
+ g f d
+ h c b
+ - e a
+
+ g f d
+ h c b
+ e - a
+
+ g f d
+ h - b
+ e c a
+
+ g - d
+ h f b
+ e c a
+
+ - g d
+ h f b
+ e c a
+
+ h g d
+ - f b
+ e c a
+
+ h g d
+ f - b
+ e c a
+
+ h - d
+ f g b
+ e c a
+
+ - h d
+ f g b
+ e c a
+
+ f h d
+ - g b
+ e c a
+
+ f h d
+ g - b
+ e c a
+
+ f - d
+ g h b
+ e c a
+
+ - f d
+ g h b
+ e c a
+
+ g f d
+ - h b
+ e c a
+
+ g f d
+ e h b
+ - c a
+
+ g f d
+ e h b
+ c - a
+
+ g f d
+ e - b
+ c h a
+
+ g - d
+ e f b
+ c h a
+
+ - g d
+ e f b
+ c h a
+
+ e g d
+ - f b
+ c h a
+
+ e g d
+ f - b
+ c h a
+
+ e - d
+ f g b
+ c h a
+
+ - e d
+ f g b
+ c h a
+
+ f e d
+ - g b
+ c h a
+
+ f e d
+ g - b
+ c h a
+
+ f - d
+ g e b
+ c h a
+
+ - f d
+ g e b
+ c h a
+
+ g f d
+ - e b
+ c h a
+
+ g f d
+ c e b
+ - h a
+
+ g f d
+ c e b
+ h - a
+
+ g f d
+ c e b
+ h a -
+
+ g f d
+ c e -
+ h a b
+
+ g f -
+ c e d
+ h a b
+
+ g - f
+ c e d
+ h a b
+
+ - g f
+ c e d
+ h a b
+
+ c g f
+ - e d
+ h a b
+
+ c g f
+ e - d
+ h a b
+
+ c - f
+ e g d
+ h a b
+
+ - c f
+ e g d
+ h a b
+
+ e c f
+ - g d
+ h a b
+
+ e c f
+ g - d
+ h a b
+
+ e - f
+ g c d
+ h a b
+
+ - e f
+ g c d
+ h a b
+
+ g e f
+ - c d
+ h a b
+
+ g e f
+ c - d
+ h a b
+
+ g e f
+ c d -
+ h a b
+
+ g e -
+ c d f
+ h a b
+
+ g - e
+ c d f
+ h a b
+
+ - g e
+ c d f
+ h a b
+
+ c g e
+ - d f
+ h a b
+
+ c g e
+ d - f
+ h a b
+
+ c - e
+ d g f
+ h a b
+
+ - c e
+ d g f
+ h a b
+
+ d c e
+ - g f
+ h a b
+
+ d c e
+ g - f
+ h a b
+
+ d - e
+ g c f
+ h a b
+
+ - d e
+ g c f
+ h a b
+
+ g d e
+ - c f
+ h a b
+
+ g d e
+ c - f
+ h a b
+
+ g d e
+ c f -
+ h a b
+
+ g d -
+ c f e
+ h a b
+
+ g - d
+ c f e
+ h a b
+
+ - g d
+ c f e
+ h a b
+
+ c g d
+ - f e
+ h a b
+
+ c g d
+ f - e
+ h a b
+
+ c - d
+ f g e
+ h a b
+
+ - c d
+ f g e
+ h a b
+
+ f c d
+ - g e
+ h a b
+
+ f c d
+ g - e
+ h a b
+
+ f - d
+ g c e
+ h a b
+
+ - f d
+ g c e
+ h a b
+
+ g f d
+ - c e
+ h a b
+
+ g f d
+ c - e
+ h a b
+
+ g f d
+ c a e
+ h - b
+
+ g f d
+ c a e
+ - h b
+
+ g f d
+ - a e
+ c h b
+
+ - f d
+ g a e
+ c h b
+
+ f - d
+ g a e
+ c h b
+
+ f d -
+ g a e
+ c h b
+
+ f d e
+ g a -
+ c h b
+
+ f d e
+ g - a
+ c h b
+
+ f - e
+ g d a
+ c h b
+
+ - f e
+ g d a
+ c h b
+
+ g f e
+ - d a
+ c h b
+
+ g f e
+ d - a
+ c h b
+
+ g - e
+ d f a
+ c h b
+
+ - g e
+ d f a
+ c h b
+
+ d g e
+ - f a
+ c h b
+
+ d g e
+ f - a
+ c h b
+
+ d - e
+ f g a
+ c h b
+
+ - d e
+ f g a
+ c h b
+
+ f d e
+ - g a
+ c h b
+
+ f d e
+ c g a
+ - h b
+
+ f d e
+ c g a
+ h - b
+
+ f d e
+ c - a
+ h g b
+
+ f - e
+ c d a
+ h g b
+
+ - f e
+ c d a
+ h g b
+
+ c f e
+ - d a
+ h g b
+
+ c f e
+ d - a
+ h g b
+
+ c - e
+ d f a
+ h g b
+
+ - c e
+ d f a
+ h g b
+
+ d c e
+ - f a
+ h g b
+
+ d c e
+ f - a
+ h g b
+
+ d - e
+ f c a
+ h g b
+
+ - d e
+ f c a
+ h g b
+
+ f d e
+ - c a
+ h g b
+
+ f d e
+ h c a
+ - g b
+
+ f d e
+ h c a
+ g - b
+
+ f d e
+ h - a
+ g c b
+
+ f - e
+ h d a
+ g c b
+
+ - f e
+ h d a
+ g c b
+
+ h f e
+ - d a
+ g c b
+
+ h f e
+ d - a
+ g c b
+
+ h - e
+ d f a
+ g c b
+
+ - h e
+ d f a
+ g c b
+
+ d h e
+ - f a
+ g c b
+
+ d h e
+ f - a
+ g c b
+
+ d - e
+ f h a
+ g c b
+
+ - d e
+ f h a
+ g c b
+
+ f d e
+ - h a
+ g c b
+
+ f d e
+ g h a
+ - c b
+
+ f d e
+ g h a
+ c - b
+
+ f d e
+ g h a
+ c b -
+
+ f d e
+ g h -
+ c b a
+
+ f d -
+ g h e
+ c b a
+
+ f - d
+ g h e
+ c b a
+
+ - f d
+ g h e
+ c b a
+
+ g f d
+ - h e
+ c b a
+
+ g f d
+ h - e
+ c b a
+
+ g - d
+ h f e
+ c b a
+
+ - g d
+ h f e
+ c b a
+
+ h g d
+ - f e
+ c b a
+
+ h g d
+ f - e
+ c b a
+
+ h - d
+ f g e
+ c b a
+
+ - h d
+ f g e
+ c b a
+
+ f h d
+ - g e
+ c b a
+
+ f h d
+ g - e
+ c b a
+
+ f h d
+ g e -
+ c b a
+
+ f h -
+ g e d
+ c b a
+
+ f - h
+ g e d
+ c b a
+
+ - f h
+ g e d
+ c b a
+
+ g f h
+ - e d
+ c b a
+
+ g f h
+ e - d
+ c b a
+
+ g - h
+ e f d
+ c b a
+
+ - g h
+ e f d
+ c b a
+
+ e g h
+ - f d
+ c b a
+
+ e g h
+ f - d
+ c b a
+
+ e - h
+ f g d
+ c b a
+
+ - e h
+ f g d
+ c b a
+
+ f e h
+ - g d
+ c b a
+
+ f e h
+ g - d
+ c b a
+
+ f e h
+ g d -
+ c b a
+
+ f e -
+ g d h
+ c b a
+
+ f - e
+ g d h
+ c b a
+
+ - f e
+ g d h
+ c b a
+
+ g f e
+ - d h
+ c b a
+
+ g f e
+ d - h
+ c b a
+
+ g - e
+ d f h
+ c b a
+
+ - g e
+ d f h
+ c b a
+
+ d g e
+ - f h
+ c b a
+
+ d g e
+ f - h
+ c b a
+
+ d - e
+ f g h
+ c b a
+
+ - d e
+ f g h
+ c b a
+
+ f d e
+ - g h
+ c b a
+
+ f d e
+ g - h
+ c b a
+
+ f d e
+ g b h
+ c - a
+
+ f d e
+ g b h
+ c a -
+
+ f d e
+ g b -
+ c a h
+
+ f d -
+ g b e
+ c a h
+
+ f - d
+ g b e
+ c a h
+
+ - f d
+ g b e
+ c a h
+
+ g f d
+ - b e
+ c a h
+
+ g f d
+ b - e
+ c a h
+
+ g - d
+ b f e
+ c a h
+
+ - g d
+ b f e
+ c a h
+
+ b g d
+ - f e
+ c a h
+
+ b g d
+ f - e
+ c a h
+
+ b - d
+ f g e
+ c a h
+
+ - b d
+ f g e
+ c a h
+
+ f b d
+ - g e
+ c a h
+
+ f b d
+ g - e
+ c a h
+
+ f b d
+ g e -
+ c a h
+
+ f b -
+ g e d
+ c a h
+
+ f - b
+ g e d
+ c a h
+
+ - f b
+ g e d
+ c a h
+
+ g f b
+ - e d
+ c a h
+
+ g f b
+ e - d
+ c a h
+
+ g - b
+ e f d
+ c a h
+
+ - g b
+ e f d
+ c a h
+
+ e g b
+ - f d
+ c a h
+
+ e g b
+ f - d
+ c a h
+
+ e - b
+ f g d
+ c a h
+
+ - e b
+ f g d
+ c a h
+
+ f e b
+ - g d
+ c a h
+
+ f e b
+ g - d
+ c a h
+
+ f e b
+ g d -
+ c a h
+
+ f e -
+ g d b
+ c a h
+
+ f - e
+ g d b
+ c a h
+
+ - f e
+ g d b
+ c a h
+
+ g f e
+ - d b
+ c a h
+
+ g f e
+ d - b
+ c a h
+
+ g - e
+ d f b
+ c a h
+
+ - g e
+ d f b
+ c a h
+
+ d g e
+ - f b
+ c a h
+
+ d g e
+ f - b
+ c a h
+
+ d - e
+ f g b
+ c a h
+
+ - d e
+ f g b
+ c a h
+
+ f d e
+ - g b
+ c a h
+
+ f d e
+ g - b
+ c a h
+
+ f d e
+ g a b
+ c - h
+
+ f d e
+ g a b
+ - c h
+
+ f d e
+ - a b
+ g c h
+
+ - d e
+ f a b
+ g c h
+
+ d - e
+ f a b
+ g c h
+
+ d e -
+ f a b
+ g c h
+
+ d e b
+ f a -
+ g c h
+
+ d e b
+ f - a
+ g c h
+
+ d - b
+ f e a
+ g c h
+
+ - d b
+ f e a
+ g c h
+
+ f d b
+ - e a
+ g c h
+
+ f d b
+ e - a
+ g c h
+
+ f - b
+ e d a
+ g c h
+
+ - f b
+ e d a
+ g c h
+
+ e f b
+ - d a
+ g c h
+
+ e f b
+ d - a
+ g c h
+
+ e - b
+ d f a
+ g c h
+
+ - e b
+ d f a
+ g c h
+
+ d e b
+ - f a
+ g c h
+
+ d e b
+ g f a
+ - c h
+
+ d e b
+ g f a
+ c - h
+
+ d e b
+ g - a
+ c f h
+
+ d - b
+ g e a
+ c f h
+
+ - d b
+ g e a
+ c f h
+
+ g d b
+ - e a
+ c f h
+
+ g d b
+ e - a
+ c f h
+
+ g - b
+ e d a
+ c f h
+
+ - g b
+ e d a
+ c f h
+
+ e g b
+ - d a
+ c f h
+
+ e g b
+ d - a
+ c f h
+
+ e - b
+ d g a
+ c f h
+
+ - e b
+ d g a
+ c f h
+
+ d e b
+ - g a
+ c f h
+
+ d e b
+ c g a
+ - f h
+
+ d e b
+ c g a
+ f - h
+
+ d e b
+ c - a
+ f g h
+
+ d - b
+ c e a
+ f g h
+
+ - d b
+ c e a
+ f g h
+
+ c d b
+ - e a
+ f g h
+
+ c d b
+ e - a
+ f g h
+
+ c - b
+ e d a
+ f g h
+
+ - c b
+ e d a
+ f g h
+
+ e c b
+ - d a
+ f g h
+
+ e c b
+ d - a
+ f g h
+
+ e - b
+ d c a
+ f g h
+
+ - e b
+ d c a
+ f g h
+
+ d e b
+ - c a
+ f g h
+
+ d e b
+ f c a
+ - g h
+
+ d e b
+ f c a
+ g - h
+
+ d e b
+ f c a
+ g h -
+
+ d e b
+ f c -
+ g h a
+
+ d e -
+ f c b
+ g h a
+
+ d - e
+ f c b
+ g h a
+
+ - d e
+ f c b
+ g h a
+
+ f d e
+ - c b
+ g h a
+
+ f d e
+ c - b
+ g h a
+
+ f - e
+ c d b
+ g h a
+
+ - f e
+ c d b
+ g h a
+
+ c f e
+ - d b
+ g h a
+
+ c f e
+ d - b
+ g h a
+
+ c - e
+ d f b
+ g h a
+
+ - c e
+ d f b
+ g h a
+
+ d c e
+ - f b
+ g h a
+
+ d c e
+ f - b
+ g h a
+
+ d c e
+ f b -
+ g h a
+
+ d c -
+ f b e
+ g h a
+
+ d - c
+ f b e
+ g h a
+
+ - d c
+ f b e
+ g h a
+
+ f d c
+ - b e
+ g h a
+
+ f d c
+ b - e
+ g h a
+
+ f - c
+ b d e
+ g h a
+
+ - f c
+ b d e
+ g h a
+
+ b f c
+ - d e
+ g h a
+
+ b f c
+ d - e
+ g h a
+
+ b - c
+ d f e
+ g h a
+
+ - b c
+ d f e
+ g h a
+
+ d b c
+ - f e
+ g h a
+
+ d b c
+ f - e
+ g h a
+
+ d b c
+ f e -
+ g h a
+
+ d b -
+ f e c
+ g h a
+
+ d - b
+ f e c
+ g h a
+
+ - d b
+ f e c
+ g h a
+
+ f d b
+ - e c
+ g h a
+
+ f d b
+ e - c
+ g h a
+
+ f - b
+ e d c
+ g h a
+
+ - f b
+ e d c
+ g h a
+
+ e f b
+ - d c
+ g h a
+
+ e f b
+ d - c
+ g h a
+
+ e - b
+ d f c
+ g h a
+
+ - e b
+ d f c
+ g h a
+
+ d e b
+ - f c
+ g h a
+
+ d e b
+ f - c
+ g h a
+
+ d e b
+ f h c
+ g - a
+
+ d e b
+ f h c
+ g a -
+
+ d e b
+ f h -
+ g a c
+
+ d e b
+ f - h
+ g a c
+
+ d - b
+ f e h
+ g a c
+
+ - d b
+ f e h
+ g a c
+
+ f d b
+ - e h
+ g a c
+
+ f d b
+ e - h
+ g a c
+
+ f - b
+ e d h
+ g a c
+
+ - f b
+ e d h
+ g a c
+
+ e f b
+ - d h
+ g a c
+
+ e f b
+ d - h
+ g a c
+
+ e - b
+ d f h
+ g a c
+
+ - e b
+ d f h
+ g a c
+
+ d e b
+ - f h
+ g a c
+
+ d e b
+ g f h
+ - a c
+
+ d e b
+ g f h
+ a - c
+
+ d e b
+ g - h
+ a f c
+
+ d - b
+ g e h
+ a f c
+
+ - d b
+ g e h
+ a f c
+
+ g d b
+ - e h
+ a f c
+
+ g d b
+ e - h
+ a f c
+
+ g - b
+ e d h
+ a f c
+
+ - g b
+ e d h
+ a f c
+
+ e g b
+ - d h
+ a f c
+
+ e g b
+ d - h
+ a f c
+
+ e - b
+ d g h
+ a f c
+
+ - e b
+ d g h
+ a f c
+
+ d e b
+ - g h
+ a f c
+
+ d e b
+ a g h
+ - f c
+
+ d e b
+ a g h
+ f - c
+
+ d e b
+ a - h
+ f g c
+
+ d - b
+ a e h
+ f g c
+
+ - d b
+ a e h
+ f g c
+
+ a d b
+ - e h
+ f g c
+
+ a d b
+ e - h
+ f g c
+
+ a - b
+ e d h
+ f g c
+
+ - a b
+ e d h
+ f g c
+
+ e a b
+ - d h
+ f g c
+
+ e a b
+ d - h
+ f g c
+
+ e - b
+ d a h
+ f g c
+
+ e b -
+ d a h
+ f g c
+
+ e b h
+ d a -
+ f g c
+
+ e b h
+ d a c
+ f g -
+
+ e b h
+ d a c
+ f - g
+
+ e b h
+ d - c
+ f a g
+
+ e - h
+ d b c
+ f a g
+
+ - e h
+ d b c
+ f a g
+
+ d e h
+ - b c
+ f a g
+
+ d e h
+ b - c
+ f a g
+
+ d - h
+ b e c
+ f a g
+
+ - d h
+ b e c
+ f a g
+
+ b d h
+ - e c
+ f a g
+
+ b d h
+ e - c
+ f a g
+
+ b - h
+ e d c
+ f a g
+
+ - b h
+ e d c
+ f a g
+
+ e b h
+ - d c
+ f a g
+
+ e b h
+ f d c
+ - a g
+
+ e b h
+ f d c
+ a - g
+
+ e b h
+ f - c
+ a d g
+
+ e - h
+ f b c
+ a d g
+
+ - e h
+ f b c
+ a d g
+
+ f e h
+ - b c
+ a d g
+
+ f e h
+ b - c
+ a d g
+
+ f - h
+ b e c
+ a d g
+
+ - f h
+ b e c
+ a d g
+
+ b f h
+ - e c
+ a d g
+
+ b f h
+ e - c
+ a d g
+
+ b - h
+ e f c
+ a d g
+
+ - b h
+ e f c
+ a d g
+
+ e b h
+ - f c
+ a d g
+
+ e b h
+ a f c
+ - d g
+
+ e b h
+ a f c
+ d - g
+
+ e b h
+ a - c
+ d f g
+
+ e - h
+ a b c
+ d f g
+
+ - e h
+ a b c
+ d f g
+
+ a e h
+ - b c
+ d f g
+
+ a e h
+ b - c
+ d f g
+
+ a - h
+ b e c
+ d f g
+
+ - a h
+ b e c
+ d f g
+
+ b a h
+ - e c
+ d f g
+
+ b a h
+ e - c
+ d f g
+
+ b - h
+ e a c
+ d f g
+
+ b h -
+ e a c
+ d f g
+
+ b h c
+ e a -
+ d f g
+
+ b h c
+ e - a
+ d f g
+
+ b - c
+ e h a
+ d f g
+
+ - b c
+ e h a
+ d f g
+
+ e b c
+ - h a
+ d f g
+
+ e b c
+ h - a
+ d f g
+
+ e - c
+ h b a
+ d f g
+
+ - e c
+ h b a
+ d f g
+
+ h e c
+ - b a
+ d f g
+
+ h e c
+ b - a
+ d f g
+
+ h - c
+ b e a
+ d f g
+
+ - h c
+ b e a
+ d f g
+
+ b h c
+ - e a
+ d f g
+
+ b h c
+ d e a
+ - f g
+
+ b h c
+ d e a
+ f - g
+
+ b h c
+ d - a
+ f e g
+
+ b - c
+ d h a
+ f e g
+
+ - b c
+ d h a
+ f e g
+
+ d b c
+ - h a
+ f e g
+
+ d b c
+ h - a
+ f e g
+
+ d - c
+ h b a
+ f e g
+
+ - d c
+ h b a
+ f e g
+
+ h d c
+ - b a
+ f e g
+
+ h d c
+ b - a
+ f e g
+
+ h - c
+ b d a
+ f e g
+
+ - h c
+ b d a
+ f e g
+
+ b h c
+ - d a
+ f e g
+
+ b h c
+ f d a
+ - e g
+
+ b h c
+ f d a
+ e - g
+
+ b h c
+ f - a
+ e d g
+
+ b - c
+ f h a
+ e d g
+
+ - b c
+ f h a
+ e d g
+
+ f b c
+ - h a
+ e d g
+
+ f b c
+ h - a
+ e d g
+
+ f - c
+ h b a
+ e d g
+
+ - f c
+ h b a
+ e d g
+
+ h f c
+ - b a
+ e d g
+
+ h f c
+ b - a
+ e d g
+
+ h - c
+ b f a
+ e d g
+
+ - h c
+ b f a
+ e d g
+
+ b h c
+ - f a
+ e d g
+
+ b h c
+ e f a
+ - d g
+
+ b h c
+ e f a
+ d - g
+
+ b h c
+ e f a
+ d g -
+
+ b h c
+ e f -
+ d g a
+
+ b h -
+ e f c
+ d g a
+
+ b - h
+ e f c
+ d g a
+
+ - b h
+ e f c
+ d g a
+
+ e b h
+ - f c
+ d g a
+
+ e b h
+ f - c
+ d g a
+
+ e - h
+ f b c
+ d g a
+
+ - e h
+ f b c
+ d g a
+
+ f e h
+ - b c
+ d g a
+
+ f e h
+ b - c
+ d g a
+
+ f - h
+ b e c
+ d g a
+
+ - f h
+ b e c
+ d g a
+
+ b f h
+ - e c
+ d g a
+
+ b f h
+ e - c
+ d g a
+
+ b f h
+ e c -
+ d g a
+
+ b f -
+ e c h
+ d g a
+
+ b - f
+ e c h
+ d g a
+
+ - b f
+ e c h
+ d g a
+
+ e b f
+ - c h
+ d g a
+
+ e b f
+ c - h
+ d g a
+
+ e - f
+ c b h
+ d g a
+
+ - e f
+ c b h
+ d g a
+
+ c e f
+ - b h
+ d g a
+
+ c e f
+ b - h
+ d g a
+
+ c - f
+ b e h
+ d g a
+
+ - c f
+ b e h
+ d g a
+
+ b c f
+ - e h
+ d g a
+
+ b c f
+ e - h
+ d g a
+
+ b c f
+ e h -
+ d g a
+
+ b c -
+ e h f
+ d g a
+
+ b - c
+ e h f
+ d g a
+
+ - b c
+ e h f
+ d g a
+
+ e b c
+ - h f
+ d g a
+
+ e b c
+ h - f
+ d g a
+
+ e - c
+ h b f
+ d g a
+
+ - e c
+ h b f
+ d g a
+
+ h e c
+ - b f
+ d g a
+
+ h e c
+ b - f
+ d g a
+
+ h - c
+ b e f
+ d g a
+
+ - h c
+ b e f
+ d g a
+
+ b h c
+ - e f
+ d g a
+
+ b h c
+ e - f
+ d g a
+
+ b h c
+ e g f
+ d - a
+
+ b h c
+ e g f
+ - d a
+
+ b h c
+ - g f
+ e d a
+
+ - h c
+ b g f
+ e d a
+
+ h - c
+ b g f
+ e d a
+
+ h c -
+ b g f
+ e d a
+
+ h c f
+ b g -
+ e d a
+
+ h c f
+ b - g
+ e d a
+
+ h - f
+ b c g
+ e d a
+
+ - h f
+ b c g
+ e d a
+
+ b h f
+ - c g
+ e d a
+
+ b h f
+ c - g
+ e d a
+
+ b - f
+ c h g
+ e d a
+
+ - b f
+ c h g
+ e d a
+
+ c b f
+ - h g
+ e d a
+
+ c b f
+ h - g
+ e d a
+
+ c - f
+ h b g
+ e d a
+
+ - c f
+ h b g
+ e d a
+
+ h c f
+ - b g
+ e d a
+
+ h c f
+ e b g
+ - d a
+
+ h c f
+ e b g
+ d - a
+
+ h c f
+ e - g
+ d b a
+
+ h - f
+ e c g
+ d b a
+
+ - h f
+ e c g
+ d b a
+
+ e h f
+ - c g
+ d b a
+
+ e h f
+ c - g
+ d b a
+
+ e - f
+ c h g
+ d b a
+
+ - e f
+ c h g
+ d b a
+
+ c e f
+ - h g
+ d b a
+
+ c e f
+ h - g
+ d b a
+
+ c - f
+ h e g
+ d b a
+
+ - c f
+ h e g
+ d b a
+
+ h c f
+ - e g
+ d b a
+
+ h c f
+ d e g
+ - b a
+
+ h c f
+ d e g
+ b - a
+
+ h c f
+ d - g
+ b e a
+
+ h - f
+ d c g
+ b e a
+
+ - h f
+ d c g
+ b e a
+
+ d h f
+ - c g
+ b e a
+
+ d h f
+ c - g
+ b e a
+
+ d - f
+ c h g
+ b e a
+
+ - d f
+ c h g
+ b e a
+
+ c d f
+ - h g
+ b e a
+
+ c d f
+ h - g
+ b e a
+
+ c - f
+ h d g
+ b e a
+
+ - c f
+ h d g
+ b e a
+
+ h c f
+ - d g
+ b e a
+
+ h c f
+ b d g
+ - e a
+
+ h c f
+ b d g
+ e - a
+
+ h c f
+ b d g
+ e a -
+
+ h c f
+ b d -
+ e a g
+
+ h c -
+ b d f
+ e a g
+
+ h - c
+ b d f
+ e a g
+
+ - h c
+ b d f
+ e a g
+
+ b h c
+ - d f
+ e a g
+
+ b h c
+ d - f
+ e a g
+
+ b - c
+ d h f
+ e a g
+
+ - b c
+ d h f
+ e a g
+
+ d b c
+ - h f
+ e a g
+
+ d b c
+ h - f
+ e a g
+
+ d - c
+ h b f
+ e a g
+
+ - d c
+ h b f
+ e a g
+
+ h d c
+ - b f
+ e a g
+
+ h d c
+ b - f
+ e a g
+
+ h d c
+ b f -
+ e a g
+
+ h d -
+ b f c
+ e a g
+
+ h - d
+ b f c
+ e a g
+
+ - h d
+ b f c
+ e a g
+
+ b h d
+ - f c
+ e a g
+
+ b h d
+ f - c
+ e a g
+
+ b - d
+ f h c
+ e a g
+
+ - b d
+ f h c
+ e a g
+
+ f b d
+ - h c
+ e a g
+
+ f b d
+ h - c
+ e a g
+
+ f - d
+ h b c
+ e a g
+
+ - f d
+ h b c
+ e a g
+
+ h f d
+ - b c
+ e a g
+
+ h f d
+ b - c
+ e a g
+
+ h f d
+ b c -
+ e a g
+
+ h f -
+ b c d
+ e a g
+
+ h - f
+ b c d
+ e a g
+
+ - h f
+ b c d
+ e a g
+
+ b h f
+ - c d
+ e a g
+
+ b h f
+ c - d
+ e a g
+
+ b - f
+ c h d
+ e a g
+
+ - b f
+ c h d
+ e a g
+
+ c b f
+ - h d
+ e a g
+
+ c b f
+ h - d
+ e a g
+
+ c - f
+ h b d
+ e a g
+
+ - c f
+ h b d
+ e a g
+
+ h c f
+ - b d
+ e a g
+
+ h c f
+ b - d
+ e a g
+
+ h c f
+ b a d
+ e - g
+
+ h c f
+ b a d
+ - e g
+
+ h c f
+ - a d
+ b e g
+
+ - c f
+ h a d
+ b e g
+
+ c - f
+ h a d
+ b e g
+
+ c f -
+ h a d
+ b e g
+
+ c f d
+ h a -
+ b e g
+
+ c f d
+ h - a
+ b e g
+
+ c - d
+ h f a
+ b e g
+
+ - c d
+ h f a
+ b e g
+
+ h c d
+ - f a
+ b e g
+
+ h c d
+ f - a
+ b e g
+
+ h - d
+ f c a
+ b e g
+
+ - h d
+ f c a
+ b e g
+
+ f h d
+ - c a
+ b e g
+
+ f h d
+ c - a
+ b e g
+
+ f - d
+ c h a
+ b e g
+
+ - f d
+ c h a
+ b e g
+
+ c f d
+ - h a
+ b e g
+
+ c f d
+ b h a
+ - e g
+
+ c f d
+ b h a
+ e - g
+
+ c f d
+ b - a
+ e h g
+
+ c - d
+ b f a
+ e h g
+
+ - c d
+ b f a
+ e h g
+
+ b c d
+ - f a
+ e h g
+
+ b c d
+ f - a
+ e h g
+
+ b - d
+ f c a
+ e h g
+
+ - b d
+ f c a
+ e h g
+
+ f b d
+ - c a
+ e h g
+
+ f b d
+ c - a
+ e h g
+
+ f - d
+ c b a
+ e h g
+
+ - f d
+ c b a
+ e h g
+
+ c f d
+ - b a
+ e h g
+
+ c f d
+ e b a
+ - h g
+
+ c f d
+ e b a
+ h - g
+
+ c f d
+ e - a
+ h b g
+
+ c - d
+ e f a
+ h b g
+
+ - c d
+ e f a
+ h b g
+
+ e c d
+ - f a
+ h b g
+
+ e c d
+ f - a
+ h b g
+
+ e - d
+ f c a
+ h b g
+
+ - e d
+ f c a
+ h b g
+
+ f e d
+ - c a
+ h b g
+
+ f e d
+ c - a
+ h b g
+
+ f - d
+ c e a
+ h b g
+
+ - f d
+ c e a
+ h b g
+
+ c f d
+ - e a
+ h b g
+
+ c f d
+ h e a
+ - b g
+
+ c f d
+ h e a
+ b - g
+
+ c f d
+ h e a
+ b g -
+
+ c f d
+ h e -
+ b g a
+
+ c f -
+ h e d
+ b g a
+
+ c - f
+ h e d
+ b g a
+
+ - c f
+ h e d
+ b g a
+
+ h c f
+ - e d
+ b g a
+
+ h c f
+ e - d
+ b g a
+
+ h - f
+ e c d
+ b g a
+
+ - h f
+ e c d
+ b g a
+
+ e h f
+ - c d
+ b g a
+
+ e h f
+ c - d
+ b g a
+
+ e - f
+ c h d
+ b g a
+
+ - e f
+ c h d
+ b g a
+
+ c e f
+ - h d
+ b g a
+
+ c e f
+ h - d
+ b g a
+
+ c e f
+ h d -
+ b g a
+
+ c e -
+ h d f
+ b g a
+
+ c - e
+ h d f
+ b g a
+
+ - c e
+ h d f
+ b g a
+
+ h c e
+ - d f
+ b g a
+
+ h c e
+ d - f
+ b g a
+
+ h - e
+ d c f
+ b g a
+
+ - h e
+ d c f
+ b g a
+
+ d h e
+ - c f
+ b g a
+
+ d h e
+ c - f
+ b g a
+
+ d - e
+ c h f
+ b g a
+
+ - d e
+ c h f
+ b g a
+
+ c d e
+ - h f
+ b g a
+
+ c d e
+ h - f
+ b g a
+
+ c d e
+ h f -
+ b g a
+
+ c d -
+ h f e
+ b g a
+
+ c - d
+ h f e
+ b g a
+
+ - c d
+ h f e
+ b g a
+
+ h c d
+ - f e
+ b g a
+
+ h c d
+ f - e
+ b g a
+
+ h - d
+ f c e
+ b g a
+
+ - h d
+ f c e
+ b g a
+
+ f h d
+ - c e
+ b g a
+
+ f h d
+ c - e
+ b g a
+
+ f - d
+ c h e
+ b g a
+
+ - f d
+ c h e
+ b g a
+
+ c f d
+ - h e
+ b g a
+
+ c f d
+ h - e
+ b g a
+
+ c f d
+ h g e
+ b - a
+
+ c f d
+ h g e
+ - b a
+
+ c f d
+ - g e
+ h b a
+
+ - f d
+ c g e
+ h b a
+
+ f - d
+ c g e
+ h b a
+
+ f d -
+ c g e
+ h b a
+
+ f d e
+ c g -
+ h b a
+
+ f d e
+ c - g
+ h b a
+
+ f - e
+ c d g
+ h b a
+
+ - f e
+ c d g
+ h b a
+
+ c f e
+ - d g
+ h b a
+
+ c f e
+ d - g
+ h b a
+
+ c - e
+ d f g
+ h b a
+
+ - c e
+ d f g
+ h b a
+
+ d c e
+ - f g
+ h b a
+
+ d c e
+ f - g
+ h b a
+
+ d - e
+ f c g
+ h b a
+
+ - d e
+ f c g
+ h b a
+
+ f d e
+ - c g
+ h b a
+
+ f d e
+ h c g
+ - b a
+
+ f d e
+ h c g
+ b - a
+
+ f d e
+ h - g
+ b c a
+
+ f - e
+ h d g
+ b c a
+
+ - f e
+ h d g
+ b c a
+
+ h f e
+ - d g
+ b c a
+
+ h f e
+ d - g
+ b c a
+
+ h - e
+ d f g
+ b c a
+
+ - h e
+ d f g
+ b c a
+
+ d h e
+ - f g
+ b c a
+
+ d h e
+ f - g
+ b c a
+
+ d - e
+ f h g
+ b c a
+
+ - d e
+ f h g
+ b c a
+
+ f d e
+ - h g
+ b c a
+
+ f d e
+ b h g
+ - c a
+
+ f d e
+ b h g
+ c - a
+
+ f d e
+ b - g
+ c h a
+
+ f - e
+ b d g
+ c h a
+
+ - f e
+ b d g
+ c h a
+
+ b f e
+ - d g
+ c h a
+
+ b f e
+ d - g
+ c h a
+
+ b - e
+ d f g
+ c h a
+
+ - b e
+ d f g
+ c h a
+
+ d b e
+ - f g
+ c h a
+
+ d b e
+ f - g
+ c h a
+
+ d - e
+ f b g
+ c h a
+
+ - d e
+ f b g
+ c h a
+
+ f d e
+ - b g
+ c h a
+
+ f d e
+ c b g
+ - h a
+
+ f d e
+ c b g
+ h - a
+
+ f d e
+ c b g
+ h a -
+
+ f d e
+ c b -
+ h a g
+
+ f d -
+ c b e
+ h a g
+
+ f - d
+ c b e
+ h a g
+
+ - f d
+ c b e
+ h a g
+
+ c f d
+ - b e
+ h a g
+
+ c f d
+ b - e
+ h a g
+
+ c - d
+ b f e
+ h a g
+
+ - c d
+ b f e
+ h a g
+
+ b c d
+ - f e
+ h a g
+
+ b c d
+ f - e
+ h a g
+
+ b - d
+ f c e
+ h a g
+
+ - b d
+ f c e
+ h a g
+
+ f b d
+ - c e
+ h a g
+
+ f b d
+ c - e
+ h a g
+
+ f b d
+ c e -
+ h a g
+
+ f b -
+ c e d
+ h a g
+
+ f - b
+ c e d
+ h a g
+
+ - f b
+ c e d
+ h a g
+
+ c f b
+ - e d
+ h a g
+
+ c f b
+ e - d
+ h a g
+
+ c - b
+ e f d
+ h a g
+
+ - c b
+ e f d
+ h a g
+
+ e c b
+ - f d
+ h a g
+
+ e c b
+ f - d
+ h a g
+
+ e - b
+ f c d
+ h a g
+
+ - e b
+ f c d
+ h a g
+
+ f e b
+ - c d
+ h a g
+
+ f e b
+ c - d
+ h a g
+
+ f e b
+ c d -
+ h a g
+
+ f e -
+ c d b
+ h a g
+
+ f - e
+ c d b
+ h a g
+
+ - f e
+ c d b
+ h a g
+
+ c f e
+ - d b
+ h a g
+
+ c f e
+ d - b
+ h a g
+
+ c - e
+ d f b
+ h a g
+
+ - c e
+ d f b
+ h a g
+
+ d c e
+ - f b
+ h a g
+
+ d c e
+ f - b
+ h a g
+
+ d - e
+ f c b
+ h a g
+
+ - d e
+ f c b
+ h a g
+
+ f d e
+ - c b
+ h a g
+
+ f d e
+ c - b
+ h a g
+
+ f d e
+ c a b
+ h - g
+
+ f d e
+ c a b
+ - h g
+
+ f d e
+ - a b
+ c h g
+
+ - d e
+ f a b
+ c h g
+
+ d - e
+ f a b
+ c h g
+
+ d e -
+ f a b
+ c h g
+
+ d e b
+ f a -
+ c h g
+
+ d e b
+ f - a
+ c h g
+
+ d - b
+ f e a
+ c h g
+
+ - d b
+ f e a
+ c h g
+
+ f d b
+ - e a
+ c h g
+
+ f d b
+ e - a
+ c h g
+
+ f - b
+ e d a
+ c h g
+
+ - f b
+ e d a
+ c h g
+
+ e f b
+ - d a
+ c h g
+
+ e f b
+ d - a
+ c h g
+
+ e - b
+ d f a
+ c h g
+
+ - e b
+ d f a
+ c h g
+
+ d e b
+ - f a
+ c h g
+
+ d e b
+ c f a
+ - h g
+
+ d e b
+ c f a
+ h - g
+
+ d e b
+ c - a
+ h f g
+
+ d - b
+ c e a
+ h f g
+
+ - d b
+ c e a
+ h f g
+
+ c d b
+ - e a
+ h f g
+
+ c d b
+ e - a
+ h f g
+
+ c - b
+ e d a
+ h f g
+
+ - c b
+ e d a
+ h f g
+
+ e c b
+ - d a
+ h f g
+
+ e c b
+ d - a
+ h f g
+
+ e - b
+ d c a
+ h f g
+
+ - e b
+ d c a
+ h f g
+
+ d e b
+ - c a
+ h f g
+
+ d e b
+ h c a
+ - f g
+
+ d e b
+ h c a
+ f - g
+
+ d e b
+ h - a
+ f c g
+
+ d - b
+ h e a
+ f c g
+
+ - d b
+ h e a
+ f c g
+
+ h d b
+ - e a
+ f c g
+
+ h d b
+ e - a
+ f c g
+
+ h - b
+ e d a
+ f c g
+
+ - h b
+ e d a
+ f c g
+
+ e h b
+ - d a
+ f c g
+
+ e h b
+ d - a
+ f c g
+
+ e - b
+ d h a
+ f c g
+
+ - e b
+ d h a
+ f c g
+
+ d e b
+ - h a
+ f c g
+
+ d e b
+ f h a
+ - c g
+
+ d e b
+ f h a
+ c - g
+
+ d e b
+ f h a
+ c g -
+
+ d e b
+ f h -
+ c g a
+
+ d e -
+ f h b
+ c g a
+
+ d - e
+ f h b
+ c g a
+
+ - d e
+ f h b
+ c g a
+
+ f d e
+ - h b
+ c g a
+
+ f d e
+ h - b
+ c g a
+
+ f - e
+ h d b
+ c g a
+
+ - f e
+ h d b
+ c g a
+
+ h f e
+ - d b
+ c g a
+
+ h f e
+ d - b
+ c g a
+
+ h - e
+ d f b
+ c g a
+
+ - h e
+ d f b
+ c g a
+
+ d h e
+ - f b
+ c g a
+
+ d h e
+ f - b
+ c g a
+
+ d h e
+ f b -
+ c g a
+
+ d h -
+ f b e
+ c g a
+
+ d - h
+ f b e
+ c g a
+
+ - d h
+ f b e
+ c g a
+
+ f d h
+ - b e
+ c g a
+
+ f d h
+ b - e
+ c g a
+
+ f - h
+ b d e
+ c g a
+
+ - f h
+ b d e
+ c g a
+
+ b f h
+ - d e
+ c g a
+
+ b f h
+ d - e
+ c g a
+
+ b - h
+ d f e
+ c g a
+
+ - b h
+ d f e
+ c g a
+
+ d b h
+ - f e
+ c g a
+
+ d b h
+ f - e
+ c g a
+
+ d b h
+ f e -
+ c g a
+
+ d b -
+ f e h
+ c g a
+
+ d - b
+ f e h
+ c g a
+
+ - d b
+ f e h
+ c g a
+
+ f d b
+ - e h
+ c g a
+
+ f d b
+ e - h
+ c g a
+
+ f - b
+ e d h
+ c g a
+
+ - f b
+ e d h
+ c g a
+
+ e f b
+ - d h
+ c g a
+
+ e f b
+ d - h
+ c g a
+
+ e - b
+ d f h
+ c g a
+
+ - e b
+ d f h
+ c g a
+
+ d e b
+ - f h
+ c g a
+
+ d e b
+ f - h
+ c g a
+
+ d e b
+ f g h
+ c - a
+
+ d e b
+ f g h
+ - c a
+
+ d e b
+ - g h
+ f c a
+
+ - e b
+ d g h
+ f c a
+
+ e - b
+ d g h
+ f c a
+
+ e b -
+ d g h
+ f c a
+
+ e b h
+ d g -
+ f c a
+
+ e b h
+ d - g
+ f c a
+
+ e - h
+ d b g
+ f c a
+
+ - e h
+ d b g
+ f c a
+
+ d e h
+ - b g
+ f c a
+
+ d e h
+ b - g
+ f c a
+
+ d - h
+ b e g
+ f c a
+
+ - d h
+ b e g
+ f c a
+
+ b d h
+ - e g
+ f c a
+
+ b d h
+ e - g
+ f c a
+
+ b - h
+ e d g
+ f c a
+
+ - b h
+ e d g
+ f c a
+
+ e b h
+ - d g
+ f c a
+
+ e b h
+ f d g
+ - c a
+
+ e b h
+ f d g
+ c - a
+
+ e b h
+ f - g
+ c d a
+
+ e - h
+ f b g
+ c d a
+
+ - e h
+ f b g
+ c d a
+
+ f e h
+ - b g
+ c d a
+
+ f e h
+ b - g
+ c d a
+
+ f - h
+ b e g
+ c d a
+
+ - f h
+ b e g
+ c d a
+
+ b f h
+ - e g
+ c d a
+
+ b f h
+ e - g
+ c d a
+
+ b - h
+ e f g
+ c d a
+
+ - b h
+ e f g
+ c d a
+
+ e b h
+ - f g
+ c d a
+
+ e b h
+ c f g
+ - d a
+
+ e b h
+ c f g
+ d - a
+
+ e b h
+ c - g
+ d f a
+
+ e - h
+ c b g
+ d f a
+
+ - e h
+ c b g
+ d f a
+
+ c e h
+ - b g
+ d f a
+
+ c e h
+ b - g
+ d f a
+
+ c - h
+ b e g
+ d f a
+
+ - c h
+ b e g
+ d f a
+
+ b c h
+ - e g
+ d f a
+
+ b c h
+ e - g
+ d f a
+
+ b - h
+ e c g
+ d f a
+
+ - b h
+ e c g
+ d f a
+
+ e b h
+ - c g
+ d f a
+
+ e b h
+ d c g
+ - f a
+
+ e b h
+ d c g
+ f - a
+
+ e b h
+ d c g
+ f a -
+
+ e b h
+ d c -
+ f a g
+
+ e b -
+ d c h
+ f a g
+
+ e - b
+ d c h
+ f a g
+
+ - e b
+ d c h
+ f a g
+
+ d e b
+ - c h
+ f a g
+
+ d e b
+ c - h
+ f a g
+
+ d - b
+ c e h
+ f a g
+
+ - d b
+ c e h
+ f a g
+
+ c d b
+ - e h
+ f a g
+
+ c d b
+ e - h
+ f a g
+
+ c - b
+ e d h
+ f a g
+
+ - c b
+ e d h
+ f a g
+
+ e c b
+ - d h
+ f a g
+
+ e c b
+ d - h
+ f a g
+
+ e c b
+ d h -
+ f a g
+
+ e c -
+ d h b
+ f a g
+
+ e - c
+ d h b
+ f a g
+
+ - e c
+ d h b
+ f a g
+
+ d e c
+ - h b
+ f a g
+
+ d e c
+ h - b
+ f a g
+
+ d - c
+ h e b
+ f a g
+
+ - d c
+ h e b
+ f a g
+
+ h d c
+ - e b
+ f a g
+
+ h d c
+ e - b
+ f a g
+
+ h - c
+ e d b
+ f a g
+
+ - h c
+ e d b
+ f a g
+
+ e h c
+ - d b
+ f a g
+
+ e h c
+ d - b
+ f a g
+
+ e h c
+ d a b
+ f - g
+
+ e h c
+ d a b
+ - f g
+
+ e h c
+ - a b
+ d f g
+
+ - h c
+ e a b
+ d f g
+
+ h - c
+ e a b
+ d f g
+
+ h c -
+ e a b
+ d f g
+
+ h c b
+ e a -
+ d f g
+
+ h c b
+ e - a
+ d f g
+
+ h - b
+ e c a
+ d f g
+
+ - h b
+ e c a
+ d f g
+
+ e h b
+ - c a
+ d f g
+
+ e h b
+ c - a
+ d f g
+
+ e - b
+ c h a
+ d f g
+
+ - e b
+ c h a
+ d f g
+
+ c e b
+ - h a
+ d f g
+
+ c e b
+ h - a
+ d f g
+
+ c - b
+ h e a
+ d f g
+
+ - c b
+ h e a
+ d f g
+
+ h c b
+ - e a
+ d f g
+
+ h c b
+ d e a
+ - f g
+
+ h c b
+ d e a
+ f - g
+
+ h c b
+ d - a
+ f e g
+
+ h - b
+ d c a
+ f e g
+
+ - h b
+ d c a
+ f e g
+
+ d h b
+ - c a
+ f e g
+
+ d h b
+ c - a
+ f e g
+
+ d - b
+ c h a
+ f e g
+
+ - d b
+ c h a
+ f e g
+
+ c d b
+ - h a
+ f e g
+
+ c d b
+ h - a
+ f e g
+
+ c - b
+ h d a
+ f e g
+
+ - c b
+ h d a
+ f e g
+
+ h c b
+ - d a
+ f e g
+
+ h c b
+ f d a
+ - e g
+
+ h c b
+ f d a
+ e - g
+
+ h c b
+ f - a
+ e d g
+
+ h - b
+ f c a
+ e d g
+
+ - h b
+ f c a
+ e d g
+
+ f h b
+ - c a
+ e d g
+
+ f h b
+ c - a
+ e d g
+
+ f - b
+ c h a
+ e d g
+
+ - f b
+ c h a
+ e d g
+
+ c f b
+ - h a
+ e d g
+
+ c f b
+ h - a
+ e d g
+
+ c - b
+ h f a
+ e d g
+
+ - c b
+ h f a
+ e d g
+
+ h c b
+ - f a
+ e d g
+
+ h c b
+ e f a
+ - d g
+
+ h c b
+ e f a
+ d - g
+
+ h c b
+ e f a
+ d g -
+
+ h c b
+ e f -
+ d g a
+
+ h c -
+ e f b
+ d g a
+
+ h - c
+ e f b
+ d g a
+
+ - h c
+ e f b
+ d g a
+
+ e h c
+ - f b
+ d g a
+
+ e h c
+ f - b
+ d g a
+
+ e - c
+ f h b
+ d g a
+
+ - e c
+ f h b
+ d g a
+
+ f e c
+ - h b
+ d g a
+
+ f e c
+ h - b
+ d g a
+
+ f - c
+ h e b
+ d g a
+
+ - f c
+ h e b
+ d g a
+
+ h f c
+ - e b
+ d g a
+
+ h f c
+ e - b
+ d g a
+
+ h f c
+ e b -
+ d g a
+
+ h f -
+ e b c
+ d g a
+
+ h - f
+ e b c
+ d g a
+
+ - h f
+ e b c
+ d g a
+
+ e h f
+ - b c
+ d g a
+
+ e h f
+ b - c
+ d g a
+
+ e - f
+ b h c
+ d g a
+
+ - e f
+ b h c
+ d g a
+
+ b e f
+ - h c
+ d g a
+
+ b e f
+ h - c
+ d g a
+
+ b - f
+ h e c
+ d g a
+
+ - b f
+ h e c
+ d g a
+
+ h b f
+ - e c
+ d g a
+
+ h b f
+ e - c
+ d g a
+
+ h b f
+ e c -
+ d g a
+
+ h b -
+ e c f
+ d g a
+
+ h - b
+ e c f
+ d g a
+
+ - h b
+ e c f
+ d g a
+
+ e h b
+ - c f
+ d g a
+
+ e h b
+ c - f
+ d g a
+
+ e - b
+ c h f
+ d g a
+
+ - e b
+ c h f
+ d g a
+
+ c e b
+ - h f
+ d g a
+
+ c e b
+ h - f
+ d g a
+
+ c - b
+ h e f
+ d g a
+
+ - c b
+ h e f
+ d g a
+
+ h c b
+ - e f
+ d g a
+
+ h c b
+ e - f
+ d g a
+
+ h c b
+ e g f
+ d - a
+
+ h c b
+ e g f
+ - d a
+
+ h c b
+ - g f
+ e d a
+
+ - c b
+ h g f
+ e d a
+
+ c - b
+ h g f
+ e d a
+
+ c b -
+ h g f
+ e d a
+
+ c b f
+ h g -
+ e d a
+
+ c b f
+ h g a
+ e d -
+
+ c b f
+ h g a
+ e - d
+
+ c b f
+ h - a
+ e g d
+
+ c - f
+ h b a
+ e g d
+
+ - c f
+ h b a
+ e g d
+
+ h c f
+ - b a
+ e g d
+
+ h c f
+ b - a
+ e g d
+
+ h - f
+ b c a
+ e g d
+
+ - h f
+ b c a
+ e g d
+
+ b h f
+ - c a
+ e g d
+
+ b h f
+ c - a
+ e g d
+
+ b - f
+ c h a
+ e g d
+
+ - b f
+ c h a
+ e g d
+
+ c b f
+ - h a
+ e g d
+
+ c b f
+ e h a
+ - g d
+
+ c b f
+ e h a
+ g - d
+
+ c b f
+ e - a
+ g h d
+
+ c - f
+ e b a
+ g h d
+
+ - c f
+ e b a
+ g h d
+
+ e c f
+ - b a
+ g h d
+
+ e c f
+ b - a
+ g h d
+
+ e - f
+ b c a
+ g h d
+
+ - e f
+ b c a
+ g h d
+
+ b e f
+ - c a
+ g h d
+
+ b e f
+ c - a
+ g h d
+
+ b - f
+ c e a
+ g h d
+
+ - b f
+ c e a
+ g h d
+
+ c b f
+ - e a
+ g h d
+
+ c b f
+ g e a
+ - h d
+
+ c b f
+ g e a
+ h - d
+
+ c b f
+ g - a
+ h e d
+
+ c - f
+ g b a
+ h e d
+
+ - c f
+ g b a
+ h e d
+
+ g c f
+ - b a
+ h e d
+
+ g c f
+ b - a
+ h e d
+
+ g - f
+ b c a
+ h e d
+
+ - g f
+ b c a
+ h e d
+
+ b g f
+ - c a
+ h e d
+
+ b g f
+ c - a
+ h e d
+
+ b - f
+ c g a
+ h e d
+
+ b f -
+ c g a
+ h e d
+
+ b f a
+ c g -
+ h e d
+
+ b f a
+ c - g
+ h e d
+
+ b - a
+ c f g
+ h e d
+
+ - b a
+ c f g
+ h e d
+
+ c b a
+ - f g
+ h e d
+
+ c b a
+ f - g
+ h e d
+
+ c - a
+ f b g
+ h e d
+
+ - c a
+ f b g
+ h e d
+
+ f c a
+ - b g
+ h e d
+
+ f c a
+ b - g
+ h e d
+
+ f - a
+ b c g
+ h e d
+
+ - f a
+ b c g
+ h e d
+
+ b f a
+ - c g
+ h e d
+
+ b f a
+ h c g
+ - e d
+
+ b f a
+ h c g
+ e - d
+
+ b f a
+ h - g
+ e c d
+
+ b - a
+ h f g
+ e c d
+
+ - b a
+ h f g
+ e c d
+
+ h b a
+ - f g
+ e c d
+
+ h b a
+ f - g
+ e c d
+
+ h - a
+ f b g
+ e c d
+
+ - h a
+ f b g
+ e c d
+
+ f h a
+ - b g
+ e c d
+
+ f h a
+ b - g
+ e c d
+
+ f - a
+ b h g
+ e c d
+
+ - f a
+ b h g
+ e c d
+
+ b f a
+ - h g
+ e c d
+
+ b f a
+ e h g
+ - c d
+
+ b f a
+ e h g
+ c - d
+
+ b f a
+ e - g
+ c h d
+
+ b - a
+ e f g
+ c h d
+
+ - b a
+ e f g
+ c h d
+
+ e b a
+ - f g
+ c h d
+
+ e b a
+ f - g
+ c h d
+
+ e - a
+ f b g
+ c h d
+
+ - e a
+ f b g
+ c h d
+
+ f e a
+ - b g
+ c h d
+
+ f e a
+ b - g
+ c h d
+
+ f - a
+ b e g
+ c h d
+
+ - f a
+ b e g
+ c h d
+
+ b f a
+ - e g
+ c h d
+
+ b f a
+ c e g
+ - h d
+
+ b f a
+ c e g
+ h - d
+
+ b f a
+ c e g
+ h d -
+
+ b f a
+ c e -
+ h d g
+
+ b f -
+ c e a
+ h d g
+
+ b - f
+ c e a
+ h d g
+
+ - b f
+ c e a
+ h d g
+
+ c b f
+ - e a
+ h d g
+
+ c b f
+ e - a
+ h d g
+
+ c - f
+ e b a
+ h d g
+
+ - c f
+ e b a
+ h d g
+
+ e c f
+ - b a
+ h d g
+
+ e c f
+ b - a
+ h d g
+
+ e - f
+ b c a
+ h d g
+
+ - e f
+ b c a
+ h d g
+
+ b e f
+ - c a
+ h d g
+
+ b e f
+ c - a
+ h d g
+
+ b e f
+ c a -
+ h d g
+
+ b e -
+ c a f
+ h d g
+
+ b - e
+ c a f
+ h d g
+
+ - b e
+ c a f
+ h d g
+
+ c b e
+ - a f
+ h d g
+
+ c b e
+ a - f
+ h d g
+
+ c - e
+ a b f
+ h d g
+
+ - c e
+ a b f
+ h d g
+
+ a c e
+ - b f
+ h d g
+
+ a c e
+ b - f
+ h d g
+
+ a - e
+ b c f
+ h d g
+
+ - a e
+ b c f
+ h d g
+
+ b a e
+ - c f
+ h d g
+
+ b a e
+ c - f
+ h d g
+
+ b a e
+ c f -
+ h d g
+
+ b a -
+ c f e
+ h d g
+
+ b - a
+ c f e
+ h d g
+
+ - b a
+ c f e
+ h d g
+
+ c b a
+ - f e
+ h d g
+
+ c b a
+ f - e
+ h d g
+
+ c - a
+ f b e
+ h d g
+
+ - c a
+ f b e
+ h d g
+
+ f c a
+ - b e
+ h d g
+
+ f c a
+ b - e
+ h d g
+
+ f - a
+ b c e
+ h d g
+
+ - f a
+ b c e
+ h d g
+
+ b f a
+ - c e
+ h d g
+
+ b f a
+ c - e
+ h d g
+
+ b f a
+ c d e
+ h - g
+
+ b f a
+ c d e
+ - h g
+
+ b f a
+ - d e
+ c h g
+
+ - f a
+ b d e
+ c h g
+
+ f - a
+ b d e
+ c h g
+
+ f a -
+ b d e
+ c h g
+
+ f a e
+ b d -
+ c h g
+
+ f a e
+ b - d
+ c h g
+
+ f - e
+ b a d
+ c h g
+
+ - f e
+ b a d
+ c h g
+
+ b f e
+ - a d
+ c h g
+
+ b f e
+ a - d
+ c h g
+
+ b - e
+ a f d
+ c h g
+
+ - b e
+ a f d
+ c h g
+
+ a b e
+ - f d
+ c h g
+
+ a b e
+ f - d
+ c h g
+
+ a - e
+ f b d
+ c h g
+
+ - a e
+ f b d
+ c h g
+
+ f a e
+ - b d
+ c h g
+
+ f a e
+ c b d
+ - h g
+
+ f a e
+ c b d
+ h - g
+
+ f a e
+ c - d
+ h b g
+
+ f - e
+ c a d
+ h b g
+
+ - f e
+ c a d
+ h b g
+
+ c f e
+ - a d
+ h b g
+
+ c f e
+ a - d
+ h b g
+
+ c - e
+ a f d
+ h b g
+
+ - c e
+ a f d
+ h b g
+
+ a c e
+ - f d
+ h b g
+
+ a c e
+ f - d
+ h b g
+
+ a - e
+ f c d
+ h b g
+
+ - a e
+ f c d
+ h b g
+
+ f a e
+ - c d
+ h b g
+
+ f a e
+ h c d
+ - b g
+
+ f a e
+ h c d
+ b - g
+
+ f a e
+ h - d
+ b c g
+
+ f - e
+ h a d
+ b c g
+
+ - f e
+ h a d
+ b c g
+
+ h f e
+ - a d
+ b c g
+
+ h f e
+ a - d
+ b c g
+
+ h - e
+ a f d
+ b c g
+
+ - h e
+ a f d
+ b c g
+
+ a h e
+ - f d
+ b c g
+
+ a h e
+ f - d
+ b c g
+
+ a - e
+ f h d
+ b c g
+
+ - a e
+ f h d
+ b c g
+
+ f a e
+ - h d
+ b c g
+
+ f a e
+ b h d
+ - c g
+
+ f a e
+ b h d
+ c - g
+
+ f a e
+ b h d
+ c g -
+
+ f a e
+ b h -
+ c g d
+
+ f a -
+ b h e
+ c g d
+
+ f - a
+ b h e
+ c g d
+
+ - f a
+ b h e
+ c g d
+
+ b f a
+ - h e
+ c g d
+
+ b f a
+ h - e
+ c g d
+
+ b - a
+ h f e
+ c g d
+
+ - b a
+ h f e
+ c g d
+
+ h b a
+ - f e
+ c g d
+
+ h b a
+ f - e
+ c g d
+
+ h - a
+ f b e
+ c g d
+
+ - h a
+ f b e
+ c g d
+
+ f h a
+ - b e
+ c g d
+
+ f h a
+ b - e
+ c g d
+
+ f h a
+ b e -
+ c g d
+
+ f h -
+ b e a
+ c g d
+
+ f - h
+ b e a
+ c g d
+
+ - f h
+ b e a
+ c g d
+
+ b f h
+ - e a
+ c g d
+
+ b f h
+ e - a
+ c g d
+
+ b - h
+ e f a
+ c g d
+
+ - b h
+ e f a
+ c g d
+
+ e b h
+ - f a
+ c g d
+
+ e b h
+ f - a
+ c g d
+
+ e - h
+ f b a
+ c g d
+
+ - e h
+ f b a
+ c g d
+
+ f e h
+ - b a
+ c g d
+
+ f e h
+ b - a
+ c g d
+
+ f e h
+ b a -
+ c g d
+
+ f e -
+ b a h
+ c g d
+
+ f - e
+ b a h
+ c g d
+
+ - f e
+ b a h
+ c g d
+
+ b f e
+ - a h
+ c g d
+
+ b f e
+ a - h
+ c g d
+
+ b - e
+ a f h
+ c g d
+
+ - b e
+ a f h
+ c g d
+
+ a b e
+ - f h
+ c g d
+
+ a b e
+ f - h
+ c g d
+
+ a - e
+ f b h
+ c g d
+
+ - a e
+ f b h
+ c g d
+
+ f a e
+ - b h
+ c g d
+
+ f a e
+ b - h
+ c g d
+
+ f a e
+ b g h
+ c - d
+
+ f a e
+ b g h
+ - c d
+
+ f a e
+ - g h
+ b c d
+
+ - a e
+ f g h
+ b c d
+
+ a - e
+ f g h
+ b c d
+
+ a e -
+ f g h
+ b c d
+
+ a e h
+ f g -
+ b c d
+
+ a e h
+ f - g
+ b c d
+
+ a - h
+ f e g
+ b c d
+
+ - a h
+ f e g
+ b c d
+
+ f a h
+ - e g
+ b c d
+
+ f a h
+ e - g
+ b c d
+
+ f - h
+ e a g
+ b c d
+
+ - f h
+ e a g
+ b c d
+
+ e f h
+ - a g
+ b c d
+
+ e f h
+ a - g
+ b c d
+
+ e - h
+ a f g
+ b c d
+
+ - e h
+ a f g
+ b c d
+
+ a e h
+ - f g
+ b c d
+
+ a e h
+ b f g
+ - c d
+
+ a e h
+ b f g
+ c - d
+
+ a e h
+ b - g
+ c f d
+
+ a - h
+ b e g
+ c f d
+
+ - a h
+ b e g
+ c f d
+
+ b a h
+ - e g
+ c f d
+
+ b a h
+ e - g
+ c f d
+
+ b - h
+ e a g
+ c f d
+
+ - b h
+ e a g
+ c f d
+
+ e b h
+ - a g
+ c f d
+
+ e b h
+ a - g
+ c f d
+
+ e - h
+ a b g
+ c f d
+
+ - e h
+ a b g
+ c f d
+
+ a e h
+ - b g
+ c f d
+
+ a e h
+ c b g
+ - f d
+
+ a e h
+ c b g
+ f - d
+
+ a e h
+ c - g
+ f b d
+
+ a - h
+ c e g
+ f b d
+
+ - a h
+ c e g
+ f b d
+
+ c a h
+ - e g
+ f b d
+
+ c a h
+ e - g
+ f b d
+
+ c - h
+ e a g
+ f b d
+
+ - c h
+ e a g
+ f b d
+
+ e c h
+ - a g
+ f b d
+
+ e c h
+ a - g
+ f b d
+
+ e - h
+ a c g
+ f b d
+
+ - e h
+ a c g
+ f b d
+
+ a e h
+ - c g
+ f b d
+
+ a e h
+ f c g
+ - b d
+
+ a e h
+ f c g
+ b - d
+
+ a e h
+ f c g
+ b d -
+
+ a e h
+ f c -
+ b d g
+
+ a e -
+ f c h
+ b d g
+
+ a - e
+ f c h
+ b d g
+
+ - a e
+ f c h
+ b d g
+
+ f a e
+ - c h
+ b d g
+
+ f a e
+ c - h
+ b d g
+
+ f - e
+ c a h
+ b d g
+
+ - f e
+ c a h
+ b d g
+
+ c f e
+ - a h
+ b d g
+
+ c f e
+ a - h
+ b d g
+
+ c - e
+ a f h
+ b d g
+
+ - c e
+ a f h
+ b d g
+
+ a c e
+ - f h
+ b d g
+
+ a c e
+ f - h
+ b d g
+
+ a c e
+ f h -
+ b d g
+
+ a c -
+ f h e
+ b d g
+
+ a - c
+ f h e
+ b d g
+
+ - a c
+ f h e
+ b d g
+
+ f a c
+ - h e
+ b d g
+
+ f a c
+ h - e
+ b d g
+
+ f - c
+ h a e
+ b d g
+
+ - f c
+ h a e
+ b d g
+
+ h f c
+ - a e
+ b d g
+
+ h f c
+ a - e
+ b d g
+
+ h - c
+ a f e
+ b d g
+
+ - h c
+ a f e
+ b d g
+
+ a h c
+ - f e
+ b d g
+
+ a h c
+ f - e
+ b d g
+
+ a h c
+ f e -
+ b d g
+
+ a h -
+ f e c
+ b d g
+
+ a - h
+ f e c
+ b d g
+
+ - a h
+ f e c
+ b d g
+
+ f a h
+ - e c
+ b d g
+
+ f a h
+ e - c
+ b d g
+
+ f - h
+ e a c
+ b d g
+
+ - f h
+ e a c
+ b d g
+
+ e f h
+ - a c
+ b d g
+
+ e f h
+ a - c
+ b d g
+
+ e - h
+ a f c
+ b d g
+
+ - e h
+ a f c
+ b d g
+
+ a e h
+ - f c
+ b d g
+
+ a e h
+ f - c
+ b d g
+
+ a e h
+ f d c
+ b - g
+
+ a e h
+ f d c
+ - b g
+
+ a e h
+ - d c
+ f b g
+
+ - e h
+ a d c
+ f b g
+
+ e - h
+ a d c
+ f b g
+
+ e h -
+ a d c
+ f b g
+
+ e h c
+ a d -
+ f b g
+
+ e h c
+ a - d
+ f b g
+
+ e - c
+ a h d
+ f b g
+
+ - e c
+ a h d
+ f b g
+
+ a e c
+ - h d
+ f b g
+
+ a e c
+ h - d
+ f b g
+
+ a - c
+ h e d
+ f b g
+
+ - a c
+ h e d
+ f b g
+
+ h a c
+ - e d
+ f b g
+
+ h a c
+ e - d
+ f b g
+
+ h - c
+ e a d
+ f b g
+
+ - h c
+ e a d
+ f b g
+
+ e h c
+ - a d
+ f b g
+
+ e h c
+ f a d
+ - b g
+
+ e h c
+ f a d
+ b - g
+
+ e h c
+ f - d
+ b a g
+
+ e - c
+ f h d
+ b a g
+
+ - e c
+ f h d
+ b a g
+
+ f e c
+ - h d
+ b a g
+
+ f e c
+ h - d
+ b a g
+
+ f - c
+ h e d
+ b a g
+
+ - f c
+ h e d
+ b a g
+
+ h f c
+ - e d
+ b a g
+
+ h f c
+ e - d
+ b a g
+
+ h - c
+ e f d
+ b a g
+
+ - h c
+ e f d
+ b a g
+
+ e h c
+ - f d
+ b a g
+
+ e h c
+ b f d
+ - a g
+
+ e h c
+ b f d
+ a - g
+
+ e h c
+ b - d
+ a f g
+
+ e - c
+ b h d
+ a f g
+
+ - e c
+ b h d
+ a f g
+
+ b e c
+ - h d
+ a f g
+
+ b e c
+ h - d
+ a f g
+
+ b - c
+ h e d
+ a f g
+
+ - b c
+ h e d
+ a f g
+
+ h b c
+ - e d
+ a f g
+
+ h b c
+ e - d
+ a f g
+
+ h - c
+ e b d
+ a f g
+
+ - h c
+ e b d
+ a f g
+
+ e h c
+ - b d
+ a f g
+
+ e h c
+ a b d
+ - f g
+
+ e h c
+ a b d
+ f - g
+
+ e h c
+ a b d
+ f g -
+
+ e h c
+ a b -
+ f g d
+
+ e h -
+ a b c
+ f g d
+
+ e - h
+ a b c
+ f g d
+
+ - e h
+ a b c
+ f g d
+
+ a e h
+ - b c
+ f g d
+
+ a e h
+ b - c
+ f g d
+
+ a - h
+ b e c
+ f g d
+
+ - a h
+ b e c
+ f g d
+
+ b a h
+ - e c
+ f g d
+
+ b a h
+ e - c
+ f g d
+
+ b - h
+ e a c
+ f g d
+
+ - b h
+ e a c
+ f g d
+
+ e b h
+ - a c
+ f g d
+
+ e b h
+ a - c
+ f g d
+
+ e b h
+ a c -
+ f g d
+
+ e b -
+ a c h
+ f g d
+
+ e - b
+ a c h
+ f g d
+
+ - e b
+ a c h
+ f g d
+
+ a e b
+ - c h
+ f g d
+
+ a e b
+ c - h
+ f g d
+
+ a - b
+ c e h
+ f g d
+
+ - a b
+ c e h
+ f g d
+
+ c a b
+ - e h
+ f g d
+
+ c a b
+ e - h
+ f g d
+
+ c - b
+ e a h
+ f g d
+
+ - c b
+ e a h
+ f g d
+
+ e c b
+ - a h
+ f g d
+
+ e c b
+ a - h
+ f g d
+
+ e c b
+ a h -
+ f g d
+
+ e c -
+ a h b
+ f g d
+
+ e - c
+ a h b
+ f g d
+
+ - e c
+ a h b
+ f g d
+
+ a e c
+ - h b
+ f g d
+
+ a e c
+ h - b
+ f g d
+
+ a - c
+ h e b
+ f g d
+
+ - a c
+ h e b
+ f g d
+
+ h a c
+ - e b
+ f g d
+
+ h a c
+ e - b
+ f g d
+
+ h - c
+ e a b
+ f g d
+
+ - h c
+ e a b
+ f g d
+
+ e h c
+ - a b
+ f g d
+
+ e h c
+ a - b
+ f g d
+
+ e h c
+ a g b
+ f - d
+
+ e h c
+ a g b
+ - f d
+
+ e h c
+ - g b
+ a f d
+
+ - h c
+ e g b
+ a f d
+
+ h - c
+ e g b
+ a f d
+
+ h c -
+ e g b
+ a f d
+
+ h c b
+ e g -
+ a f d
+
+ h c b
+ e - g
+ a f d
+
+ h - b
+ e c g
+ a f d
+
+ - h b
+ e c g
+ a f d
+
+ e h b
+ - c g
+ a f d
+
+ e h b
+ c - g
+ a f d
+
+ e - b
+ c h g
+ a f d
+
+ - e b
+ c h g
+ a f d
+
+ c e b
+ - h g
+ a f d
+
+ c e b
+ h - g
+ a f d
+
+ c - b
+ h e g
+ a f d
+
+ - c b
+ h e g
+ a f d
+
+ h c b
+ - e g
+ a f d
+
+ h c b
+ a e g
+ - f d
+
+ h c b
+ a e g
+ f - d
+
+ h c b
+ a - g
+ f e d
+
+ h - b
+ a c g
+ f e d
+
+ - h b
+ a c g
+ f e d
+
+ a h b
+ - c g
+ f e d
+
+ a h b
+ c - g
+ f e d
+
+ a - b
+ c h g
+ f e d
+
+ - a b
+ c h g
+ f e d
+
+ c a b
+ - h g
+ f e d
+
+ c a b
+ h - g
+ f e d
+
+ c - b
+ h a g
+ f e d
+
+ - c b
+ h a g
+ f e d
+
+ h c b
+ - a g
+ f e d
+
+ h c b
+ f a g
+ - e d
+
+ h c b
+ f a g
+ e - d
+
+ h c b
+ f - g
+ e a d
+
+ h - b
+ f c g
+ e a d
+
+ - h b
+ f c g
+ e a d
+
+ f h b
+ - c g
+ e a d
+
+ f h b
+ c - g
+ e a d
+
+ f - b
+ c h g
+ e a d
+
+ - f b
+ c h g
+ e a d
+
+ c f b
+ - h g
+ e a d
+
+ c f b
+ h - g
+ e a d
+
+ c - b
+ h f g
+ e a d
+
+ - c b
+ h f g
+ e a d
+
+ h c b
+ - f g
+ e a d
+
+ h c b
+ e f g
+ - a d
+
+ h c b
+ e f g
+ a - d
+
+ h c b
+ e f g
+ a d -
+
+ h c b
+ e f -
+ a d g
+
+ h c -
+ e f b
+ a d g
+
+ h - c
+ e f b
+ a d g
+
+ - h c
+ e f b
+ a d g
+
+ e h c
+ - f b
+ a d g
+
+ e h c
+ f - b
+ a d g
+
+ e - c
+ f h b
+ a d g
+
+ - e c
+ f h b
+ a d g
+
+ f e c
+ - h b
+ a d g
+
+ f e c
+ h - b
+ a d g
+
+ f - c
+ h e b
+ a d g
+
+ - f c
+ h e b
+ a d g
+
+ h f c
+ - e b
+ a d g
+
+ h f c
+ e - b
+ a d g
+
+ h f c
+ e b -
+ a d g
+
+ h f -
+ e b c
+ a d g
+
+ h - f
+ e b c
+ a d g
+
+ - h f
+ e b c
+ a d g
+
+ e h f
+ - b c
+ a d g
+
+ e h f
+ b - c
+ a d g
+
+ e - f
+ b h c
+ a d g
+
+ - e f
+ b h c
+ a d g
+
+ b e f
+ - h c
+ a d g
+
+ b e f
+ h - c
+ a d g
+
+ b - f
+ h e c
+ a d g
+
+ - b f
+ h e c
+ a d g
+
+ h b f
+ - e c
+ a d g
+
+ h b f
+ e - c
+ a d g
+
+ h b f
+ e c -
+ a d g
+
+ h b -
+ e c f
+ a d g
+
+ h - b
+ e c f
+ a d g
+
+ - h b
+ e c f
+ a d g
+
+ e h b
+ - c f
+ a d g
+
+ e h b
+ c - f
+ a d g
+
+ e - b
+ c h f
+ a d g
+
+ - e b
+ c h f
+ a d g
+
+ c e b
+ - h f
+ a d g
+
+ c e b
+ h - f
+ a d g
+
+ c - b
+ h e f
+ a d g
+
+ - c b
+ h e f
+ a d g
+
+ h c b
+ - e f
+ a d g
+
+ h c b
+ e - f
+ a d g
+
+ h c b
+ e d f
+ a - g
+
+ h c b
+ e d f
+ - a g
+
+ h c b
+ - d f
+ e a g
+
+ - c b
+ h d f
+ e a g
+
+ c - b
+ h d f
+ e a g
+
+ c b -
+ h d f
+ e a g
+
+ c b f
+ h d -
+ e a g
+
+ c b f
+ h d g
+ e a -
+
+ c b f
+ h d g
+ e - a
+
+ c b f
+ h d g
+ - e a
+
+ c b f
+ - d g
+ h e a
+
+ - b f
+ c d g
+ h e a
+
+ b - f
+ c d g
+ h e a
+
+ b f -
+ c d g
+ h e a
+
+ b f g
+ c d -
+ h e a
+
+ b f g
+ c - d
+ h e a
+
+ b - g
+ c f d
+ h e a
+
+ - b g
+ c f d
+ h e a
+
+ c b g
+ - f d
+ h e a
+
+ c b g
+ f - d
+ h e a
+
+ c - g
+ f b d
+ h e a
+
+ - c g
+ f b d
+ h e a
+
+ f c g
+ - b d
+ h e a
+
+ f c g
+ b - d
+ h e a
+
+ f - g
+ b c d
+ h e a
+
+ - f g
+ b c d
+ h e a
+
+ b f g
+ - c d
+ h e a
+
+ b f g
+ h c d
+ - e a
+
+ b f g
+ h c d
+ e - a
+
+ b f g
+ h - d
+ e c a
+
+ b - g
+ h f d
+ e c a
+
+ - b g
+ h f d
+ e c a
+
+ h b g
+ - f d
+ e c a
+
+ h b g
+ f - d
+ e c a
+
+ h - g
+ f b d
+ e c a
+
+ - h g
+ f b d
+ e c a
+
+ f h g
+ - b d
+ e c a
+
+ f h g
+ b - d
+ e c a
+
+ f - g
+ b h d
+ e c a
+
+ - f g
+ b h d
+ e c a
+
+ b f g
+ - h d
+ e c a
+
+ b f g
+ e h d
+ - c a
+
+ b f g
+ e h d
+ c - a
+
+ b f g
+ e - d
+ c h a
+
+ b - g
+ e f d
+ c h a
+
+ - b g
+ e f d
+ c h a
+
+ e b g
+ - f d
+ c h a
+
+ e b g
+ f - d
+ c h a
+
+ e - g
+ f b d
+ c h a
+
+ - e g
+ f b d
+ c h a
+
+ f e g
+ - b d
+ c h a
+
+ f e g
+ b - d
+ c h a
+
+ f - g
+ b e d
+ c h a
+
+ - f g
+ b e d
+ c h a
+
+ b f g
+ - e d
+ c h a
+
+ b f g
+ c e d
+ - h a
+
+ b f g
+ c e d
+ h - a
+
+ b f g
+ c e d
+ h a -
+
+ b f g
+ c e -
+ h a d
+
+ b f -
+ c e g
+ h a d
+
+ b - f
+ c e g
+ h a d
+
+ - b f
+ c e g
+ h a d
+
+ c b f
+ - e g
+ h a d
+
+ c b f
+ e - g
+ h a d
+
+ c - f
+ e b g
+ h a d
+
+ - c f
+ e b g
+ h a d
+
+ e c f
+ - b g
+ h a d
+
+ e c f
+ b - g
+ h a d
+
+ e - f
+ b c g
+ h a d
+
+ - e f
+ b c g
+ h a d
+
+ b e f
+ - c g
+ h a d
+
+ b e f
+ c - g
+ h a d
+
+ b e f
+ c g -
+ h a d
+
+ b e -
+ c g f
+ h a d
+
+ b - e
+ c g f
+ h a d
+
+ - b e
+ c g f
+ h a d
+
+ c b e
+ - g f
+ h a d
+
+ c b e
+ g - f
+ h a d
+
+ c - e
+ g b f
+ h a d
+
+ - c e
+ g b f
+ h a d
+
+ g c e
+ - b f
+ h a d
+
+ g c e
+ b - f
+ h a d
+
+ g - e
+ b c f
+ h a d
+
+ - g e
+ b c f
+ h a d
+
+ b g e
+ - c f
+ h a d
+
+ b g e
+ c - f
+ h a d
+
+ b g e
+ c f -
+ h a d
+
+ b g -
+ c f e
+ h a d
+
+ b - g
+ c f e
+ h a d
+
+ - b g
+ c f e
+ h a d
+
+ c b g
+ - f e
+ h a d
+
+ c b g
+ f - e
+ h a d
+
+ c - g
+ f b e
+ h a d
+
+ - c g
+ f b e
+ h a d
+
+ f c g
+ - b e
+ h a d
+
+ f c g
+ b - e
+ h a d
+
+ f - g
+ b c e
+ h a d
+
+ - f g
+ b c e
+ h a d
+
+ b f g
+ - c e
+ h a d
+
+ b f g
+ c - e
+ h a d
+
+ b f g
+ c a e
+ h - d
+
+ b f g
+ c a e
+ - h d
+
+ b f g
+ - a e
+ c h d
+
+ - f g
+ b a e
+ c h d
+
+ f - g
+ b a e
+ c h d
+
+ f g -
+ b a e
+ c h d
+
+ f g e
+ b a -
+ c h d
+
+ f g e
+ b - a
+ c h d
+
+ f - e
+ b g a
+ c h d
+
+ - f e
+ b g a
+ c h d
+
+ b f e
+ - g a
+ c h d
+
+ b f e
+ g - a
+ c h d
+
+ b - e
+ g f a
+ c h d
+
+ - b e
+ g f a
+ c h d
+
+ g b e
+ - f a
+ c h d
+
+ g b e
+ f - a
+ c h d
+
+ g - e
+ f b a
+ c h d
+
+ - g e
+ f b a
+ c h d
+
+ f g e
+ - b a
+ c h d
+
+ f g e
+ c b a
+ - h d
+
+ f g e
+ c b a
+ h - d
+
+ f g e
+ c - a
+ h b d
+
+ f - e
+ c g a
+ h b d
+
+ - f e
+ c g a
+ h b d
+
+ c f e
+ - g a
+ h b d
+
+ c f e
+ g - a
+ h b d
+
+ c - e
+ g f a
+ h b d
+
+ - c e
+ g f a
+ h b d
+
+ g c e
+ - f a
+ h b d
+
+ g c e
+ f - a
+ h b d
+
+ g - e
+ f c a
+ h b d
+
+ - g e
+ f c a
+ h b d
+
+ f g e
+ - c a
+ h b d
+
+ f g e
+ h c a
+ - b d
+
+ f g e
+ h c a
+ b - d
+
+ f g e
+ h - a
+ b c d
+
+ f - e
+ h g a
+ b c d
+
+ - f e
+ h g a
+ b c d
+
+ h f e
+ - g a
+ b c d
+
+ h f e
+ g - a
+ b c d
+
+ h - e
+ g f a
+ b c d
+
+ - h e
+ g f a
+ b c d
+
+ g h e
+ - f a
+ b c d
+
+ g h e
+ f - a
+ b c d
+
+ g - e
+ f h a
+ b c d
+
+ - g e
+ f h a
+ b c d
+
+ f g e
+ - h a
+ b c d
+
+ f g e
+ b h a
+ - c d
+
+ f g e
+ b h a
+ c - d
+
+ f g e
+ b h a
+ c d -
+
+ f g e
+ b h -
+ c d a
+
+ f g -
+ b h e
+ c d a
+
+ f - g
+ b h e
+ c d a
+
+ - f g
+ b h e
+ c d a
+
+ b f g
+ - h e
+ c d a
+
+ b f g
+ h - e
+ c d a
+
+ b - g
+ h f e
+ c d a
+
+ - b g
+ h f e
+ c d a
+
+ h b g
+ - f e
+ c d a
+
+ h b g
+ f - e
+ c d a
+
+ h - g
+ f b e
+ c d a
+
+ - h g
+ f b e
+ c d a
+
+ f h g
+ - b e
+ c d a
+
+ f h g
+ b - e
+ c d a
+
+ f h g
+ b e -
+ c d a
+
+ f h g
+ b e a
+ c d -
+
+ f h g
+ b e a
+ c - d
+
+ f h g
+ b - a
+ c e d
+
+ f - g
+ b h a
+ c e d
+
+ - f g
+ b h a
+ c e d
+
+ b f g
+ - h a
+ c e d
+
+ b f g
+ h - a
+ c e d
+
+ b - g
+ h f a
+ c e d
+
+ - b g
+ h f a
+ c e d
+
+ h b g
+ - f a
+ c e d
+
+ h b g
+ f - a
+ c e d
+
+ h - g
+ f b a
+ c e d
+
+ - h g
+ f b a
+ c e d
+
+ f h g
+ - b a
+ c e d
+
+ f h g
+ c b a
+ - e d
+
+ f h g
+ c b a
+ e - d
+
+ f h g
+ c - a
+ e b d
+
+ f - g
+ c h a
+ e b d
+
+ - f g
+ c h a
+ e b d
+
+ c f g
+ - h a
+ e b d
+
+ c f g
+ h - a
+ e b d
+
+ c - g
+ h f a
+ e b d
+
+ - c g
+ h f a
+ e b d
+
+ h c g
+ - f a
+ e b d
+
+ h c g
+ f - a
+ e b d
+
+ h - g
+ f c a
+ e b d
+
+ - h g
+ f c a
+ e b d
+
+ f h g
+ - c a
+ e b d
+
+ f h g
+ e c a
+ - b d
+
+ f h g
+ e c a
+ b - d
+
+ f h g
+ e - a
+ b c d
+
+ f - g
+ e h a
+ b c d
+
+ - f g
+ e h a
+ b c d
+
+ e f g
+ - h a
+ b c d
+
+ e f g
+ h - a
+ b c d
+
+ e - g
+ h f a
+ b c d
+
+ - e g
+ h f a
+ b c d
+
+ h e g
+ - f a
+ b c d
+
+ h e g
+ f - a
+ b c d
+
+ h - g
+ f e a
+ b c d
+
+ h g -
+ f e a
+ b c d
+
+ h g a
+ f e -
+ b c d
+
+ h g a
+ f - e
+ b c d
+
+ h - a
+ f g e
+ b c d
+
+ - h a
+ f g e
+ b c d
+
+ f h a
+ - g e
+ b c d
+
+ f h a
+ g - e
+ b c d
+
+ f - a
+ g h e
+ b c d
+
+ - f a
+ g h e
+ b c d
+
+ g f a
+ - h e
+ b c d
+
+ g f a
+ h - e
+ b c d
+
+ g - a
+ h f e
+ b c d
+
+ - g a
+ h f e
+ b c d
+
+ h g a
+ - f e
+ b c d
+
+ h g a
+ b f e
+ - c d
+
+ h g a
+ b f e
+ c - d
+
+ h g a
+ b - e
+ c f d
+
+ h - a
+ b g e
+ c f d
+
+ - h a
+ b g e
+ c f d
+
+ b h a
+ - g e
+ c f d
+
+ b h a
+ g - e
+ c f d
+
+ b - a
+ g h e
+ c f d
+
+ - b a
+ g h e
+ c f d
+
+ g b a
+ - h e
+ c f d
+
+ g b a
+ h - e
+ c f d
+
+ g - a
+ h b e
+ c f d
+
+ - g a
+ h b e
+ c f d
+
+ h g a
+ - b e
+ c f d
+
+ h g a
+ c b e
+ - f d
+
+ h g a
+ c b e
+ f - d
+
+ h g a
+ c - e
+ f b d
+
+ h - a
+ c g e
+ f b d
+
+ - h a
+ c g e
+ f b d
+
+ c h a
+ - g e
+ f b d
+
+ c h a
+ g - e
+ f b d
+
+ c - a
+ g h e
+ f b d
+
+ - c a
+ g h e
+ f b d
+
+ g c a
+ - h e
+ f b d
+
+ g c a
+ h - e
+ f b d
+
+ g - a
+ h c e
+ f b d
+
+ - g a
+ h c e
+ f b d
+
+ h g a
+ - c e
+ f b d
+
+ h g a
+ f c e
+ - b d
+
+ h g a
+ f c e
+ b - d
+
+ h g a
+ f c e
+ b d -
+
+ h g a
+ f c -
+ b d e
+
+ h g -
+ f c a
+ b d e
+
+ h - g
+ f c a
+ b d e
+
+ - h g
+ f c a
+ b d e
+
+ f h g
+ - c a
+ b d e
+
+ f h g
+ c - a
+ b d e
+
+ f - g
+ c h a
+ b d e
+
+ - f g
+ c h a
+ b d e
+
+ c f g
+ - h a
+ b d e
+
+ c f g
+ h - a
+ b d e
+
+ c - g
+ h f a
+ b d e
+
+ - c g
+ h f a
+ b d e
+
+ h c g
+ - f a
+ b d e
+
+ h c g
+ f - a
+ b d e
+
+ h c g
+ f a -
+ b d e
+
+ h c -
+ f a g
+ b d e
+
+ h - c
+ f a g
+ b d e
+
+ - h c
+ f a g
+ b d e
+
+ f h c
+ - a g
+ b d e
+
+ f h c
+ a - g
+ b d e
+
+ f - c
+ a h g
+ b d e
+
+ - f c
+ a h g
+ b d e
+
+ a f c
+ - h g
+ b d e
+
+ a f c
+ h - g
+ b d e
+
+ a - c
+ h f g
+ b d e
+
+ - a c
+ h f g
+ b d e
+
+ h a c
+ - f g
+ b d e
+
+ h a c
+ f - g
+ b d e
+
+ h a c
+ f g -
+ b d e
+
+ h a -
+ f g c
+ b d e
+
+ h - a
+ f g c
+ b d e
+
+ - h a
+ f g c
+ b d e
+
+ f h a
+ - g c
+ b d e
+
+ f h a
+ g - c
+ b d e
+
+ f - a
+ g h c
+ b d e
+
+ - f a
+ g h c
+ b d e
+
+ g f a
+ - h c
+ b d e
+
+ g f a
+ h - c
+ b d e
+
+ g - a
+ h f c
+ b d e
+
+ - g a
+ h f c
+ b d e
+
+ h g a
+ - f c
+ b d e
+
+ h g a
+ f - c
+ b d e
+
+ h g a
+ f d c
+ b - e
+
+ h g a
+ f d c
+ - b e
+
+ h g a
+ - d c
+ f b e
+
+ - g a
+ h d c
+ f b e
+
+ g - a
+ h d c
+ f b e
+
+ g a -
+ h d c
+ f b e
+
+ g a c
+ h d -
+ f b e
+
+ g a c
+ h - d
+ f b e
+
+ g - c
+ h a d
+ f b e
+
+ - g c
+ h a d
+ f b e
+
+ h g c
+ - a d
+ f b e
+
+ h g c
+ a - d
+ f b e
+
+ h - c
+ a g d
+ f b e
+
+ - h c
+ a g d
+ f b e
+
+ a h c
+ - g d
+ f b e
+
+ a h c
+ g - d
+ f b e
+
+ a - c
+ g h d
+ f b e
+
+ - a c
+ g h d
+ f b e
+
+ g a c
+ - h d
+ f b e
+
+ g a c
+ f h d
+ - b e
+
+ g a c
+ f h d
+ b - e
+
+ g a c
+ f - d
+ b h e
+
+ g - c
+ f a d
+ b h e
+
+ - g c
+ f a d
+ b h e
+
+ f g c
+ - a d
+ b h e
+
+ f g c
+ a - d
+ b h e
+
+ f - c
+ a g d
+ b h e
+
+ - f c
+ a g d
+ b h e
+
+ a f c
+ - g d
+ b h e
+
+ a f c
+ g - d
+ b h e
+
+ a - c
+ g f d
+ b h e
+
+ - a c
+ g f d
+ b h e
+
+ g a c
+ - f d
+ b h e
+
+ g a c
+ b f d
+ - h e
+
+ g a c
+ b f d
+ h - e
+
+ g a c
+ b - d
+ h f e
+
+ g - c
+ b a d
+ h f e
+
+ - g c
+ b a d
+ h f e
+
+ b g c
+ - a d
+ h f e
+
+ b g c
+ a - d
+ h f e
+
+ b - c
+ a g d
+ h f e
+
+ - b c
+ a g d
+ h f e
+
+ a b c
+ - g d
+ h f e
+
+ a b c
+ g - d
+ h f e
+
+ a - c
+ g b d
+ h f e
+
+ - a c
+ g b d
+ h f e
+
+ g a c
+ - b d
+ h f e
+
+ g a c
+ h b d
+ - f e
+
+ g a c
+ h b d
+ f - e
+
+ g a c
+ h b d
+ f e -
+
+ g a c
+ h b -
+ f e d
+
+ g a -
+ h b c
+ f e d
+
+ g - a
+ h b c
+ f e d
+
+ - g a
+ h b c
+ f e d
+
+ h g a
+ - b c
+ f e d
+
+ h g a
+ b - c
+ f e d
+
+ h - a
+ b g c
+ f e d
+
+ - h a
+ b g c
+ f e d
+
+ b h a
+ - g c
+ f e d
+
+ b h a
+ g - c
+ f e d
+
+ b - a
+ g h c
+ f e d
+
+ - b a
+ g h c
+ f e d
+
+ g b a
+ - h c
+ f e d
+
+ g b a
+ h - c
+ f e d
+
+ g b a
+ h c -
+ f e d
+
+ g b -
+ h c a
+ f e d
+
+ g - b
+ h c a
+ f e d
+
+ - g b
+ h c a
+ f e d
+
+ h g b
+ - c a
+ f e d
+
+ h g b
+ c - a
+ f e d
+
+ h - b
+ c g a
+ f e d
+
+ - h b
+ c g a
+ f e d
+
+ c h b
+ - g a
+ f e d
+
+ c h b
+ g - a
+ f e d
+
+ c - b
+ g h a
+ f e d
+
+ - c b
+ g h a
+ f e d
+
+ g c b
+ - h a
+ f e d
+
+ g c b
+ h - a
+ f e d
+
+ g c b
+ h a -
+ f e d
+
+ g c -
+ h a b
+ f e d
+
+ g - c
+ h a b
+ f e d
+
+ - g c
+ h a b
+ f e d
+
+ h g c
+ - a b
+ f e d
+
+ h g c
+ a - b
+ f e d
+
+ h - c
+ a g b
+ f e d
+
+ - h c
+ a g b
+ f e d
+
+ a h c
+ - g b
+ f e d
+
+ a h c
+ g - b
+ f e d
+
+ a - c
+ g h b
+ f e d
+
+ - a c
+ g h b
+ f e d
+
+ g a c
+ - h b
+ f e d
+
+ g a c
+ h - b
+ f e d
+
+ g a c
+ h e b
+ f - d
+
+ g a c
+ h e b
+ - f d
+
+ g a c
+ - e b
+ h f d
+
+ - a c
+ g e b
+ h f d
+
+ a - c
+ g e b
+ h f d
+
+ a c -
+ g e b
+ h f d
+
+ a c b
+ g e -
+ h f d
+
+ a c b
+ g - e
+ h f d
+
+ a - b
+ g c e
+ h f d
+
+ - a b
+ g c e
+ h f d
+
+ g a b
+ - c e
+ h f d
+
+ g a b
+ c - e
+ h f d
+
+ g - b
+ c a e
+ h f d
+
+ - g b
+ c a e
+ h f d
+
+ c g b
+ - a e
+ h f d
+
+ c g b
+ a - e
+ h f d
+
+ c - b
+ a g e
+ h f d
+
+ - c b
+ a g e
+ h f d
+
+ a c b
+ - g e
+ h f d
+
+ a c b
+ h g e
+ - f d
+
+ a c b
+ h g e
+ f - d
+
+ a c b
+ h - e
+ f g d
+
+ a - b
+ h c e
+ f g d
+
+ - a b
+ h c e
+ f g d
+
+ h a b
+ - c e
+ f g d
+
+ h a b
+ c - e
+ f g d
+
+ h - b
+ c a e
+ f g d
+
+ - h b
+ c a e
+ f g d
+
+ c h b
+ - a e
+ f g d
+
+ c h b
+ a - e
+ f g d
+
+ c - b
+ a h e
+ f g d
+
+ - c b
+ a h e
+ f g d
+
+ a c b
+ - h e
+ f g d
+
+ a c b
+ f h e
+ - g d
+
+ a c b
+ f h e
+ g - d
+
+ a c b
+ f - e
+ g h d
+
+ a - b
+ f c e
+ g h d
+
+ - a b
+ f c e
+ g h d
+
+ f a b
+ - c e
+ g h d
+
+ f a b
+ c - e
+ g h d
+
+ f - b
+ c a e
+ g h d
+
+ - f b
+ c a e
+ g h d
+
+ c f b
+ - a e
+ g h d
+
+ c f b
+ a - e
+ g h d
+
+ c - b
+ a f e
+ g h d
+
+ - c b
+ a f e
+ g h d
+
+ a c b
+ - f e
+ g h d
+
+ a c b
+ g f e
+ - h d
+
+ a c b
+ g f e
+ h - d
+
+ a c b
+ g f e
+ h d -
+
+ a c b
+ g f -
+ h d e
+
+ a c -
+ g f b
+ h d e
+
+ a - c
+ g f b
+ h d e
+
+ - a c
+ g f b
+ h d e
+
+ g a c
+ - f b
+ h d e
+
+ g a c
+ f - b
+ h d e
+
+ g - c
+ f a b
+ h d e
+
+ - g c
+ f a b
+ h d e
+
+ f g c
+ - a b
+ h d e
+
+ f g c
+ a - b
+ h d e
+
+ f - c
+ a g b
+ h d e
+
+ - f c
+ a g b
+ h d e
+
+ a f c
+ - g b
+ h d e
+
+ a f c
+ g - b
+ h d e
+
+ a f c
+ g b -
+ h d e
+
+ a f -
+ g b c
+ h d e
+
+ a - f
+ g b c
+ h d e
+
+ - a f
+ g b c
+ h d e
+
+ g a f
+ - b c
+ h d e
+
+ g a f
+ b - c
+ h d e
+
+ g - f
+ b a c
+ h d e
+
+ - g f
+ b a c
+ h d e
+
+ b g f
+ - a c
+ h d e
+
+ b g f
+ a - c
+ h d e
+
+ b - f
+ a g c
+ h d e
+
+ - b f
+ a g c
+ h d e
+
+ a b f
+ - g c
+ h d e
+
+ a b f
+ g - c
+ h d e
+
+ a b f
+ g c -
+ h d e
+
+ a b -
+ g c f
+ h d e
+
+ a - b
+ g c f
+ h d e
+
+ - a b
+ g c f
+ h d e
+
+ g a b
+ - c f
+ h d e
+
+ g a b
+ c - f
+ h d e
+
+ g - b
+ c a f
+ h d e
+
+ - g b
+ c a f
+ h d e
+
+ c g b
+ - a f
+ h d e
+
+ c g b
+ a - f
+ h d e
+
+ c - b
+ a g f
+ h d e
+
+ - c b
+ a g f
+ h d e
+
+ a c b
+ - g f
+ h d e
+
+ a c b
+ g - f
+ h d e
+
+ a c b
+ g d f
+ h - e
+
+ a c b
+ g d f
+ - h e
+
+ a c b
+ - d f
+ g h e
+
+ - c b
+ a d f
+ g h e
+
+ c - b
+ a d f
+ g h e
+
+ c b -
+ a d f
+ g h e
+
+ c b f
+ a d -
+ g h e
+
+ c b f
+ a - d
+ g h e
+
+ c - f
+ a b d
+ g h e
+
+ - c f
+ a b d
+ g h e
+
+ a c f
+ - b d
+ g h e
+
+ a c f
+ b - d
+ g h e
+
+ a - f
+ b c d
+ g h e
+
+ - a f
+ b c d
+ g h e
+
+ b a f
+ - c d
+ g h e
+
+ b a f
+ c - d
+ g h e
+
+ b - f
+ c a d
+ g h e
+
+ - b f
+ c a d
+ g h e
+
+ c b f
+ - a d
+ g h e
+
+ c b f
+ g a d
+ - h e
+
+ c b f
+ g a d
+ h - e
+
+ c b f
+ g - d
+ h a e
+
+ c - f
+ g b d
+ h a e
+
+ - c f
+ g b d
+ h a e
+
+ g c f
+ - b d
+ h a e
+
+ g c f
+ b - d
+ h a e
+
+ g - f
+ b c d
+ h a e
+
+ - g f
+ b c d
+ h a e
+
+ b g f
+ - c d
+ h a e
+
+ b g f
+ c - d
+ h a e
+
+ b - f
+ c g d
+ h a e
+
+ - b f
+ c g d
+ h a e
+
+ c b f
+ - g d
+ h a e
+
+ c b f
+ h g d
+ - a e
+
+ c b f
+ h g d
+ a - e
+
+ c b f
+ h - d
+ a g e
+
+ c - f
+ h b d
+ a g e
+
+ - c f
+ h b d
+ a g e
+
+ h c f
+ - b d
+ a g e
+
+ h c f
+ b - d
+ a g e
+
+ h - f
+ b c d
+ a g e
+
+ - h f
+ b c d
+ a g e
+
+ b h f
+ - c d
+ a g e
+
+ b h f
+ c - d
+ a g e
+
+ b - f
+ c h d
+ a g e
+
+ - b f
+ c h d
+ a g e
+
+ c b f
+ - h d
+ a g e
+
+ c b f
+ a h d
+ - g e
+
+ c b f
+ a h d
+ g - e
+
+ c b f
+ a h d
+ g e -
+
+ c b f
+ a h -
+ g e d
+
+ c b -
+ a h f
+ g e d
+
+ c - b
+ a h f
+ g e d
+
+ - c b
+ a h f
+ g e d
+
+ a c b
+ - h f
+ g e d
+
+ a c b
+ h - f
+ g e d
+
+ a - b
+ h c f
+ g e d
+
+ - a b
+ h c f
+ g e d
+
+ h a b
+ - c f
+ g e d
+
+ h a b
+ c - f
+ g e d
+
+ h - b
+ c a f
+ g e d
+
+ - h b
+ c a f
+ g e d
+
+ c h b
+ - a f
+ g e d
+
+ c h b
+ a - f
+ g e d
+
+ c h b
+ a f -
+ g e d
+
+ c h -
+ a f b
+ g e d
+
+ c - h
+ a f b
+ g e d
+
+ - c h
+ a f b
+ g e d
+
+ a c h
+ - f b
+ g e d
+
+ a c h
+ f - b
+ g e d
+
+ a - h
+ f c b
+ g e d
+
+ - a h
+ f c b
+ g e d
+
+ f a h
+ - c b
+ g e d
+
+ f a h
+ c - b
+ g e d
+
+ f - h
+ c a b
+ g e d
+
+ - f h
+ c a b
+ g e d
+
+ c f h
+ - a b
+ g e d
+
+ c f h
+ a - b
+ g e d
+
+ c f h
+ a b -
+ g e d
+
+ c f -
+ a b h
+ g e d
+
+ c - f
+ a b h
+ g e d
+
+ - c f
+ a b h
+ g e d
+
+ a c f
+ - b h
+ g e d
+
+ a c f
+ b - h
+ g e d
+
+ a - f
+ b c h
+ g e d
+
+ - a f
+ b c h
+ g e d
+
+ b a f
+ - c h
+ g e d
+
+ b a f
+ c - h
+ g e d
+
+ b - f
+ c a h
+ g e d
+
+ - b f
+ c a h
+ g e d
+
+ c b f
+ - a h
+ g e d
+
+ c b f
+ a - h
+ g e d
+
+ c b f
+ a e h
+ g - d
+
+ c b f
+ a e h
+ - g d
+
+ c b f
+ - e h
+ a g d
+
+ - b f
+ c e h
+ a g d
+
+ b - f
+ c e h
+ a g d
+
+ b f -
+ c e h
+ a g d
+
+ b f h
+ c e -
+ a g d
+
+ b f h
+ c - e
+ a g d
+
+ b - h
+ c f e
+ a g d
+
+ - b h
+ c f e
+ a g d
+
+ c b h
+ - f e
+ a g d
+
+ c b h
+ f - e
+ a g d
+
+ c - h
+ f b e
+ a g d
+
+ - c h
+ f b e
+ a g d
+
+ f c h
+ - b e
+ a g d
+
+ f c h
+ b - e
+ a g d
+
+ f - h
+ b c e
+ a g d
+
+ - f h
+ b c e
+ a g d
+
+ b f h
+ - c e
+ a g d
+
+ b f h
+ a c e
+ - g d
+
+ b f h
+ a c e
+ g - d
+
+ b f h
+ a - e
+ g c d
+
+ b - h
+ a f e
+ g c d
+
+ - b h
+ a f e
+ g c d
+
+ a b h
+ - f e
+ g c d
+
+ a b h
+ f - e
+ g c d
+
+ a - h
+ f b e
+ g c d
+
+ - a h
+ f b e
+ g c d
+
+ f a h
+ - b e
+ g c d
+
+ f a h
+ b - e
+ g c d
+
+ f - h
+ b a e
+ g c d
+
+ - f h
+ b a e
+ g c d
+
+ b f h
+ - a e
+ g c d
+
+ b f h
+ g a e
+ - c d
+
+ b f h
+ g a e
+ c - d
+
+ b f h
+ g - e
+ c a d
+
+ b - h
+ g f e
+ c a d
+
+ - b h
+ g f e
+ c a d
+
+ g b h
+ - f e
+ c a d
+
+ g b h
+ f - e
+ c a d
+
+ g - h
+ f b e
+ c a d
+
+ - g h
+ f b e
+ c a d
+
+ f g h
+ - b e
+ c a d
+
+ f g h
+ b - e
+ c a d
+
+ f - h
+ b g e
+ c a d
+
+ - f h
+ b g e
+ c a d
+
+ b f h
+ - g e
+ c a d
+
+ b f h
+ c g e
+ - a d
+
+ b f h
+ c g e
+ a - d
+
+ b f h
+ c g e
+ a d -
+
+ b f h
+ c g -
+ a d e
+
+ b f -
+ c g h
+ a d e
+
+ b - f
+ c g h
+ a d e
+
+ - b f
+ c g h
+ a d e
+
+ c b f
+ - g h
+ a d e
+
+ c b f
+ g - h
+ a d e
+
+ c - f
+ g b h
+ a d e
+
+ - c f
+ g b h
+ a d e
+
+ g c f
+ - b h
+ a d e
+
+ g c f
+ b - h
+ a d e
+
+ g - f
+ b c h
+ a d e
+
+ - g f
+ b c h
+ a d e
+
+ b g f
+ - c h
+ a d e
+
+ b g f
+ c - h
+ a d e
+
+ b g f
+ c h -
+ a d e
+
+ b g -
+ c h f
+ a d e
+
+ b - g
+ c h f
+ a d e
+
+ - b g
+ c h f
+ a d e
+
+ c b g
+ - h f
+ a d e
+
+ c b g
+ h - f
+ a d e
+
+ c - g
+ h b f
+ a d e
+
+ - c g
+ h b f
+ a d e
+
+ h c g
+ - b f
+ a d e
+
+ h c g
+ b - f
+ a d e
+
+ h - g
+ b c f
+ a d e
+
+ - h g
+ b c f
+ a d e
+
+ b h g
+ - c f
+ a d e
+
+ b h g
+ c - f
+ a d e
+
+ b h g
+ c f -
+ a d e
+
+ b h -
+ c f g
+ a d e
+
+ b - h
+ c f g
+ a d e
+
+ - b h
+ c f g
+ a d e
+
+ c b h
+ - f g
+ a d e
+
+ c b h
+ f - g
+ a d e
+
+ c - h
+ f b g
+ a d e
+
+ - c h
+ f b g
+ a d e
+
+ f c h
+ - b g
+ a d e
+
+ f c h
+ b - g
+ a d e
+
+ f - h
+ b c g
+ a d e
+
+ - f h
+ b c g
+ a d e
+
+ b f h
+ - c g
+ a d e
+
+ b f h
+ c - g
+ a d e
+
+ b f h
+ c d g
+ a - e
+
+ b f h
+ c d g
+ - a e
+
+ b f h
+ - d g
+ c a e
+
+ - f h
+ b d g
+ c a e
+
+ f - h
+ b d g
+ c a e
+
+ f h -
+ b d g
+ c a e
+
+ f h g
+ b d -
+ c a e
+
+ f h g
+ b - d
+ c a e
+
+ f - g
+ b h d
+ c a e
+
+ - f g
+ b h d
+ c a e
+
+ b f g
+ - h d
+ c a e
+
+ b f g
+ h - d
+ c a e
+
+ b - g
+ h f d
+ c a e
+
+ - b g
+ h f d
+ c a e
+
+ h b g
+ - f d
+ c a e
+
+ h b g
+ f - d
+ c a e
+
+ h - g
+ f b d
+ c a e
+
+ - h g
+ f b d
+ c a e
+
+ f h g
+ - b d
+ c a e
+
+ f h g
+ c b d
+ - a e
+
+ f h g
+ c b d
+ a - e
+
+ f h g
+ c - d
+ a b e
+
+ f - g
+ c h d
+ a b e
+
+ - f g
+ c h d
+ a b e
+
+ c f g
+ - h d
+ a b e
+
+ c f g
+ h - d
+ a b e
+
+ c - g
+ h f d
+ a b e
+
+ - c g
+ h f d
+ a b e
+
+ h c g
+ - f d
+ a b e
+
+ h c g
+ f - d
+ a b e
+
+ h - g
+ f c d
+ a b e
+
+ - h g
+ f c d
+ a b e
+
+ f h g
+ - c d
+ a b e
+
+ f h g
+ a c d
+ - b e
+
+ f h g
+ a c d
+ b - e
+
+ f h g
+ a - d
+ b c e
+
+ f - g
+ a h d
+ b c e
+
+ - f g
+ a h d
+ b c e
+
+ a f g
+ - h d
+ b c e
+
+ a f g
+ h - d
+ b c e
+
+ a - g
+ h f d
+ b c e
+
+ - a g
+ h f d
+ b c e
+
+ h a g
+ - f d
+ b c e
+
+ h a g
+ f - d
+ b c e
+
+ h - g
+ f a d
+ b c e
+
+ - h g
+ f a d
+ b c e
+
+ f h g
+ - a d
+ b c e
+
+ f h g
+ b a d
+ - c e
+
+ f h g
+ b a d
+ c - e
+
+ f h g
+ b a d
+ c e -
+
+ f h g
+ b a -
+ c e d
+
+ f h -
+ b a g
+ c e d
+
+ f - h
+ b a g
+ c e d
+
+ - f h
+ b a g
+ c e d
+
+ b f h
+ - a g
+ c e d
+
+ b f h
+ a - g
+ c e d
+
+ b - h
+ a f g
+ c e d
+
+ - b h
+ a f g
+ c e d
+
+ a b h
+ - f g
+ c e d
+
+ a b h
+ f - g
+ c e d
+
+ a - h
+ f b g
+ c e d
+
+ - a h
+ f b g
+ c e d
+
+ f a h
+ - b g
+ c e d
+
+ f a h
+ b - g
+ c e d
+
+ f a h
+ b g -
+ c e d
+
+ f a -
+ b g h
+ c e d
+
+ f - a
+ b g h
+ c e d
+
+ - f a
+ b g h
+ c e d
+
+ b f a
+ - g h
+ c e d
+
+ b f a
+ g - h
+ c e d
+
+ b - a
+ g f h
+ c e d
+
+ - b a
+ g f h
+ c e d
+
+ g b a
+ - f h
+ c e d
+
+ g b a
+ f - h
+ c e d
+
+ g - a
+ f b h
+ c e d
+
+ - g a
+ f b h
+ c e d
+
+ f g a
+ - b h
+ c e d
+
+ f g a
+ b - h
+ c e d
+
+ f g a
+ b h -
+ c e d
+
+ f g a
+ b h d
+ c e -
+
+ f g a
+ b h d
+ c - e
+
+ f g a
+ b - d
+ c h e
+
+ f - a
+ b g d
+ c h e
+
+ - f a
+ b g d
+ c h e
+
+ b f a
+ - g d
+ c h e
+
+ b f a
+ g - d
+ c h e
+
+ b - a
+ g f d
+ c h e
+
+ - b a
+ g f d
+ c h e
+
+ g b a
+ - f d
+ c h e
+
+ g b a
+ f - d
+ c h e
+
+ g - a
+ f b d
+ c h e
+
+ - g a
+ f b d
+ c h e
+
+ f g a
+ - b d
+ c h e
+
+ f g a
+ c b d
+ - h e
+
+ f g a
+ c b d
+ h - e
+
+ f g a
+ c - d
+ h b e
+
+ f - a
+ c g d
+ h b e
+
+ - f a
+ c g d
+ h b e
+
+ c f a
+ - g d
+ h b e
+
+ c f a
+ g - d
+ h b e
+
+ c - a
+ g f d
+ h b e
+
+ - c a
+ g f d
+ h b e
+
+ g c a
+ - f d
+ h b e
+
+ g c a
+ f - d
+ h b e
+
+ g - a
+ f c d
+ h b e
+
+ - g a
+ f c d
+ h b e
+
+ f g a
+ - c d
+ h b e
+
+ f g a
+ h c d
+ - b e
+
+ f g a
+ h c d
+ b - e
+
+ f g a
+ h - d
+ b c e
+
+ f - a
+ h g d
+ b c e
+
+ - f a
+ h g d
+ b c e
+
+ h f a
+ - g d
+ b c e
+
+ h f a
+ g - d
+ b c e
+
+ h - a
+ g f d
+ b c e
+
+ - h a
+ g f d
+ b c e
+
+ g h a
+ - f d
+ b c e
+
+ g h a
+ f - d
+ b c e
+
+ g - a
+ f h d
+ b c e
+
+ g a -
+ f h d
+ b c e
+
+ g a d
+ f h -
+ b c e
+
+ g a d
+ f - h
+ b c e
+
+ g - d
+ f a h
+ b c e
+
+ - g d
+ f a h
+ b c e
+
+ f g d
+ - a h
+ b c e
+
+ f g d
+ a - h
+ b c e
+
+ f - d
+ a g h
+ b c e
+
+ - f d
+ a g h
+ b c e
+
+ a f d
+ - g h
+ b c e
+
+ a f d
+ g - h
+ b c e
+
+ a - d
+ g f h
+ b c e
+
+ - a d
+ g f h
+ b c e
+
+ g a d
+ - f h
+ b c e
+
+ g a d
+ b f h
+ - c e
+
+ g a d
+ b f h
+ c - e
+
+ g a d
+ b - h
+ c f e
+
+ g - d
+ b a h
+ c f e
+
+ - g d
+ b a h
+ c f e
+
+ b g d
+ - a h
+ c f e
+
+ b g d
+ a - h
+ c f e
+
+ b - d
+ a g h
+ c f e
+
+ - b d
+ a g h
+ c f e
+
+ a b d
+ - g h
+ c f e
+
+ a b d
+ g - h
+ c f e
+
+ a - d
+ g b h
+ c f e
+
+ - a d
+ g b h
+ c f e
+
+ g a d
+ - b h
+ c f e
+
+ g a d
+ c b h
+ - f e
+
+ g a d
+ c b h
+ f - e
+
+ g a d
+ c - h
+ f b e
+
+ g - d
+ c a h
+ f b e
+
+ - g d
+ c a h
+ f b e
+
+ c g d
+ - a h
+ f b e
+
+ c g d
+ a - h
+ f b e
+
+ c - d
+ a g h
+ f b e
+
+ - c d
+ a g h
+ f b e
+
+ a c d
+ - g h
+ f b e
+
+ a c d
+ g - h
+ f b e
+
+ a - d
+ g c h
+ f b e
+
+ - a d
+ g c h
+ f b e
+
+ g a d
+ - c h
+ f b e
+
+ g a d
+ f c h
+ - b e
+
+ g a d
+ f c h
+ b - e
+
+ g a d
+ f c h
+ b e -
+
+ g a d
+ f c -
+ b e h
+
+ g a -
+ f c d
+ b e h
+
+ g - a
+ f c d
+ b e h
+
+ - g a
+ f c d
+ b e h
+
+ f g a
+ - c d
+ b e h
+
+ f g a
+ c - d
+ b e h
+
+ f - a
+ c g d
+ b e h
+
+ - f a
+ c g d
+ b e h
+
+ c f a
+ - g d
+ b e h
+
+ c f a
+ g - d
+ b e h
+
+ c - a
+ g f d
+ b e h
+
+ - c a
+ g f d
+ b e h
+
+ g c a
+ - f d
+ b e h
+
+ g c a
+ f - d
+ b e h
+
+ g c a
+ f d -
+ b e h
+
+ g c -
+ f d a
+ b e h
+
+ g - c
+ f d a
+ b e h
+
+ - g c
+ f d a
+ b e h
+
+ f g c
+ - d a
+ b e h
+
+ f g c
+ d - a
+ b e h
+
+ f - c
+ d g a
+ b e h
+
+ - f c
+ d g a
+ b e h
+
+ d f c
+ - g a
+ b e h
+
+ d f c
+ g - a
+ b e h
+
+ d - c
+ g f a
+ b e h
+
+ - d c
+ g f a
+ b e h
+
+ g d c
+ - f a
+ b e h
+
+ g d c
+ f - a
+ b e h
+
+ g d c
+ f a -
+ b e h
+
+ g d -
+ f a c
+ b e h
+
+ g - d
+ f a c
+ b e h
+
+ - g d
+ f a c
+ b e h
+
+ f g d
+ - a c
+ b e h
+
+ f g d
+ a - c
+ b e h
+
+ f - d
+ a g c
+ b e h
+
+ - f d
+ a g c
+ b e h
+
+ a f d
+ - g c
+ b e h
+
+ a f d
+ g - c
+ b e h
+
+ a - d
+ g f c
+ b e h
+
+ - a d
+ g f c
+ b e h
+
+ g a d
+ - f c
+ b e h
+
+ g a d
+ f - c
+ b e h
+
+ g a d
+ f e c
+ b - h
+
+ g a d
+ f e c
+ - b h
+
+ g a d
+ - e c
+ f b h
+
+ - a d
+ g e c
+ f b h
+
+ a - d
+ g e c
+ f b h
+
+ a d -
+ g e c
+ f b h
+
+ a d c
+ g e -
+ f b h
+
+ a d c
+ g - e
+ f b h
+
+ a - c
+ g d e
+ f b h
+
+ - a c
+ g d e
+ f b h
+
+ g a c
+ - d e
+ f b h
+
+ g a c
+ d - e
+ f b h
+
+ g - c
+ d a e
+ f b h
+
+ - g c
+ d a e
+ f b h
+
+ d g c
+ - a e
+ f b h
+
+ d g c
+ a - e
+ f b h
+
+ d - c
+ a g e
+ f b h
+
+ - d c
+ a g e
+ f b h
+
+ a d c
+ - g e
+ f b h
+
+ a d c
+ f g e
+ - b h
+
+ a d c
+ f g e
+ b - h
+
+ a d c
+ f - e
+ b g h
+
+ a - c
+ f d e
+ b g h
+
+ - a c
+ f d e
+ b g h
+
+ f a c
+ - d e
+ b g h
+
+ f a c
+ d - e
+ b g h
+
+ f - c
+ d a e
+ b g h
+
+ - f c
+ d a e
+ b g h
+
+ d f c
+ - a e
+ b g h
+
+ d f c
+ a - e
+ b g h
+
+ d - c
+ a f e
+ b g h
+
+ - d c
+ a f e
+ b g h
+
+ a d c
+ - f e
+ b g h
+
+ a d c
+ b f e
+ - g h
+
+ a d c
+ b f e
+ g - h
+
+ a d c
+ b - e
+ g f h
+
+ a - c
+ b d e
+ g f h
+
+ - a c
+ b d e
+ g f h
+
+ b a c
+ - d e
+ g f h
+
+ b a c
+ d - e
+ g f h
+
+ b - c
+ d a e
+ g f h
+
+ - b c
+ d a e
+ g f h
+
+ d b c
+ - a e
+ g f h
+
+ d b c
+ a - e
+ g f h
+
+ d - c
+ a b e
+ g f h
+
+ - d c
+ a b e
+ g f h
+
+ a d c
+ - b e
+ g f h
+
+ a d c
+ g b e
+ - f h
+
+ a d c
+ g b e
+ f - h
+
+ a d c
+ g b e
+ f h -
+
+ a d c
+ g b -
+ f h e
+
+ a d -
+ g b c
+ f h e
+
+ a - d
+ g b c
+ f h e
+
+ - a d
+ g b c
+ f h e
+
+ g a d
+ - b c
+ f h e
+
+ g a d
+ b - c
+ f h e
+
+ g - d
+ b a c
+ f h e
+
+ - g d
+ b a c
+ f h e
+
+ b g d
+ - a c
+ f h e
+
+ b g d
+ a - c
+ f h e
+
+ b - d
+ a g c
+ f h e
+
+ - b d
+ a g c
+ f h e
+
+ a b d
+ - g c
+ f h e
+
+ a b d
+ g - c
+ f h e
+
+ a b d
+ g c -
+ f h e
+
+ a b -
+ g c d
+ f h e
+
+ a - b
+ g c d
+ f h e
+
+ - a b
+ g c d
+ f h e
+
+ g a b
+ - c d
+ f h e
+
+ g a b
+ c - d
+ f h e
+
+ g - b
+ c a d
+ f h e
+
+ - g b
+ c a d
+ f h e
+
+ c g b
+ - a d
+ f h e
+
+ c g b
+ a - d
+ f h e
+
+ c - b
+ a g d
+ f h e
+
+ - c b
+ a g d
+ f h e
+
+ a c b
+ - g d
+ f h e
+
+ a c b
+ g - d
+ f h e
+
+ a c b
+ g d -
+ f h e
+
+ a c -
+ g d b
+ f h e
+
+ a - c
+ g d b
+ f h e
+
+ - a c
+ g d b
+ f h e
+
+ g a c
+ - d b
+ f h e
+
+ g a c
+ d - b
+ f h e
+
+ g - c
+ d a b
+ f h e
+
+ - g c
+ d a b
+ f h e
+
+ d g c
+ - a b
+ f h e
+
+ d g c
+ a - b
+ f h e
+
+ d - c
+ a g b
+ f h e
+
+ - d c
+ a g b
+ f h e
+
+ a d c
+ - g b
+ f h e
+
+ a d c
+ g - b
+ f h e
+
+ a d c
+ g h b
+ f - e
+
+ a d c
+ g h b
+ - f e
+
+ a d c
+ - h b
+ g f e
+
+ - d c
+ a h b
+ g f e
+
+ d - c
+ a h b
+ g f e
+
+ d c -
+ a h b
+ g f e
+
+ d c b
+ a h -
+ g f e
+
+ d c b
+ a - h
+ g f e
+
+ d - b
+ a c h
+ g f e
+
+ - d b
+ a c h
+ g f e
+
+ a d b
+ - c h
+ g f e
+
+ a d b
+ c - h
+ g f e
+
+ a - b
+ c d h
+ g f e
+
+ - a b
+ c d h
+ g f e
+
+ c a b
+ - d h
+ g f e
+
+ c a b
+ d - h
+ g f e
+
+ c - b
+ d a h
+ g f e
+
+ - c b
+ d a h
+ g f e
+
+ d c b
+ - a h
+ g f e
+
+ d c b
+ g a h
+ - f e
+
+ d c b
+ g a h
+ f - e
+
+ d c b
+ g - h
+ f a e
+
+ d - b
+ g c h
+ f a e
+
+ - d b
+ g c h
+ f a e
+
+ g d b
+ - c h
+ f a e
+
+ g d b
+ c - h
+ f a e
+
+ g - b
+ c d h
+ f a e
+
+ - g b
+ c d h
+ f a e
+
+ c g b
+ - d h
+ f a e
+
+ c g b
+ d - h
+ f a e
+
+ c - b
+ d g h
+ f a e
+
+ - c b
+ d g h
+ f a e
+
+ d c b
+ - g h
+ f a e
+
+ d c b
+ f g h
+ - a e
+
+ d c b
+ f g h
+ a - e
+
+ d c b
+ f - h
+ a g e
+
+ d - b
+ f c h
+ a g e
+
+ - d b
+ f c h
+ a g e
+
+ f d b
+ - c h
+ a g e
+
+ f d b
+ c - h
+ a g e
+
+ f - b
+ c d h
+ a g e
+
+ - f b
+ c d h
+ a g e
+
+ c f b
+ - d h
+ a g e
+
+ c f b
+ d - h
+ a g e
+
+ c - b
+ d f h
+ a g e
+
+ - c b
+ d f h
+ a g e
+
+ d c b
+ - f h
+ a g e
+
+ d c b
+ a f h
+ - g e
+
+ d c b
+ a f h
+ g - e
+
+ d c b
+ a f h
+ g e -
+
+ d c b
+ a f -
+ g e h
+
+ d c -
+ a f b
+ g e h
+
+ d - c
+ a f b
+ g e h
+
+ - d c
+ a f b
+ g e h
+
+ a d c
+ - f b
+ g e h
+
+ a d c
+ f - b
+ g e h
+
+ a - c
+ f d b
+ g e h
+
+ - a c
+ f d b
+ g e h
+
+ f a c
+ - d b
+ g e h
+
+ f a c
+ d - b
+ g e h
+
+ f - c
+ d a b
+ g e h
+
+ - f c
+ d a b
+ g e h
+
+ d f c
+ - a b
+ g e h
+
+ d f c
+ a - b
+ g e h
+
+ d f c
+ a b -
+ g e h
+
+ d f -
+ a b c
+ g e h
+
+ d - f
+ a b c
+ g e h
+
+ - d f
+ a b c
+ g e h
+
+ a d f
+ - b c
+ g e h
+
+ a d f
+ b - c
+ g e h
+
+ a - f
+ b d c
+ g e h
+
+ - a f
+ b d c
+ g e h
+
+ b a f
+ - d c
+ g e h
+
+ b a f
+ d - c
+ g e h
+
+ b - f
+ d a c
+ g e h
+
+ - b f
+ d a c
+ g e h
+
+ d b f
+ - a c
+ g e h
+
+ d b f
+ a - c
+ g e h
+
+ d b f
+ a c -
+ g e h
+
+ d b -
+ a c f
+ g e h
+
+ d - b
+ a c f
+ g e h
+
+ - d b
+ a c f
+ g e h
+
+ a d b
+ - c f
+ g e h
+
+ a d b
+ c - f
+ g e h
+
+ a - b
+ c d f
+ g e h
+
+ - a b
+ c d f
+ g e h
+
+ c a b
+ - d f
+ g e h
+
+ c a b
+ d - f
+ g e h
+
+ c - b
+ d a f
+ g e h
+
+ - c b
+ d a f
+ g e h
+
+ d c b
+ - a f
+ g e h
+
+ d c b
+ a - f
+ g e h
+
+ d c b
+ a e f
+ g - h
+
+ d c b
+ a e f
+ - g h
+
+ d c b
+ - e f
+ a g h
+
+ - c b
+ d e f
+ a g h
+
+ c - b
+ d e f
+ a g h
+
+ c b -
+ d e f
+ a g h
+
+ c b f
+ d e -
+ a g h
+
+ c b f
+ d - e
+ a g h
+
+ c - f
+ d b e
+ a g h
+
+ - c f
+ d b e
+ a g h
+
+ d c f
+ - b e
+ a g h
+
+ d c f
+ b - e
+ a g h
+
+ d - f
+ b c e
+ a g h
+
+ - d f
+ b c e
+ a g h
+
+ b d f
+ - c e
+ a g h
+
+ b d f
+ c - e
+ a g h
+
+ b - f
+ c d e
+ a g h
+
+ - b f
+ c d e
+ a g h
+
+ c b f
+ - d e
+ a g h
+
+ c b f
+ a d e
+ - g h
+
+ c b f
+ a d e
+ g - h
+
+ c b f
+ a - e
+ g d h
+
+ c - f
+ a b e
+ g d h
+
+ - c f
+ a b e
+ g d h
+
+ a c f
+ - b e
+ g d h
+
+ a c f
+ b - e
+ g d h
+
+ a - f
+ b c e
+ g d h
+
+ - a f
+ b c e
+ g d h
+
+ b a f
+ - c e
+ g d h
+
+ b a f
+ c - e
+ g d h
+
+ b - f
+ c a e
+ g d h
+
+ - b f
+ c a e
+ g d h
+
+ c b f
+ - a e
+ g d h
+
+ c b f
+ g a e
+ - d h
+
+ c b f
+ g a e
+ d - h
+
+ c b f
+ g - e
+ d a h
+
+ c - f
+ g b e
+ d a h
+
+ - c f
+ g b e
+ d a h
+
+ g c f
+ - b e
+ d a h
+
+ g c f
+ b - e
+ d a h
+
+ g - f
+ b c e
+ d a h
+
+ - g f
+ b c e
+ d a h
+
+ b g f
+ - c e
+ d a h
+
+ b g f
+ c - e
+ d a h
+
+ b - f
+ c g e
+ d a h
+
+ - b f
+ c g e
+ d a h
+
+ c b f
+ - g e
+ d a h
+
+ c b f
+ d g e
+ - a h
+
+ c b f
+ d g e
+ a - h
+
+ c b f
+ d g e
+ a h -
+
+ c b f
+ d g -
+ a h e
+
+ c b -
+ d g f
+ a h e
+
+ c - b
+ d g f
+ a h e
+
+ - c b
+ d g f
+ a h e
+
+ d c b
+ - g f
+ a h e
+
+ d c b
+ g - f
+ a h e
+
+ d - b
+ g c f
+ a h e
+
+ - d b
+ g c f
+ a h e
+
+ g d b
+ - c f
+ a h e
+
+ g d b
+ c - f
+ a h e
+
+ g - b
+ c d f
+ a h e
+
+ - g b
+ c d f
+ a h e
+
+ c g b
+ - d f
+ a h e
+
+ c g b
+ d - f
+ a h e
+
+ c g b
+ d f -
+ a h e
+
+ c g -
+ d f b
+ a h e
+
+ c - g
+ d f b
+ a h e
+
+ - c g
+ d f b
+ a h e
+
+ d c g
+ - f b
+ a h e
+
+ d c g
+ f - b
+ a h e
+
+ d - g
+ f c b
+ a h e
+
+ - d g
+ f c b
+ a h e
+
+ f d g
+ - c b
+ a h e
+
+ f d g
+ c - b
+ a h e
+
+ f - g
+ c d b
+ a h e
+
+ - f g
+ c d b
+ a h e
+
+ c f g
+ - d b
+ a h e
+
+ c f g
+ d - b
+ a h e
+
+ c f g
+ d b -
+ a h e
+
+ c f -
+ d b g
+ a h e
+
+ c - f
+ d b g
+ a h e
+
+ - c f
+ d b g
+ a h e
+
+ d c f
+ - b g
+ a h e
+
+ d c f
+ b - g
+ a h e
+
+ d - f
+ b c g
+ a h e
+
+ - d f
+ b c g
+ a h e
+
+ b d f
+ - c g
+ a h e
+
+ b d f
+ c - g
+ a h e
+
+ b - f
+ c d g
+ a h e
+
+ - b f
+ c d g
+ a h e
+
+ c b f
+ - d g
+ a h e
+
+ c b f
+ d - g
+ a h e
+
+ c b f
+ d h g
+ a - e
+
+ c b f
+ d h g
+ - a e
+
+ c b f
+ - h g
+ d a e
+
+ - b f
+ c h g
+ d a e
+
+ b - f
+ c h g
+ d a e
+
+ b f -
+ c h g
+ d a e
+
+ b f g
+ c h -
+ d a e
+
+ b f g
+ c - h
+ d a e
+
+ b - g
+ c f h
+ d a e
+
+ - b g
+ c f h
+ d a e
+
+ c b g
+ - f h
+ d a e
+
+ c b g
+ f - h
+ d a e
+
+ c - g
+ f b h
+ d a e
+
+ - c g
+ f b h
+ d a e
+
+ f c g
+ - b h
+ d a e
+
+ f c g
+ b - h
+ d a e
+
+ f - g
+ b c h
+ d a e
+
+ - f g
+ b c h
+ d a e
+
+ b f g
+ - c h
+ d a e
+
+ b f g
+ d c h
+ - a e
+
+ b f g
+ d c h
+ a - e
+
+ b f g
+ d - h
+ a c e
+
+ b - g
+ d f h
+ a c e
+
+ - b g
+ d f h
+ a c e
+
+ d b g
+ - f h
+ a c e
+
+ d b g
+ f - h
+ a c e
+
+ d - g
+ f b h
+ a c e
+
+ - d g
+ f b h
+ a c e
+
+ f d g
+ - b h
+ a c e
+
+ f d g
+ b - h
+ a c e
+
+ f - g
+ b d h
+ a c e
+
+ - f g
+ b d h
+ a c e
+
+ b f g
+ - d h
+ a c e
+
+ b f g
+ a d h
+ - c e
+
+ b f g
+ a d h
+ c - e
+
+ b f g
+ a - h
+ c d e
+
+ b - g
+ a f h
+ c d e
+
+ - b g
+ a f h
+ c d e
+
+ a b g
+ - f h
+ c d e
+
+ a b g
+ f - h
+ c d e
+
+ a - g
+ f b h
+ c d e
+
+ - a g
+ f b h
+ c d e
+
+ f a g
+ - b h
+ c d e
+
+ f a g
+ b - h
+ c d e
+
+ f - g
+ b a h
+ c d e
+
+ - f g
+ b a h
+ c d e
+
+ b f g
+ - a h
+ c d e
+
+ b f g
+ c a h
+ - d e
+
+ b f g
+ c a h
+ d - e
+
+ b f g
+ c a h
+ d e -
+
+ b f g
+ c a -
+ d e h
+
+ b f -
+ c a g
+ d e h
+
+ b - f
+ c a g
+ d e h
+
+ - b f
+ c a g
+ d e h
+
+ c b f
+ - a g
+ d e h
+
+ c b f
+ a - g
+ d e h
+
+ c - f
+ a b g
+ d e h
+
+ - c f
+ a b g
+ d e h
+
+ a c f
+ - b g
+ d e h
+
+ a c f
+ b - g
+ d e h
+
+ a - f
+ b c g
+ d e h
+
+ - a f
+ b c g
+ d e h
+
+ b a f
+ - c g
+ d e h
+
+ b a f
+ c - g
+ d e h
+
+ b a f
+ c g -
+ d e h
+
+ b a -
+ c g f
+ d e h
+
+ b - a
+ c g f
+ d e h
+
+ - b a
+ c g f
+ d e h
+
+ c b a
+ - g f
+ d e h
+
+ c b a
+ g - f
+ d e h
+
+ c - a
+ g b f
+ d e h
+
+ - c a
+ g b f
+ d e h
+
+ g c a
+ - b f
+ d e h
+
+ g c a
+ b - f
+ d e h
+
+ g - a
+ b c f
+ d e h
+
+ - g a
+ b c f
+ d e h
+
+ b g a
+ - c f
+ d e h
+
+ b g a
+ c - f
+ d e h
+
+ b g a
+ c f -
+ d e h
+
+ b g -
+ c f a
+ d e h
+
+ b - g
+ c f a
+ d e h
+
+ - b g
+ c f a
+ d e h
+
+ c b g
+ - f a
+ d e h
+
+ c b g
+ f - a
+ d e h
+
+ c - g
+ f b a
+ d e h
+
+ - c g
+ f b a
+ d e h
+
+ f c g
+ - b a
+ d e h
+
+ f c g
+ b - a
+ d e h
+
+ f - g
+ b c a
+ d e h
+
+ - f g
+ b c a
+ d e h
+
+ b f g
+ - c a
+ d e h
+
+ b f g
+ c - a
+ d e h
+
+ b f g
+ c e a
+ d - h
+
+ b f g
+ c e a
+ - d h
+
+ b f g
+ - e a
+ c d h
+
+ - f g
+ b e a
+ c d h
+
+ f - g
+ b e a
+ c d h
+
+ f g -
+ b e a
+ c d h
+
+ f g a
+ b e -
+ c d h
+
+ f g a
+ b - e
+ c d h
+
+ f - a
+ b g e
+ c d h
+
+ - f a
+ b g e
+ c d h
+
+ b f a
+ - g e
+ c d h
+
+ b f a
+ g - e
+ c d h
+
+ b - a
+ g f e
+ c d h
+
+ - b a
+ g f e
+ c d h
+
+ g b a
+ - f e
+ c d h
+
+ g b a
+ f - e
+ c d h
+
+ g - a
+ f b e
+ c d h
+
+ - g a
+ f b e
+ c d h
+
+ f g a
+ - b e
+ c d h
+
+ f g a
+ c b e
+ - d h
+
+ f g a
+ c b e
+ d - h
+
+ f g a
+ c - e
+ d b h
+
+ f - a
+ c g e
+ d b h
+
+ - f a
+ c g e
+ d b h
+
+ c f a
+ - g e
+ d b h
+
+ c f a
+ g - e
+ d b h
+
+ c - a
+ g f e
+ d b h
+
+ - c a
+ g f e
+ d b h
+
+ g c a
+ - f e
+ d b h
+
+ g c a
+ f - e
+ d b h
+
+ g - a
+ f c e
+ d b h
+
+ - g a
+ f c e
+ d b h
+
+ f g a
+ - c e
+ d b h
+
+ f g a
+ d c e
+ - b h
+
+ f g a
+ d c e
+ b - h
+
+ f g a
+ d - e
+ b c h
+
+ f - a
+ d g e
+ b c h
+
+ - f a
+ d g e
+ b c h
+
+ d f a
+ - g e
+ b c h
+
+ d f a
+ g - e
+ b c h
+
+ d - a
+ g f e
+ b c h
+
+ - d a
+ g f e
+ b c h
+
+ g d a
+ - f e
+ b c h
+
+ g d a
+ f - e
+ b c h
+
+ g - a
+ f d e
+ b c h
+
+ - g a
+ f d e
+ b c h
+
+ f g a
+ - d e
+ b c h
+
+ f g a
+ b d e
+ - c h
+
+ f g a
+ b d e
+ c - h
+
+ f g a
+ b d e
+ c h -
+
+ f g a
+ b d -
+ c h e
+
+ f g -
+ b d a
+ c h e
+
+ f - g
+ b d a
+ c h e
+
+ - f g
+ b d a
+ c h e
+
+ b f g
+ - d a
+ c h e
+
+ b f g
+ d - a
+ c h e
+
+ b - g
+ d f a
+ c h e
+
+ - b g
+ d f a
+ c h e
+
+ d b g
+ - f a
+ c h e
+
+ d b g
+ f - a
+ c h e
+
+ d - g
+ f b a
+ c h e
+
+ - d g
+ f b a
+ c h e
+
+ f d g
+ - b a
+ c h e
+
+ f d g
+ b - a
+ c h e
+
+ f d g
+ b a -
+ c h e
+
+ f d -
+ b a g
+ c h e
+
+ f - d
+ b a g
+ c h e
+
+ - f d
+ b a g
+ c h e
+
+ b f d
+ - a g
+ c h e
+
+ b f d
+ a - g
+ c h e
+
+ b - d
+ a f g
+ c h e
+
+ - b d
+ a f g
+ c h e
+
+ a b d
+ - f g
+ c h e
+
+ a b d
+ f - g
+ c h e
+
+ a - d
+ f b g
+ c h e
+
+ - a d
+ f b g
+ c h e
+
+ f a d
+ - b g
+ c h e
+
+ f a d
+ b - g
+ c h e
+
+ f a d
+ b g -
+ c h e
+
+ f a d
+ b g e
+ c h -
+
+ f a d
+ b g e
+ c - h
+
+ f a d
+ b - e
+ c g h
+
+ f - d
+ b a e
+ c g h
+
+ - f d
+ b a e
+ c g h
+
+ b f d
+ - a e
+ c g h
+
+ b f d
+ a - e
+ c g h
+
+ b - d
+ a f e
+ c g h
+
+ - b d
+ a f e
+ c g h
+
+ a b d
+ - f e
+ c g h
+
+ a b d
+ f - e
+ c g h
+
+ a - d
+ f b e
+ c g h
+
+ - a d
+ f b e
+ c g h
+
+ f a d
+ - b e
+ c g h
+
+ f a d
+ c b e
+ - g h
+
+ f a d
+ c b e
+ g - h
+
+ f a d
+ c - e
+ g b h
+
+ f - d
+ c a e
+ g b h
+
+ - f d
+ c a e
+ g b h
+
+ c f d
+ - a e
+ g b h
+
+ c f d
+ a - e
+ g b h
+
+ c - d
+ a f e
+ g b h
+
+ - c d
+ a f e
+ g b h
+
+ a c d
+ - f e
+ g b h
+
+ a c d
+ f - e
+ g b h
+
+ a - d
+ f c e
+ g b h
+
+ - a d
+ f c e
+ g b h
+
+ f a d
+ - c e
+ g b h
+
+ f a d
+ g c e
+ - b h
+
+ f a d
+ g c e
+ b - h
+
+ f a d
+ g - e
+ b c h
+
+ f - d
+ g a e
+ b c h
+
+ - f d
+ g a e
+ b c h
+
+ g f d
+ - a e
+ b c h
+
+ g f d
+ a - e
+ b c h
+
+ g - d
+ a f e
+ b c h
+
+ - g d
+ a f e
+ b c h
+
+ a g d
+ - f e
+ b c h
+
+ a g d
+ f - e
+ b c h
+
+ a - d
+ f g e
+ b c h
+
+ a d -
+ f g e
+ b c h
+
+ a d e
+ f g -
+ b c h
+
+ a d e
+ f - g
+ b c h
+
+ a - e
+ f d g
+ b c h
+
+ - a e
+ f d g
+ b c h
+
+ f a e
+ - d g
+ b c h
+
+ f a e
+ d - g
+ b c h
+
+ f - e
+ d a g
+ b c h
+
+ - f e
+ d a g
+ b c h
+
+ d f e
+ - a g
+ b c h
+
+ d f e
+ a - g
+ b c h
+
+ d - e
+ a f g
+ b c h
+
+ - d e
+ a f g
+ b c h
+
+ a d e
+ - f g
+ b c h
+
+ a d e
+ b f g
+ - c h
+
+ a d e
+ b f g
+ c - h
+
+ a d e
+ b - g
+ c f h
+
+ a - e
+ b d g
+ c f h
+
+ - a e
+ b d g
+ c f h
+
+ b a e
+ - d g
+ c f h
+
+ b a e
+ d - g
+ c f h
+
+ b - e
+ d a g
+ c f h
+
+ - b e
+ d a g
+ c f h
+
+ d b e
+ - a g
+ c f h
+
+ d b e
+ a - g
+ c f h
+
+ d - e
+ a b g
+ c f h
+
+ - d e
+ a b g
+ c f h
+
+ a d e
+ - b g
+ c f h
+
+ a d e
+ c b g
+ - f h
+
+ a d e
+ c b g
+ f - h
+
+ a d e
+ c - g
+ f b h
+
+ a - e
+ c d g
+ f b h
+
+ - a e
+ c d g
+ f b h
+
+ c a e
+ - d g
+ f b h
+
+ c a e
+ d - g
+ f b h
+
+ c - e
+ d a g
+ f b h
+
+ - c e
+ d a g
+ f b h
+
+ d c e
+ - a g
+ f b h
+
+ d c e
+ a - g
+ f b h
+
+ d - e
+ a c g
+ f b h
+
+ - d e
+ a c g
+ f b h
+
+ a d e
+ - c g
+ f b h
+
+ a d e
+ f c g
+ - b h
+
+ a d e
+ f c g
+ b - h
+
+ a d e
+ f c g
+ b h -
+
+ a d e
+ f c -
+ b h g
+
+ a d -
+ f c e
+ b h g
+
+ a - d
+ f c e
+ b h g
+
+ - a d
+ f c e
+ b h g
+
+ f a d
+ - c e
+ b h g
+
+ f a d
+ c - e
+ b h g
+
+ f - d
+ c a e
+ b h g
+
+ - f d
+ c a e
+ b h g
+
+ c f d
+ - a e
+ b h g
+
+ c f d
+ a - e
+ b h g
+
+ c - d
+ a f e
+ b h g
+
+ - c d
+ a f e
+ b h g
+
+ a c d
+ - f e
+ b h g
+
+ a c d
+ f - e
+ b h g
+
+ a c d
+ f e -
+ b h g
+
+ a c -
+ f e d
+ b h g
+
+ a - c
+ f e d
+ b h g
+
+ - a c
+ f e d
+ b h g
+
+ f a c
+ - e d
+ b h g
+
+ f a c
+ e - d
+ b h g
+
+ f - c
+ e a d
+ b h g
+
+ - f c
+ e a d
+ b h g
+
+ e f c
+ - a d
+ b h g
+
+ e f c
+ a - d
+ b h g
+
+ e - c
+ a f d
+ b h g
+
+ - e c
+ a f d
+ b h g
+
+ a e c
+ - f d
+ b h g
+
+ a e c
+ f - d
+ b h g
+
+ a e c
+ f d -
+ b h g
+
+ a e -
+ f d c
+ b h g
+
+ a - e
+ f d c
+ b h g
+
+ - a e
+ f d c
+ b h g
+
+ f a e
+ - d c
+ b h g
+
+ f a e
+ d - c
+ b h g
+
+ f - e
+ d a c
+ b h g
+
+ - f e
+ d a c
+ b h g
+
+ d f e
+ - a c
+ b h g
+
+ d f e
+ a - c
+ b h g
+
+ d - e
+ a f c
+ b h g
+
+ - d e
+ a f c
+ b h g
+
+ a d e
+ - f c
+ b h g
+
+ a d e
+ f - c
+ b h g
+
+ a d e
+ f h c
+ b - g
+
+ a d e
+ f h c
+ - b g
+
+ a d e
+ - h c
+ f b g
+
+ - d e
+ a h c
+ f b g
+
+ d - e
+ a h c
+ f b g
+
+ d e -
+ a h c
+ f b g
+
+ d e c
+ a h -
+ f b g
+
+ d e c
+ a - h
+ f b g
+
+ d - c
+ a e h
+ f b g
+
+ - d c
+ a e h
+ f b g
+
+ a d c
+ - e h
+ f b g
+
+ a d c
+ e - h
+ f b g
+
+ a - c
+ e d h
+ f b g
+
+ - a c
+ e d h
+ f b g
+
+ e a c
+ - d h
+ f b g
+
+ e a c
+ d - h
+ f b g
+
+ e - c
+ d a h
+ f b g
+
+ - e c
+ d a h
+ f b g
+
+ d e c
+ - a h
+ f b g
+
+ d e c
+ f a h
+ - b g
+
+ d e c
+ f a h
+ b - g
+
+ d e c
+ f - h
+ b a g
+
+ d - c
+ f e h
+ b a g
+
+ - d c
+ f e h
+ b a g
+
+ f d c
+ - e h
+ b a g
+
+ f d c
+ e - h
+ b a g
+
+ f - c
+ e d h
+ b a g
+
+ - f c
+ e d h
+ b a g
+
+ e f c
+ - d h
+ b a g
+
+ e f c
+ d - h
+ b a g
+
+ e - c
+ d f h
+ b a g
+
+ - e c
+ d f h
+ b a g
+
+ d e c
+ - f h
+ b a g
+
+ d e c
+ b f h
+ - a g
+
+ d e c
+ b f h
+ a - g
+
+ d e c
+ b - h
+ a f g
+
+ d - c
+ b e h
+ a f g
+
+ - d c
+ b e h
+ a f g
+
+ b d c
+ - e h
+ a f g
+
+ b d c
+ e - h
+ a f g
+
+ b - c
+ e d h
+ a f g
+
+ - b c
+ e d h
+ a f g
+
+ e b c
+ - d h
+ a f g
+
+ e b c
+ d - h
+ a f g
+
+ e - c
+ d b h
+ a f g
+
+ - e c
+ d b h
+ a f g
+
+ d e c
+ - b h
+ a f g
+
+ d e c
+ a b h
+ - f g
+
+ d e c
+ a b h
+ f - g
+
+ d e c
+ a b h
+ f g -
+
+ d e c
+ a b -
+ f g h
+
+ d e -
+ a b c
+ f g h
+
+ d - e
+ a b c
+ f g h
+
+ - d e
+ a b c
+ f g h
+
+ a d e
+ - b c
+ f g h
+
+ a d e
+ b - c
+ f g h
+
+ a - e
+ b d c
+ f g h
+
+ - a e
+ b d c
+ f g h
+
+ b a e
+ - d c
+ f g h
+
+ b a e
+ d - c
+ f g h
+
+ b - e
+ d a c
+ f g h
+
+ - b e
+ d a c
+ f g h
+
+ d b e
+ - a c
+ f g h
+
+ d b e
+ a - c
+ f g h
+
+ d b e
+ a c -
+ f g h
+
+ d b -
+ a c e
+ f g h
+
+ d - b
+ a c e
+ f g h
+
+ - d b
+ a c e
+ f g h
+
+ a d b
+ - c e
+ f g h
+
+ a d b
+ c - e
+ f g h
+
+ a - b
+ c d e
+ f g h
+
+ - a b
+ c d e
+ f g h
+
+Total nodes: 4399, max depth is: 4359
 BFS-star:
-Cur: dehfb-gca Finish: -abcdefgh Sum: 18
-Cur: de-fbhgca Finish: -abcdefgh Sum: 16
-Cur: dehf-bgca Finish: -abcdefgh Sum: 16
-Cur: dehfbagc- Finish: -abcdefgh Sum: 18
+string:dehfb-gca sum:18 queueSize:1
 
-Cur: d-efbhgca Finish: -abcdefgh Sum: 14
+string:de-fbhgca sum:16 queueSize:3
 
-Cur: -defbhgca Finish: -abcdefgh Sum: 12
-Cur: dbef-hgca Finish: -abcdefgh Sum: 14
+string:d-efbhgca sum:14 queueSize:3
 
-Cur: fde-bhgca Finish: -abcdefgh Sum: 14
+string:-defbhgca sum:12 queueSize:4
 
-Cur: dbe-fhgca Finish: -abcdefgh Sum: 14
-Cur: dbefh-gca Finish: -abcdefgh Sum: 16
-Cur: dbefchg-a Finish: -abcdefgh Sum: 14
+string:dbef-hgca sum:14 queueSize:4
 
-Cur: fdeb-hgca Finish: -abcdefgh Sum: 16
-Cur: fdegbh-ca Finish: -abcdefgh Sum: 16
+string:fde-bhgca sum:14 queueSize:6
 
-Cur: -bedfhgca Finish: -abcdefgh Sum: 12
-Cur: dbegfh-ca Finish: -abcdefgh Sum: 16
+string:dbefchg-a sum:14 queueSize:7
 
-Cur: b-edfhgca Finish: -abcdefgh Sum: 14
+string:dbefch-ga sum:12 queueSize:8
 
-Cur: dbefch-ga Finish: -abcdefgh Sum: 12
-Cur: dbefchga- Finish: -abcdefgh Sum: 14
+string:dbe-chfga sum:10 queueSize:8
 
-Cur: dbe-chfga Finish: -abcdefgh Sum: 10
+string:-bedchfga sum:8 queueSize:9
 
-Cur: -bedchfga Finish: -abcdefgh Sum: 8
-Cur: dbec-hfga Finish: -abcdefgh Sum: 10
+string:dbec-hfga sum:10 queueSize:9
 
-Cur: b-edchfga Finish: -abcdefgh Sum: 10
+string:b-edchfga sum:10 queueSize:11
 
-Cur: d-ecbhfga Finish: -abcdefgh Sum: 10
-Cur: dbech-fga Finish: -abcdefgh Sum: 12
-Cur: dbecghf-a Finish: -abcdefgh Sum: 12
+string:d-ecbhfga sum:10 queueSize:12
 
-Cur: be-dchfga Finish: -abcdefgh Sum: 12
-Cur: bced-hfga Finish: -abcdefgh Sum: 12
+string:-decbhfga sum:8 queueSize:13
 
-Cur: -decbhfga Finish: -abcdefgh Sum: 8
-Cur: de-cbhfga Finish: -abcdefgh Sum: 12
+string:cde-bhfga sum:10 queueSize:13
 
-Cur: cde-bhfga Finish: -abcdefgh Sum: 10
+string:bced-hfga sum:12 queueSize:14
 
-Cur: cdeb-hfga Finish: -abcdefgh Sum: 12
-Cur: cdefbh-ga Finish: -abcdefgh Sum: 12
+string:bce-dhfga sum:10 queueSize:16
 
-Cur: bce-dhfga Finish: -abcdefgh Sum: 10
-Cur: bcedh-fga Finish: -abcdefgh Sum: 14
-Cur: bcedghf-a Finish: -abcdefgh Sum: 14
+string:-cebdhfga sum:10 queueSize:17
 
-Cur: -cebdhfga Finish: -abcdefgh Sum: 10
-Cur: bcefdh-ga Finish: -abcdefgh Sum: 12
+string:c-ebdhfga sum:10 queueSize:17
 
-Cur: c-ebdhfga Finish: -abcdefgh Sum: 10
+string:cdeb-hfga sum:12 queueSize:17
 
-Cur: ce-bdhfga Finish: -abcdefgh Sum: 12
+string:bcefdh-ga sum:12 queueSize:18
 
-Cur: dbecgh-fa Finish: -abcdefgh Sum: 12
-Cur: dbecghfa- Finish: -abcdefgh Sum: 12
+string:ce-bdhfga sum:12 queueSize:18
 
-Cur: bcefdhg-a Finish: -abcdefgh Sum: 14
+string:cdefbh-ga sum:12 queueSize:18
 
-Cur: cehbd-fga Finish: -abcdefgh Sum: 14
+string:dbecghf-a sum:12 queueSize:18
 
-Cur: dbe-ghcfa Finish: -abcdefgh Sum: 12
+string:be-dchfga sum:12 queueSize:19
 
-Cur: dbecg-fah Finish: -abcdefgh Sum: 10
+string:de-cbhfga sum:12 queueSize:19
 
-Cur: db-cgefah Finish: -abcdefgh Sum: 8
-Cur: dbec-gfah Finish: -abcdefgh Sum: 10
+string:dbech-fga sum:12 queueSize:19
 
-Cur: d-bcgefah Finish: -abcdefgh Sum: 6
+string:db-chefga sum:10 queueSize:20
 
-Cur: -dbcgefah Finish: -abcdefgh Sum: 4
-Cur: dgbc-efah Finish: -abcdefgh Sum: 8
+string:d-bchefga sum:8 queueSize:20
 
-Cur: cdb-gefah Finish: -abcdefgh Sum: 6
+string:-dbchefga sum:6 queueSize:21
 
-Cur: cdbg-efah Finish: -abcdefgh Sum: 8
-Cur: cdbfge-ah Finish: -abcdefgh Sum: 8
+string:cdb-hefga sum:8 queueSize:21
 
-Cur: dgb-cefah Finish: -abcdefgh Sum: 8
-Cur: dgbce-fah Finish: -abcdefgh Sum: 10
-Cur: dgbcaef-h Finish: -abcdefgh Sum: 8
+string:dhbc-efga sum:10 queueSize:22
 
-Cur: c-bgdefah Finish: -abcdefgh Sum: 6
-Cur: cdbge-fah Finish: -abcdefgh Sum: 10
-Cur: cdbgaef-h Finish: -abcdefgh Sum: 8
+string:cdbh-efga sum:10 queueSize:24
 
-Cur: -cbgdefah Finish: -abcdefgh Sum: 6
-Cur: cb-gdefah Finish: -abcdefgh Sum: 8
+string:c-bhdefga sum:8 queueSize:26
 
-Cur: gcb-defah Finish: -abcdefgh Sum: 8
+string:-cbhdefga sum:8 queueSize:27
 
-Cur: -gbdcefah Finish: -abcdefgh Sum: 6
-Cur: dgbfce-ah Finish: -abcdefgh Sum: 10
+string:cdbfhe-ga sum:10 queueSize:27
 
-Cur: g-bdcefah Finish: -abcdefgh Sum: 8
+string:cb-hdefga sum:10 queueSize:27
 
-Cur: cdbfgea-h Finish: -abcdefgh Sum: 10
+string:hcb-defga sum:10 queueSize:27
 
-Cur: dgbcae-fh Finish: -abcdefgh Sum: 8
-Cur: dgbcaefh- Finish: -abcdefgh Sum: 10
+string:dhb-cefga sum:10 queueSize:28
 
-Cur: cdbgae-fh Finish: -abcdefgh Sum: 8
-Cur: cdbgaefh- Finish: -abcdefgh Sum: 10
+string:-hbdcefga sum:8 queueSize:29
 
-Cur: gcbd-efah Finish: -abcdefgh Sum: 10
-Cur: gcbfde-ah Finish: -abcdefgh Sum: 10
+string:h-bdcefga sum:10 queueSize:29
 
-Cur: cbegd-fah Finish: -abcdefgh Sum: 10
+string:dhbcgef-a sum:12 queueSize:29
 
-Cur: gb-dcefah Finish: -abcdefgh Sum: 10
+string:hcbfde-ga sum:12 queueSize:30
 
-Cur: dgb-aecfh Finish: -abcdefgh Sum: 8
+string:dhbfce-ga sum:12 queueSize:30
 
-Cur: cdb-aegfh Finish: -abcdefgh Sum: 6
+string:hb-dcefga sum:12 queueSize:30
 
-Cur: -dbcaegfh Finish: -abcdefgh Sum: 4
-Cur: cdba-egfh Finish: -abcdefgh Sum: 8
+string:dhbcgefa- sum:12 queueSize:30
 
-Cur: d-bcaegfh Finish: -abcdefgh Sum: 6
+string:dhbcge-fa sum:12 queueSize:30
 
-Cur: db-caegfh Finish: -abcdefgh Sum: 8
-Cur: dabc-egfh Finish: -abcdefgh Sum: 6
+string:cdbhgef-a sum:12 queueSize:30
 
-Cur: dab-cegfh Finish: -abcdefgh Sum: 6
-Cur: dabce-gfh Finish: -abcdefgh Sum: 8
-Cur: dabcfeg-h Finish: -abcdefgh Sum: 8
+string:dhbcg-fae sum:12 queueSize:31
 
-Cur: -abdcegfh Finish: -abcdefgh Sum: 4
-Cur: dabgce-fh Finish: -abcdefgh Sum: 8
+string:dhb-gecfa sum:12 queueSize:32
 
-Cur: a-bdcegfh Finish: -abcdefgh Sum: 6
+string:-hbdgecfa sum:10 queueSize:33
 
-Cur: ab-dcegfh Finish: -abcdefgh Sum: 8
-Cur: acbd-egfh Finish: -abcdefgh Sum: 8
+string:cdbhgefa- sum:12 queueSize:33
 
-Cur: c-badegfh Finish: -abcdefgh Sum: 6
-Cur: cdbae-gfh Finish: -abcdefgh Sum: 10
-Cur: cdbafeg-h Finish: -abcdefgh Sum: 10
+string:dh-cgbfae sum:12 queueSize:33
 
-Cur: -cbadegfh Finish: -abcdefgh Sum: 6
-Cur: cb-adegfh Finish: -abcdefgh Sum: 8
+string:d-hcgbfae sum:10 queueSize:33
 
-Cur: acb-degfh Finish: -abcdefgh Sum: 6
+string:-dhcgbfae sum:8 queueSize:34
 
-Cur: acbgde-fh Finish: -abcdefgh Sum: 8
+string:cdh-gbfae sum:10 queueSize:34
 
-Cur: dbeca-gfh Finish: -abcdefgh Sum: 10
+string:cdbhg-fae sum:12 queueSize:35
 
-Cur: da-cebgfh Finish: -abcdefgh Sum: 8
-Cur: dabcehgf- Finish: -abcdefgh Sum: 10
+string:dhbc-gfae sum:12 queueSize:36
 
-Cur: acbde-gfh Finish: -abcdefgh Sum: 10
-Cur: acbdfeg-h Finish: -abcdefgh Sum: 10
+string:d-bchgfae sum:10 queueSize:38
 
-Cur: abedc-gfh Finish: -abcdefgh Sum: 10
+string:-dbchgfae sum:8 queueSize:39
 
-Cur: dabgcef-h Finish: -abcdefgh Sum: 8
+string:cdb-hgfae sum:10 queueSize:39
 
-Cur: dabcfe-gh Finish: -abcdefgh Sum: 6
-Cur: dabcfegh- Finish: -abcdefgh Sum: 10
+string:db-chgfae sum:12 queueSize:39
 
-Cur: dab-fecgh Finish: -abcdefgh Sum: 6
+string:hcbd-efga sum:12 queueSize:39
 
-Cur: -abdfecgh Finish: -abcdefgh Sum: 4
-Cur: dabf-ecgh Finish: -abcdefgh Sum: 6
+string:cdbfhg-ae sum:12 queueSize:40
 
-Cur: a-bdfecgh Finish: -abcdefgh Sum: 6
+string:cdhfgb-ae sum:12 queueSize:40
 
-Cur: d-bfaecgh Finish: -abcdefgh Sum: 6
-Cur: dabfe-cgh Finish: -abcdefgh Sum: 8
-Cur: dabfgec-h Finish: -abcdefgh Sum: 8
+string:dhbce-fga sum:12 queueSize:40
 
-Cur: ab-dfecgh Finish: -abcdefgh Sum: 8
-Cur: afbd-ecgh Finish: -abcdefgh Sum: 8
+string:cbehd-fga sum:12 queueSize:41
 
-Cur: -dbfaecgh Finish: -abcdefgh Sum: 4
-Cur: db-faecgh Finish: -abcdefgh Sum: 8
+string:dbechafg- sum:12 queueSize:42
 
-Cur: fdb-aecgh Finish: -abcdefgh Sum: 6
+string:dh-cebfga sum:12 queueSize:42
 
-Cur: fdba-ecgh Finish: -abcdefgh Sum: 8
-Cur: fdbcae-gh Finish: -abcdefgh Sum: 6
+string:d-hcebfga sum:10 queueSize:42
 
-Cur: fdbcaeg-h Finish: -abcdefgh Sum: 8
+string:-dhcebfga sum:8 queueSize:43
 
-Cur: d-acebgfh Finish: -abcdefgh Sum: 8
+string:cdh-ebfga sum:10 queueSize:43
 
-Cur: da-febcgh Finish: -abcdefgh Sum: 8
-Cur: dabfehcg- Finish: -abcdefgh Sum: 10
+string:dhbceafg- sum:12 queueSize:44
 
-Cur: afb-decgh Finish: -abcdefgh Sum: 6
-Cur: afbde-cgh Finish: -abcdefgh Sum: 10
-Cur: afbdgec-h Finish: -abcdefgh Sum: 10
+string:cbeh-dfga sum:12 queueSize:44
 
-Cur: -fbadecgh Finish: -abcdefgh Sum: 6
-Cur: afbcde-gh Finish: -abcdefgh Sum: 6
+string:cbe-hdfga sum:10 queueSize:46
 
-Cur: f-badecgh Finish: -abcdefgh Sum: 6
+string:-bechdfga sum:8 queueSize:47
 
-Cur: afbcdeg-h Finish: -abcdefgh Sum: 8
+string:b-echdfga sum:10 queueSize:47
 
-Cur: fb-adecgh Finish: -abcdefgh Sum: 8
+string:cbehdafg- sum:12 queueSize:48
 
-Cur: fdbae-cgh Finish: -abcdefgh Sum: 10
-Cur: fdbagec-h Finish: -abcdefgh Sum: 10
+string:bhec-dfga sum:12 queueSize:48
 
-Cur: fdbc-egah Finish: -abcdefgh Sum: 8
-Cur: fdbcaegh- Finish: -abcdefgh Sum: 10
+string:cbehdaf-g sum:12 queueSize:50
 
-Cur: -dacebgfh Finish: -abcdefgh Sum: 6
-Cur: deac-bgfh Finish: -abcdefgh Sum: 10
+string:bhe-cdfga sum:12 queueSize:51
 
-Cur: cda-ebgfh Finish: -abcdefgh Sum: 8
+string:bhecd-fga sum:12 queueSize:52
 
-Cur: afbc-egdh Finish: -abcdefgh Sum: 8
-Cur: afbcdegh- Finish: -abcdefgh Sum: 10
+string:bh-cdefga sum:10 queueSize:53
 
-Cur: fbead-cgh Finish: -abcdefgh Sum: 10
+string:b-hcdefga sum:8 queueSize:53
 
-Cur: dabfge-ch Finish: -abcdefgh Sum: 8
-Cur: dabfgech- Finish: -abcdefgh Sum: 10
+string:-bhcdefga sum:6 queueSize:54
 
-Cur: abedf-cgh Finish: -abcdefgh Sum: 10
+string:cbh-defga sum:8 queueSize:54
 
-Cur: d-afebcgh Finish: -abcdefgh Sum: 8
+string:bdhc-efga sum:10 queueSize:55
 
-Cur: dabg-efch Finish: -abcdefgh Sum: 8
-Cur: dabgcefh- Finish: -abcdefgh Sum: 10
+string:cbhd-efga sum:10 queueSize:57
 
-Cur: -gbdaecfh Finish: -abcdefgh Sum: 6
-Cur: dgba-ecfh Finish: -abcdefgh Sum: 10
+string:cbhfde-ga sum:10 queueSize:59
 
-Cur: g-bdaecfh Finish: -abcdefgh Sum: 8
+string:bdh-cefga sum:10 queueSize:59
 
-Cur: dbefa-cgh Finish: -abcdefgh Sum: 10
+string:c-hdbefga sum:10 queueSize:60
 
-Cur: cbead-gfh Finish: -abcdefgh Sum: 10
+string:-dhbcefga sum:10 queueSize:61
 
-Cur: f-bcdegah Finish: -abcdefgh Sum: 6
-Cur: fdb-cegah Finish: -abcdefgh Sum: 8
-Cur: fdbce-gah Finish: -abcdefgh Sum: 10
+string:-chdbefga sum:10 queueSize:61
 
-Cur: -fbcdegah Finish: -abcdefgh Sum: 6
-Cur: fb-cdegah Finish: -abcdefgh Sum: 8
+string:bdhce-fga sum:12 queueSize:61
 
-Cur: cfb-degah Finish: -abcdefgh Sum: 8
+string:bd-cehfga sum:10 queueSize:62
 
-Cur: acbgdef-h Finish: -abcdefgh Sum: 8
+string:b-dcehfga sum:10 queueSize:62
 
-Cur: cdae-bgfh Finish: -abcdefgh Sum: 10
-Cur: cdageb-fh Finish: -abcdefgh Sum: 10
+string:-bdcehfga sum:8 queueSize:63
 
-Cur: d-bgaefch Finish: -abcdefgh Sum: 8
-Cur: dab-gefch Finish: -abcdefgh Sum: 6
-Cur: dabge-fch Finish: -abcdefgh Sum: 10
+string:cbd-ehfga sum:10 queueSize:63
 
-Cur: -abdgefch Finish: -abcdefgh Sum: 4
+string:bdhfce-ga sum:12 queueSize:64
 
-Cur: a-bdgefch Finish: -abcdefgh Sum: 6
+string:ch-dbefga sum:12 queueSize:64
 
-Cur: ab-dgefch Finish: -abcdefgh Sum: 8
-Cur: agbd-efch Finish: -abcdefgh Sum: 8
+string:d-hbcefga sum:12 queueSize:64
 
-Cur: -dafebcgh Finish: -abcdefgh Sum: 6
-Cur: deaf-bcgh Finish: -abcdefgh Sum: 10
+string:bdhceafg- sum:12 queueSize:65
 
-Cur: fda-ebcgh Finish: -abcdefgh Sum: 8
+string:bedc-hfga sum:12 queueSize:65
 
-Cur: -dbgaefch Finish: -abcdefgh Sum: 6
-Cur: db-gaefch Finish: -abcdefgh Sum: 10
+string:cbde-hfga sum:12 queueSize:67
 
-Cur: gdb-aefch Finish: -abcdefgh Sum: 8
+string:dch-befga sum:12 queueSize:69
 
-Cur: abedg-fch Finish: -abcdefgh Sum: 10
+string:cbhde-fga sum:12 queueSize:69
 
-Cur: agb-defch Finish: -abcdefgh Sum: 6
-Cur: agbde-fch Finish: -abcdefgh Sum: 10
-Cur: agbdcef-h Finish: -abcdefgh Sum: 8
+string:cb-dehfga sum:10 queueSize:70
 
-Cur: -gbadefch Finish: -abcdefgh Sum: 6
-Cur: agbfde-ch Finish: -abcdefgh Sum: 8
+string:c-bdehfga sum:8 queueSize:70
 
-Cur: g-badefch Finish: -abcdefgh Sum: 8
+string:-cbdehfga sum:8 queueSize:71
 
-Cur: fdae-bcgh Finish: -abcdefgh Sum: 10
-Cur: fdaceb-gh Finish: -abcdefgh Sum: 8
+string:cebd-hfga sum:10 queueSize:71
 
-Cur: gdba-efch Finish: -abcdefgh Sum: 10
-Cur: gdbfae-ch Finish: -abcdefgh Sum: 10
+string:ceb-dhfga sum:8 queueSize:73
 
-Cur: agbdce-fh Finish: -abcdefgh Sum: 8
-Cur: agbdcefh- Finish: -abcdefgh Sum: 10
+string:-ebcdhfga sum:6 queueSize:74
 
-Cur: agbfdec-h Finish: -abcdefgh Sum: 8
+string:e-bcdhfga sum:8 queueSize:74
 
-Cur: gb-adefch Finish: -abcdefgh Sum: 10
+string:dcb-ehfga sum:10 queueSize:75
 
-Cur: fdacebg-h Finish: -abcdefgh Sum: 10
+string:cebfdh-ga sum:10 queueSize:76
 
-Cur: agb-cedfh Finish: -abcdefgh Sum: 8
+string:eb-cdhfga sum:10 queueSize:76
 
-Cur: agbf-ecdh Finish: -abcdefgh Sum: 8
-Cur: agbfdech- Finish: -abcdefgh Sum: 10
+string:edbc-hfga sum:10 queueSize:76
 
-Cur: -gbacedfh Finish: -abcdefgh Sum: 8
-Cur: agbc-edfh Finish: -abcdefgh Sum: 8
+string:edb-chfga sum:10 queueSize:78
 
-Cur: a-bfgecdh Finish: -abcdefgh Sum: 6
-Cur: agb-fecdh Finish: -abcdefgh Sum: 8
-Cur: agbfe-cdh Finish: -abcdefgh Sum: 10
+string:-dbechfga sum:8 queueSize:79
 
-Cur: -abfgecdh Finish: -abcdefgh Sum: 4
-Cur: ab-fgecdh Finish: -abcdefgh Sum: 8
+string:d-bechfga sum:10 queueSize:79
 
-Cur: fab-gecdh Finish: -abcdefgh Sum: 6
+string:ebhcd-fga sum:12 queueSize:79
 
-Cur: fabg-ecdh Finish: -abcdefgh Sum: 8
-Cur: fabcge-dh Finish: -abcdefgh Sum: 6
+string:edbfch-ga sum:12 queueSize:80
 
-Cur: fabcged-h Finish: -abcdefgh Sum: 8
+string:cdbhe-fga sum:12 queueSize:80
 
-Cur: g-bacedfh Finish: -abcdefgh Sum: 10
+string:db-echfga sum:12 queueSize:81
 
-Cur: -gbafecdh Finish: -abcdefgh Sum: 8
-Cur: agbcfe-dh Finish: -abcdefgh Sum: 8
+string:cbeh-afdg sum:12 queueSize:81
 
-Cur: a-bcgedfh Finish: -abcdefgh Sum: 6
-Cur: agbce-dfh Finish: -abcdefgh Sum: 10
-Cur: agbcfed-h Finish: -abcdefgh Sum: 10
+string:cbe-hafdg sum:10 queueSize:83
 
-Cur: -abcgedfh Finish: -abcdefgh Sum: 4
-Cur: ab-cgedfh Finish: -abcdefgh Sum: 8
+string:-bechafdg sum:8 queueSize:84
 
-Cur: cab-gedfh Finish: -abcdefgh Sum: 6
+string:b-echafdg sum:10 queueSize:84
 
-Cur: cabg-edfh Finish: -abcdefgh Sum: 8
-Cur: cabdge-fh Finish: -abcdefgh Sum: 6
+string:cdbheafg- sum:12 queueSize:85
 
-Cur: cabdgef-h Finish: -abcdefgh Sum: 6
+string:cbeha-fdg sum:12 queueSize:85
 
-Cur: cabd-efgh Finish: -abcdefgh Sum: 4
-Cur: cabdgefh- Finish: -abcdefgh Sum: 8
+string:cb-haefdg sum:10 queueSize:86
 
-Cur: c-bdaefgh Finish: -abcdefgh Sum: 4
-Cur: cab-defgh Finish: -abcdefgh Sum: 2
-Cur: cabde-fgh Finish: -abcdefgh Sum: 6
+string:c-bhaefdg sum:8 queueSize:86
 
-Cur: -abcdefgh Finish: -abcdefgh Sum: 0
+string:-cbhaefdg sum:8 queueSize:87
 
+string:cabh-efdg sum:8 queueSize:87
 
+string:cab-hefdg sum:6 queueSize:89
 
+string:-abchefdg sum:4 queueSize:90
 
+string:a-bchefdg sum:6 queueSize:90
 
+string:cabhdef-g sum:8 queueSize:91
 
+string:cabfhe-dg sum:8 queueSize:92
 
+string:ab-chefdg sum:8 queueSize:92
 
+string:ahbc-efdg sum:8 queueSize:92
 
+string:cabhde-fg sum:8 queueSize:94
 
+string:cab-dehfg sum:6 queueSize:94
 
+string:-abcdehfg sum:4 queueSize:95
 
+string:a-bcdehfg sum:6 queueSize:95
 
+string:cabhdefg- sum:8 queueSize:96
 
+string:adbc-ehfg sum:8 queueSize:96
 
+string:cabhd-fge sum:8 queueSize:98
 
+string:adb-cehfg sum:8 queueSize:99
 
+string:ca-hdbfge sum:8 queueSize:100
 
+string:cabh-dfge sum:8 queueSize:100
 
+string:cab-hdfge sum:6 queueSize:102
 
+string:-abchdfge sum:4 queueSize:103
 
+string:a-bchdfge sum:6 queueSize:103
 
+string:-dbacehfg sum:8 queueSize:104
 
+string:c-ahdbfge sum:8 queueSize:104
 
+string:c-bhadfge sum:8 queueSize:105
 
+string:ahbc-dfge sum:8 queueSize:106
 
+string:cabfhd-ge sum:8 queueSize:108
 
+string:-cahdbfge sum:8 queueSize:108
 
+string:-cbhadfge sum:8 queueSize:108
 
+string:ahb-cdfge sum:8 queueSize:108
 
+string:ahbcd-fge sum:8 queueSize:109
 
+string:ab-chdfge sum:8 queueSize:110
 
+string:-hbacdfge sum:8 queueSize:110
 
+string:ah-cdbfge sum:8 queueSize:110
 
+string:a-hcdbfge sum:6 queueSize:110
 
+string:-ahcdbfge sum:4 queueSize:111
 
+string:cah-dbfge sum:6 queueSize:111
 
+string:ahbcdefg- sum:8 queueSize:112
 
+string:adhc-bfge sum:8 queueSize:111
 
+string:cahfdb-ge sum:8 queueSize:113
 
+string:cahd-bfge sum:8 queueSize:113
 
+string:adh-cbfge sum:8 queueSize:115
 
+string:c-hdabfge sum:8 queueSize:116
 
+string:-dhacbfge sum:8 queueSize:117
 
+string:-chdabfge sum:8 queueSize:117
 
+string:ahb-cefdg sum:8 queueSize:117
 
+string:ahbcdef-g sum:8 queueSize:118
 
+string:-hbacefdg sum:8 queueSize:118
 
+string:ahbcde-fg sum:8 queueSize:118
 
+string:cabd-ehfg sum:8 queueSize:118
 
+string:ahb-decfg sum:8 queueSize:120
 
+string:c-bdaehfg sum:8 queueSize:121
 
+string:-hbadecfg sum:8 queueSize:122
 
+string:-cbdaehfg sum:8 queueSize:122
 
+string:ab-cdehfg sum:8 queueSize:122
 
+string:adhcb-fge sum:10 queueSize:122
 
+string:ad-cbhfge sum:8 queueSize:123
 
+string:a-dcbhfge sum:8 queueSize:123
 
+string:-adcbhfge sum:6 queueSize:124
 
+string:abdc-hfge sum:8 queueSize:124
 
+string:cad-bhfge sum:8 queueSize:125
 
+string:abd-chfge sum:8 queueSize:126
 
+string:-bdachfge sum:8 queueSize:127
 
+string:cabdfeh-g sum:10 queueSize:127
 
+string:cabdfe-hg sum:8 queueSize:128
 
+string:cab-fedhg sum:8 queueSize:128
 
+string:-abcfedhg sum:6 queueSize:129
 
+string:cabf-edhg sum:8 queueSize:129
 
+string:a-bcfedhg sum:8 queueSize:130
 
+string:c-bfaedhg sum:8 queueSize:131
 
+string:-cbfaedhg sum:8 queueSize:132
 
+string:cadfbh-ge sum:10 queueSize:132
 
+string:abdfch-ge sum:10 queueSize:132
 
+string:b-dachfge sum:10 queueSize:132
 
+string:cadb-hfge sum:10 queueSize:133
 
+string:afbc-edhg sum:10 queueSize:135
 
+string:h-badecfg sum:10 queueSize:137
 
+string:dcb-aehfg sum:10 queueSize:138
 
+string:adhcbefg- sum:10 queueSize:139
 
+string:abecd-hfg sum:10 queueSize:139
 
+string:adhcgbf-e sum:10 queueSize:140
 
+string:adhfcb-ge sum:10 queueSize:141
 
+string:ahbfce-dg sum:10 queueSize:141
 
+string:cabde-hfg sum:10 queueSize:141
 
+string:h-bacefdg sum:10 queueSize:142
 
+string:ch-dabfge sum:10 queueSize:143
 
+string:d-hacbfge sum:10 queueSize:143
 
+string:cahfdbg-e sum:10 queueSize:144
 
+string:cahdb-fge sum:10 queueSize:145
 
+string:ca-dbhfge sum:8 queueSize:146
+
+string:c-adbhfge sum:8 queueSize:146
+
+string:-cadbhfge sum:8 queueSize:147
+
+string:cbad-hfge sum:8 queueSize:147
+
+string:cba-dhfge sum:6 queueSize:149
+
+string:-bacdhfge sum:4 queueSize:150
+
+string:b-acdhfge sum:6 queueSize:150
+
+string:ba-cdhfge sum:6 queueSize:151
+
+string:cbafdh-ge sum:8 queueSize:151
+
+string:bdac-hfge sum:8 queueSize:151
+
+string:bahcd-fge sum:8 queueSize:153
+
+string:bda-chfge sum:8 queueSize:154
+
+string:bahc-dfge sum:8 queueSize:155
+
+string:bahcdefg- sum:8 queueSize:157
+
+string:-dabchfge sum:8 queueSize:157
+
+string:b-hcadfge sum:8 queueSize:157
+
+string:-bhcadfge sum:6 queueSize:158
+
+string:bah-cdfge sum:8 queueSize:158
+
+string:bahcdef-g sum:8 queueSize:159
+
+string:cbh-adfge sum:8 queueSize:160
+
+string:-ahbcdfge sum:8 queueSize:161
+
+string:bahcde-fg sum:8 queueSize:161
+
+string:bahc-efdg sum:8 queueSize:161
+
+string:bah-decfg sum:8 queueSize:163
+
+string:b-hcaefdg sum:8 queueSize:164
+
+string:-bhcaefdg sum:6 queueSize:165
+
+string:bah-cefdg sum:8 queueSize:165
+
+string:-ahbdecfg sum:8 queueSize:166
+
+string:cbh-aefdg sum:8 queueSize:166
+
+string:-ahbcefdg sum:8 queueSize:167
+
+string:hca-dbfge sum:10 queueSize:167
+
+string:hcb-adfge sum:10 queueSize:168
+
+string:ahbfcd-ge sum:10 queueSize:169
+
+string:dca-bhfge sum:10 queueSize:169
+
+string:cbhfae-dg sum:10 queueSize:170
+
+string:a-hbcefdg sum:10 queueSize:170
+
+string:d-bacehfg sum:10 queueSize:171
+
+string:cb-hadfge sum:10 queueSize:171
+
+string:cdah-bfge sum:10 queueSize:171
+
+string:cda-hbfge sum:8 queueSize:173
+
+string:-dachbfge sum:6 queueSize:174
+
+string:d-achbfge sum:8 queueSize:174
+
+string:da-chbfge sum:8 queueSize:175
+
+string:dabch-fge sum:8 queueSize:175
+
+string:dabc-hfge sum:6 queueSize:176
+
+string:d-bcahfge sum:6 queueSize:178
+
+string:-dbcahfge sum:4 queueSize:179
+
+string:dab-chfge sum:6 queueSize:179
+
+string:-abdchfge sum:4 queueSize:180
+
+string:cdb-ahfge sum:6 queueSize:180
+
+string:a-bdchfge sum:6 queueSize:181
+
+string:dabchefg- sum:8 queueSize:182
+
+string:dabcghf-e sum:8 queueSize:182
+
+string:db-cahfge sum:8 queueSize:183
+
+string:dabfch-ge sum:8 queueSize:183
+
+string:cdba-hfge sum:8 queueSize:183
+
+string:c-badhfge sum:6 queueSize:185
+
+string:-cbadhfge sum:6 queueSize:186
+
+string:acb-dhfge sum:6 queueSize:186
+
+string:cdbfah-ge sum:8 queueSize:186
+
+string:acbd-hfge sum:8 queueSize:186
+
+string:dabchef-g sum:8 queueSize:187
+
+string:dabc-efhg sum:6 queueSize:188
+
+string:d-bcaefhg sum:6 queueSize:190
+
+string:-dbcaefhg sum:4 queueSize:191
+
+string:dab-cefhg sum:6 queueSize:191
+
+string:-abdcefhg sum:4 queueSize:192
+
+string:cdb-aefhg sum:6 queueSize:192
+
+string:a-bdcefhg sum:6 queueSize:193
+
+string:dabfce-hg sum:8 queueSize:194
+
+string:cdba-efhg sum:8 queueSize:194
+
+string:c-badefhg sum:6 queueSize:196
+
+string:-cbadefhg sum:6 queueSize:197
+
+string:acb-defhg sum:6 queueSize:197
+
+string:cdbfae-hg sum:8 queueSize:197
+
+string:ab-dcefhg sum:8 queueSize:197
+
+string:acbd-efhg sum:8 queueSize:197
+
+string:cb-adefhg sum:8 queueSize:198
+
+string:acbfde-hg sum:8 queueSize:198
+
+string:dabcgh-fe sum:8 queueSize:198
+
+string:cb-adhfge sum:8 queueSize:198
+
+string:dab-ghcfe sum:8 queueSize:198
+
+string:-abdghcfe sum:6 queueSize:199
+
+string:acbfdh-ge sum:8 queueSize:199
+
+string:a-bdghcfe sum:8 queueSize:199
+
+string:ab-dchfge sum:8 queueSize:200
+
+string:dabce-fhg sum:8 queueSize:200
+
+string:db-caefhg sum:8 queueSize:201
+
+string:da-cebfhg sum:8 queueSize:201
+
+string:dabche-fg sum:8 queueSize:201
+
+string:d-acebfhg sum:8 queueSize:201
+
+string:-dacebfhg sum:6 queueSize:202
+
+string:dab-hecfg sum:8 queueSize:202
+
+string:-abdhecfg sum:6 queueSize:203
+
+string:cda-ebfhg sum:8 queueSize:203
+
+string:a-bdhecfg sum:8 queueSize:204
+
+string:cbhfad-ge sum:10 queueSize:204
+
+string:cdbahef-g sum:10 queueSize:204
+
+string:cdbfaeh-g sum:10 queueSize:205
+
+string:agbd-hcfe sum:10 queueSize:206
+
+string:agb-dhcfe sum:8 queueSize:208
+
+string:-gbadhcfe sum:8 queueSize:209
+
+string:agbcdh-fe sum:8 queueSize:209
+
+string:agbcdhf-e sum:8 queueSize:209
+
+string:agbc-hfde sum:8 queueSize:210
+
+string:a-bcghfde sum:6 queueSize:212
+
+string:-abcghfde sum:4 queueSize:213
+
+string:cab-ghfde sum:6 queueSize:213
+
+string:agb-chfde sum:8 queueSize:214
+
+string:ab-cghfde sum:8 queueSize:215
+
+string:cabg-hfde sum:8 queueSize:215
+
+string:cabfgh-de sum:8 queueSize:217
+
+string:-gbachfde sum:8 queueSize:217
+
+string:c-bgahfde sum:8 queueSize:217
+
+string:cabgdhf-e sum:8 queueSize:218
+
+string:-cbgahfde sum:8 queueSize:219
+
+string:cabgdh-fe sum:8 queueSize:219
+
+string:cab-dhgfe sum:6 queueSize:219
+
+string:-abcdhgfe sum:4 queueSize:220
+
+string:a-bcdhgfe sum:6 queueSize:220
+
+string:cabd-hgfe sum:8 queueSize:221
+
+string:ab-cdhgfe sum:8 queueSize:223
+
+string:adbc-hgfe sum:8 queueSize:223
+
+string:c-bdahgfe sum:8 queueSize:225
+
+string:adb-chgfe sum:8 queueSize:226
+
+string:-cbdahgfe sum:8 queueSize:227
+
+string:-dbachgfe sum:8 queueSize:227
+
+string:adbch-gfe sum:10 queueSize:227
+
+string:adbcfhg-e sum:10 queueSize:228
+
+string:adbcfh-ge sum:8 queueSize:229
+
+string:adb-fhcge sum:8 queueSize:229
+
+string:-dbafhcge sum:8 queueSize:230
+
+string:adbf-hcge sum:8 queueSize:230
+
+string:a-bfdhcge sum:6 queueSize:232
+
+string:-abfdhcge sum:4 queueSize:233
+
+string:fab-dhcge sum:6 queueSize:233
+
+string:fabcdh-ge sum:6 queueSize:234
+
+string:ab-fdhcge sum:8 queueSize:234
+
+string:fabd-hcge sum:8 queueSize:234
+
+string:fabcdhg-e sum:8 queueSize:236
+
+string:f-bdahcge sum:8 queueSize:237
+
+string:fabc-hgde sum:8 queueSize:238
+
+string:-fbdahcge sum:8 queueSize:240
+
+string:f-bcahgde sum:8 queueSize:240
+
+string:fab-chgde sum:8 queueSize:241
+
+string:-abfchgde sum:6 queueSize:242
+
+string:-fbcahgde sum:8 queueSize:242
+
+string:a-bfchgde sum:8 queueSize:242
+
+string:fabch-gde sum:10 queueSize:243
+
+string:dfb-ahcge sum:10 queueSize:244
+
+string:fb-cahgde sum:10 queueSize:245
+
+string:fabgch-de sum:10 queueSize:245
+
+string:cfb-ahgde sum:10 queueSize:245
+
+string:ab-fchgde sum:10 queueSize:246
+
+string:fabchegd- sum:10 queueSize:246
+
+string:dfbcah-ge sum:10 queueSize:246
+
+string:acbf-hgde sum:10 queueSize:246
+
+string:fa-chbgde sum:10 queueSize:247
+
+string:fabcheg-d sum:10 queueSize:247
+
+string:fabc-eghd sum:8 queueSize:248
+
+string:fabche-gd sum:8 queueSize:250
+
+string:f-bcaeghd sum:8 queueSize:250
+
+string:fab-ceghd sum:8 queueSize:251
+
+string:-abfceghd sum:6 queueSize:252
+
+string:fab-hecgd sum:8 queueSize:252
+
+string:-abfhecgd sum:6 queueSize:253
+
+string:-fbcaeghd sum:8 queueSize:253
+
+string:a-bfceghd sum:8 queueSize:253
+
+string:a-bfhecgd sum:8 queueSize:254
+
+string:cb-dahgfe sum:10 queueSize:255
+
+string:acb-fhgde sum:10 queueSize:255
+
+string:fabgce-hd sum:10 queueSize:256
+
+string:fabh-ecgd sum:10 queueSize:256
+
+string:cfb-aeghd sum:10 queueSize:258
+
+string:acbf-eghd sum:10 queueSize:259
+
+string:ab-fhecgd sum:10 queueSize:261
+
+string:ahbf-ecgd sum:10 queueSize:261
+
+string:-cbafhgde sum:10 queueSize:263
+
+string:ab-fceghd sum:10 queueSize:263
+
+string:f-achbgde sum:10 queueSize:263
+
+string:fabce-ghd sum:10 queueSize:264
+
+string:fb-caeghd sum:10 queueSize:265
+
+string:c-bafhgde sum:10 queueSize:265
+
+string:adbgch-fe sum:10 queueSize:265
+
+string:dcb-ahgfe sum:10 queueSize:265
+
+string:fabdghc-e sum:10 queueSize:266
+
+string:fb-dahcge sum:10 queueSize:267
+
+string:fabcdhge- sum:10 queueSize:267
+
+string:fabcd-geh sum:8 queueSize:267
+
+string:fa-cdbgeh sum:8 queueSize:268
+
+string:fabc-dgeh sum:8 queueSize:268
+
+string:f-acdbgeh sum:8 queueSize:270
+
+string:f-bcadgeh sum:8 queueSize:271
+
+string:fab-cdgeh sum:8 queueSize:272
+
+string:-abfcdgeh sum:6 queueSize:273
+
+string:fabcedg-h sum:8 queueSize:273
+
+string:fabced-gh sum:6 queueSize:273
+
+string:fab-edcgh sum:6 queueSize:273
+
+string:-abfedcgh sum:4 queueSize:274
+
+string:a-bfedcgh sum:6 queueSize:274
+
+string:-facdbgeh sum:8 queueSize:275
+
+string:-fbcadgeh sum:8 queueSize:275
+
+string:a-bfcdgeh sum:8 queueSize:275
+
+string:fabe-dcgh sum:8 queueSize:276
+
+string:ab-fedcgh sum:8 queueSize:278
+
+string:aebf-dcgh sum:8 queueSize:278
+
+string:f-beadcgh sum:8 queueSize:280
+
+string:fabed-cgh sum:8 queueSize:281
+
+string:aeb-fdcgh sum:8 queueSize:282
+
+string:aebfd-cgh sum:8 queueSize:283
+
+string:-fbeadcgh sum:8 queueSize:284
+
+string:fa-edbcgh sum:8 queueSize:284
+
+string:-ebafdcgh sum:8 queueSize:284
+
+string:aebcfd-gh sum:8 queueSize:284
+
+string:ae-fdbcgh sum:8 queueSize:284
+
+string:a-efdbcgh sum:6 queueSize:284
+
+string:-aefdbcgh sum:4 queueSize:285
+
+string:fae-dbcgh sum:6 queueSize:285
+
+string:faecdb-gh sum:6 queueSize:286
+
+string:f-aedbcgh sum:8 queueSize:286
+
+string:adef-bcgh sum:8 queueSize:287
+
+string:faed-bcgh sum:8 queueSize:289
+
+string:faecdbg-h sum:8 queueSize:291
+
+string:-faedbcgh sum:8 queueSize:292
+
+string:ade-fbcgh sum:8 queueSize:292
+
+string:f-edabcgh sum:8 queueSize:293
+
+string:faec-bgdh sum:8 queueSize:294
+
+string:-deafbcgh sum:8 queueSize:296
+
+string:adecfb-gh sum:8 queueSize:296
+
+string:-fedabcgh sum:8 queueSize:296
+
+string:f-ecabgdh sum:8 queueSize:296
+
+string:fae-cbgdh sum:8 queueSize:297
+
+string:-aefcbgdh sum:6 queueSize:298
+
+string:-fecabgdh sum:8 queueSize:298
+
+string:a-efcbgdh sum:8 queueSize:298
+
+string:abhfd-cge sum:10 queueSize:299
+
+string:fabdh-cge sum:10 queueSize:300
+
+string:adbgchf-e sum:10 queueSize:301
+
+string:c-dbahfge sum:10 queueSize:302
+
+string:cfe-abgdh sum:10 queueSize:303
+
+string:acef-bgdh sum:10 queueSize:304
+
+string:abhfdecg- sum:10 queueSize:306
+
+string:fabdhecg- sum:10 queueSize:306
+
+string:d-bachgfe sum:10 queueSize:306
+
+string:adbchegf- sum:10 queueSize:306
+
+string:d-bafhcge sum:10 queueSize:306
+
+string:adbfh-cge sum:10 queueSize:306
+
+string:cd-bahfge sum:10 queueSize:307
+
+string:abhfdec-g sum:10 queueSize:307
+
+string:fabdhec-g sum:10 queueSize:308
+
+string:fabd-echg sum:8 queueSize:309
+
+string:fab-dechg sum:6 queueSize:311
+
+string:-abfdechg sum:4 queueSize:312
+
+string:fabcde-hg sum:6 queueSize:312
+
+string:a-bfdechg sum:6 queueSize:312
+
+string:f-bdaechg sum:8 queueSize:313
+
+string:fabcdeh-g sum:8 queueSize:314
+
+string:ab-fdechg sum:8 queueSize:315
+
+string:adbf-echg sum:8 queueSize:315
+
+string:-fbdaechg sum:8 queueSize:317
+
+string:fabc-ehdg sum:8 queueSize:317
+
+string:fabcdehg- sum:8 queueSize:319
+
+string:adb-fechg sum:8 queueSize:319
+
+string:f-bcaehdg sum:8 queueSize:320
+
+string:fab-cehdg sum:8 queueSize:321
+
+string:-abfcehdg sum:6 queueSize:322
+
+string:adbcfe-hg sum:8 queueSize:322
+
+string:-fbcaehdg sum:8 queueSize:321
+
+string:a-bfcehdg sum:8 queueSize:321
+
+string:fabcd-hge sum:8 queueSize:322
+
+string:-dbafechg sum:8 queueSize:323
+
+string:fa-cdbhge sum:8 queueSize:323
+
+string:fabc-dhge sum:8 queueSize:323
+
+string:f-acdbhge sum:8 queueSize:325
+
+string:f-bcadhge sum:8 queueSize:326
+
+string:fab-cdhge sum:8 queueSize:327
+
+string:-abfcdhge sum:6 queueSize:328
+
+string:-facdbhge sum:8 queueSize:328
+
+string:-fbcadhge sum:8 queueSize:328
+
+string:a-bfcdhge sum:8 queueSize:328
+
+string:adbfhecg- sum:10 queueSize:329
+
+string:fabdhe-cg sum:10 queueSize:328
+
+string:cfb-adhge sum:10 queueSize:328
+
+string:acbf-dhge sum:10 queueSize:329
+
+string:ab-fcdhge sum:10 queueSize:331
+
+string:fab-hedcg sum:10 queueSize:331
+
+string:-abfhedcg sum:8 queueSize:332
+
+string:cabgh-fde sum:10 queueSize:332
+
+string:cabfghd-e sum:10 queueSize:333
+
+string:cabf-hdge sum:8 queueSize:334
+
+string:c-bfahdge sum:8 queueSize:336
+
+string:cab-fhdge sum:8 queueSize:337
+
+string:-abcfhdge sum:6 queueSize:338
+
+string:-cbfahdge sum:8 queueSize:338
+
+string:cabdfh-ge sum:8 queueSize:338
+
+string:a-bcfhdge sum:8 queueSize:337
+
+string:abhcd-gfe sum:10 queueSize:338
+
+string:g-bachfde sum:10 queueSize:339
+
+string:cb-gahfde sum:10 queueSize:340
+
+string:cabgdhfe- sum:10 queueSize:340
+
+string:cabgd-feh sum:8 queueSize:340
+
+string:ca-gdbfeh sum:8 queueSize:341
+
+string:cabg-dfeh sum:8 queueSize:341
+
+string:cab-gdfeh sum:6 queueSize:343
+
+string:-abcgdfeh sum:4 queueSize:344
+
+string:a-bcgdfeh sum:6 queueSize:344
+
+string:c-agdbfeh sum:8 queueSize:345
+
+string:c-bgadfeh sum:8 queueSize:346
+
+string:cabgedf-h sum:8 queueSize:347
+
+string:cabfgd-eh sum:8 queueSize:348
+
+string:ab-cgdfeh sum:8 queueSize:348
+
+string:agbc-dfeh sum:8 queueSize:348
+
+string:-cagdbfeh sum:8 queueSize:350
+
+string:-cbgadfeh sum:8 queueSize:350
+
+string:cabged-fh sum:8 queueSize:350
+
+string:cab-edgfh sum:6 queueSize:350
+
+string:-abcedgfh sum:4 queueSize:351
+
+string:a-bcedgfh sum:6 queueSize:351
+
+string:agb-cdfeh sum:8 queueSize:352
+
+string:agbcd-feh sum:8 queueSize:353
+
+string:agbcedf-h sum:8 queueSize:353
+
+string:aebc-dgfh sum:8 queueSize:354
+
+string:-gbacdfeh sum:8 queueSize:355
+
+string:ag-cdbfeh sum:8 queueSize:355
+
+string:agbced-fh sum:8 queueSize:355
+
+string:aeb-cdgfh sum:8 queueSize:355
+
+string:aebcd-gfh sum:8 queueSize:356
+
+string:a-gcdbfeh sum:8 queueSize:357
+
+string:-agcdbfeh sum:6 queueSize:358
+
+string:agb-edcfh sum:8 queueSize:358
+
+string:-ebacdgfh sum:8 queueSize:359
+
+string:ae-cdbgfh sum:8 queueSize:359
+
+string:a-ecdbgfh sum:6 queueSize:359
+
+string:-aecdbgfh sum:4 queueSize:360
+
+string:cae-dbgfh sum:6 queueSize:360
+
+string:cag-dbfeh sum:8 queueSize:361
+
+string:-gbaedcfh sum:8 queueSize:362
+
+string:cabe-dgfh sum:8 queueSize:362
+
+string:adec-bgfh sum:8 queueSize:364
+
+string:caed-bgfh sum:8 queueSize:365
+
+string:caegdb-fh sum:8 queueSize:367
+
+string:c-beadgfh sum:8 queueSize:367
+
+string:cabed-gfh sum:8 queueSize:368
+
+string:ade-cbgfh sum:8 queueSize:369
+
+string:c-edabgfh sum:8 queueSize:370
+
+string:caegdbf-h sum:8 queueSize:371
+
+string:-cbeadgfh sum:8 queueSize:372
+
+string:ca-edbgfh sum:8 queueSize:372
+
+string:-deacbgfh sum:8 queueSize:372
+
+string:-cedabgfh sum:8 queueSize:372
+
+string:caeg-bfdh sum:8 queueSize:372
+
+string:cae-gbfdh sum:6 queueSize:374
+
+string:-aecgbfdh sum:4 queueSize:375
+
+string:a-ecgbfdh sum:6 queueSize:375
+
+string:c-aedbgfh sum:8 queueSize:376
+
+string:ab-cedgfh sum:8 queueSize:377
+
+string:c-egabfdh sum:8 queueSize:377
+
+string:caefgb-dh sum:8 queueSize:378
+
+string:ae-cgbfdh sum:8 queueSize:378
+
+string:agec-bfdh sum:8 queueSize:378
+
+string:-caedbgfh sum:8 queueSize:380
+
+string:-cegabfdh sum:8 queueSize:380
+
+string:aebcg-fdh sum:8 queueSize:380
+
+string:age-cbfdh sum:8 queueSize:381
+
+string:agecdbf-h sum:8 queueSize:382
+
+string:aebc-gfdh sum:8 queueSize:383
+
+string:a-bcegfdh sum:6 queueSize:385
+
+string:-abcegfdh sum:4 queueSize:386
+
+string:cab-egfdh sum:6 queueSize:386
+
+string:aeb-cgfdh sum:8 queueSize:387
+
+string:aebcdgf-h sum:8 queueSize:388
+
+string:ab-cegfdh sum:8 queueSize:389
+
+string:cabe-gfdh sum:8 queueSize:389
+
+string:cabfeg-dh sum:8 queueSize:391
+
+string:-ebacgfdh sum:8 queueSize:391
+
+string:aebcdg-fh sum:8 queueSize:391
+
+string:c-beagfdh sum:8 queueSize:391
+
+string:cabeg-fdh sum:8 queueSize:392
+
+string:cabedgf-h sum:8 queueSize:393
+
+string:aeb-dgcfh sum:8 queueSize:394
+
+string:-cbeagfdh sum:8 queueSize:395
+
+string:ca-egbfdh sum:8 queueSize:395
+
+string:cabedg-fh sum:8 queueSize:395
+
+string:-ebadgcfh sum:8 queueSize:395
+
+string:c-aegbfdh sum:8 queueSize:395
+
+string:cab-dgefh sum:8 queueSize:396
+
+string:-abcdgefh sum:6 queueSize:397
+
+string:-caegbfdh sum:8 queueSize:397
+
+string:a-bcdgefh sum:8 queueSize:397
+
+string:-geacbfdh sum:8 queueSize:398
+
+string:agecdb-fh sum:8 queueSize:398
+
+string:age-dbcfh sum:8 queueSize:398
+
+string:-geadbcfh sum:8 queueSize:399
+
+string:agbfch-de sum:10 queueSize:399
+
+string:e-bacgfdh sum:10 queueSize:399
+
+string:cabd-gefh sum:10 queueSize:400
+
+string:aebcdgfh- sum:10 queueSize:402
+
+string:aebcd-fhg sum:8 queueSize:402
+
+string:ae-cdbfhg sum:8 queueSize:403
+
+string:a-ecdbfhg sum:6 queueSize:403
+
+string:-aecdbfhg sum:4 queueSize:404
+
+string:cae-dbfhg sum:6 queueSize:404
+
+string:aebc-dfhg sum:8 queueSize:405
+
+string:a-bcedfhg sum:6 queueSize:407
+
+string:-abcedfhg sum:4 queueSize:408
+
+string:cab-edfhg sum:6 queueSize:408
+
+string:adec-bfhg sum:8 queueSize:409
+
+string:caed-bfhg sum:8 queueSize:411
+
+string:caefdb-hg sum:8 queueSize:413
+
+string:aeb-cdfhg sum:8 queueSize:413
+
+string:ab-cedfhg sum:8 queueSize:414
+
+string:cabe-dfhg sum:8 queueSize:414
+
+string:cabfed-hg sum:8 queueSize:416
+
+string:ade-cbfhg sum:8 queueSize:416
+
+string:c-edabfhg sum:8 queueSize:417
+
+string:-ebacdfhg sum:8 queueSize:418
+
+string:c-beadfhg sum:8 queueSize:418
+
+string:-deacbfhg sum:8 queueSize:419
+
+string:-cedabfhg sum:8 queueSize:419
+
+string:cabed-fhg sum:8 queueSize:419
+
+string:-cbeadfhg sum:8 queueSize:419
+
+string:ca-edbfhg sum:8 queueSize:419
+
+string:c-aedbfhg sum:8 queueSize:419
+
+string:-caedbfhg sum:8 queueSize:419
+
+string:abhdc-fge sum:10 queueSize:419
+
+string:cabeghfd- sum:10 queueSize:420
+
+string:cabehdf-g sum:10 queueSize:420
+
+string:ce-dabfhg sum:10 queueSize:421
+
+string:e-bacdfhg sum:10 queueSize:421
+
+string:cb-eadfhg sum:10 queueSize:422
+
+string:dce-abfhg sum:10 queueSize:422
+
+string:abhdcefg- sum:10 queueSize:423
+
+string:cabeghf-d sum:10 queueSize:423
+
+string:cabe-hfgd sum:8 queueSize:424
+
+string:cab-ehfgd sum:6 queueSize:426
+
+string:-abcehfgd sum:4 queueSize:427
+
+string:a-bcehfgd sum:6 queueSize:427
+
+string:c-beahfgd sum:8 queueSize:428
+
+string:cabfeh-gd sum:8 queueSize:429
+
+string:ab-cehfgd sum:8 queueSize:429
+
+string:aebc-hfgd sum:8 queueSize:429
+
+string:-cbeahfgd sum:8 queueSize:431
+
+string:aeb-chfgd sum:8 queueSize:431
+
+string:-ebachfgd sum:8 queueSize:432
+
+string:cabehd-fg sum:10 queueSize:432
+
+string:cabehdfg- sum:10 queueSize:432
+
+string:cebda-fhg sum:10 queueSize:431
+
+string:aebfch-gd sum:10 queueSize:432
+
+string:e-bachfgd sum:10 queueSize:432
+
+string:cab-hdefg sum:10 queueSize:433
+
+string:-abchdefg sum:8 queueSize:434
+
+string:cb-eahfgd sum:10 queueSize:434
+
+string:cabfehg-d sum:10 queueSize:434
+
+string:aebch-fgd sum:10 queueSize:435
+
+string:aebcghf-d sum:10 queueSize:436
+
+string:a-bchdefg sum:10 queueSize:436
+
+string:ecb-ahfgd sum:10 queueSize:437
+
+string:cabf-hged sum:10 queueSize:437
+
+string:cabfehgd- sum:10 queueSize:439
+
+string:cabfe-gdh sum:8 queueSize:439
+
+string:cabf-egdh sum:6 queueSize:440
+
+string:c-bfaegdh sum:6 queueSize:442
+
+string:cab-fegdh sum:6 queueSize:443
+
+string:-abcfegdh sum:4 queueSize:444
+
+string:cabfdeg-h sum:6 queueSize:444
+
+string:cabfde-gh sum:4 queueSize:445
+
+string:cab-defgh sum:2 queueSize:445
+
+string:-abcdefgh sum:0 queueSize:445
+
+string:-cbfaegdh sum:6 queueSize:444
+
+string:a-bcfegdh sum:6 queueSize:443
+
+string:ca-febgdh sum:8 queueSize:442
+
+string:cb-faegdh sum:8 queueSize:441
+
+string:cabgfe-dh sum:8 queueSize:440
+
+string:cabfdegh- sum:8 queueSize:439
+
+string:ae-chbfgd sum:10 queueSize:438
+
+string:aebchdfg- sum:10 queueSize:437
+
+string:aebcgh-fd sum:10 queueSize:436
+
+string:c-bfahged sum:10 queueSize:435
+
+string:cab-fhged sum:10 queueSize:434
+
+string:cebd-afhg sum:10 queueSize:433
+
+string:abhce-fgd sum:10 queueSize:432
+
+string:d-eacbfhg sum:10 queueSize:431
+
+string:cabegh-fd sum:10 queueSize:430
+
+string:cabeh-fgd sum:10 queueSize:429
+
+string:ecb-adfhg sum:10 queueSize:428
+
+string:abhdcef-g sum:10 queueSize:427
+
+string:abhd-cfge sum:10 queueSize:426
+
+string:eca-dbfhg sum:10 queueSize:425
+
+string:cabfedh-g sum:10 queueSize:424
+
+string:adefcb-hg sum:10 queueSize:423
+
+string:caedb-fhg sum:10 queueSize:422
+
+string:aebfcd-hg sum:10 queueSize:421
+
+string:abdce-fhg sum:10 queueSize:420
+
+string:caedhbf-g sum:10 queueSize:419
+
+string:caefdbh-g sum:10 queueSize:418
+
+string:adecb-fhg sum:10 queueSize:417
+
+string:adechbf-g sum:10 queueSize:416
+
+string:aebd-gcfh sum:10 queueSize:415
+
+string:agbcdhfe- sum:10 queueSize:414
+
+string:g-eacbfdh sum:10 queueSize:413
+
+string:aebchdf-g sum:10 queueSize:412
+
+string:g-badhcfe sum:10 queueSize:411
+
+string:adbc-gefh sum:10 queueSize:410
+
+string:agbch-fde sum:10 queueSize:409
+
+string:g-eadbcfh sum:10 queueSize:408
+
+string:aged-bcfh sum:10 queueSize:407
+
+string:cgae-bfdh sum:10 queueSize:406
+
+string:dabcegfh- sum:10 queueSize:405
+
+string:c-bdagefh sum:10 queueSize:404
+
+string:cabdg-efh sum:10 queueSize:403
+
+string:e-badgcfh sum:10 queueSize:402
+
+string:abgce-fdh sum:10 queueSize:401
+
+string:ecb-agfdh sum:10 queueSize:400
+
+string:abhcg-fde sum:10 queueSize:399
+
+string:deac-bfhg sum:10 queueSize:398
+
+string:ab-dhecfg sum:10 queueSize:397
+
+string:ab-cdgefh sum:10 queueSize:396
+
+string:cabfegd-h sum:10 queueSize:395
+
+string:cdae-bfhg sum:10 queueSize:394
+
+string:dabh-ecfg sum:10 queueSize:393
+
+string:dabg-hcfe sum:10 queueSize:392
+
+string:cabedgfh- sum:10 queueSize:391
+
+string:cbead-fhg sum:10 queueSize:390
+
+string:acbde-fhg sum:10 queueSize:389
+
+string:cb-eagfdh sum:10 queueSize:388
+
+string:cdbahe-fg sum:10 queueSize:387
+
+string:cb-fahdge sum:10 queueSize:386
+
+string:cdbf-ehag sum:10 queueSize:385
+
+string:ab-dghcfe sum:10 queueSize:384
+
+string:acbdhef-g sum:10 queueSize:383
+
+string:cdbae-fhg sum:10 queueSize:382
+
+string:aebfcg-dh sum:10 queueSize:381
+
+string:abhcdegf- sum:10 queueSize:380
+
+string:afbc-hdge sum:10 queueSize:379
+
+string:dabfceh-g sum:10 queueSize:378
+
+string:cdbfaehg- sum:10 queueSize:377
+
+string:cdbahefg- sum:10 queueSize:376
+
+string:abedc-fhg sum:10 queueSize:375
+
+string:agecb-fdh sum:10 queueSize:374
+
+string:caegb-fdh sum:10 queueSize:373
+
+string:cdae-bgfh sum:10 queueSize:372
+
+string:abdce-gfh sum:10 queueSize:371
+
+string:eca-dbgfh sum:10 queueSize:370
+
+string:gce-abfdh sum:10 queueSize:369
+
+string:agefcb-dh sum:10 queueSize:368
+
+string:agecdbfh- sum:10 queueSize:367
+
+string:eca-gbfdh sum:10 queueSize:366
+
+string:dce-abgfh sum:10 queueSize:365
+
+string:aebcghfd- sum:10 queueSize:364
+
+string:ce-dabgfh sum:10 queueSize:363
+
+string:ce-gabfdh sum:10 queueSize:362
+
+string:caefgbd-h sum:10 queueSize:361
+
+string:cb-eadgfh sum:10 queueSize:360
+
+string:caegdbfh- sum:10 queueSize:359
+
+string:ecb-adgfh sum:10 queueSize:358
+
+string:d-eacbgfh sum:10 queueSize:357
+
+string:g-baedcfh sum:10 queueSize:356
+
+string:cabedhgf- sum:10 queueSize:355
+
+string:adegcb-fh sum:10 queueSize:354
+
+string:agbe-dcfh sum:10 queueSize:353
+
+string:fcb-ahdge sum:10 queueSize:352
+
+string:cabefdg-h sum:10 queueSize:351
+
+string:caedb-gfh sum:10 queueSize:350
+
+string:caedfbg-h sum:10 queueSize:349
+
+string:adecb-gfh sum:10 queueSize:348
+
+string:g-bacdfeh sum:10 queueSize:347
+
+string:cagd-bfeh sum:10 queueSize:346
+
+string:cagfdb-eh sum:10 queueSize:345
+
+string:dbhca-fge sum:10 queueSize:344
+
+string:aebgcd-fh sum:10 queueSize:343
+
+string:adgc-bfeh sum:10 queueSize:342
+
+string:aebcdhgf- sum:10 queueSize:341
+
+string:cdag-bfeh sum:10 queueSize:340
+
+string:cb-gadfeh sum:10 queueSize:339
+
+string:cfa-dbhge sum:10 queueSize:338
+
+string:adbce-hfg sum:10 queueSize:337
+
+string:gcb-ahfde sum:10 queueSize:336
+
+string:cabdfhg-e sum:10 queueSize:335
+
+string:agbcedfh- sum:10 queueSize:334
+
+string:fabhcd-ge sum:10 queueSize:333
+
+string:agbfcd-eh sum:10 queueSize:332
+
+string:abhc-dgfe sum:10 queueSize:331
+
+string:ab-cfhdge sum:10 queueSize:330
+
+string:fabcgdh-e sum:10 queueSize:329
+
+string:a-bfhedcg sum:10 queueSize:328
+
+string:ca-ghbfde sum:10 queueSize:327
+
+string:acbfd-hge sum:10 queueSize:326
+
+string:acb-fdhge sum:10 queueSize:325
+
+string:cabgedfh- sum:10 queueSize:324
+
+string:cabfgde-h sum:10 queueSize:323
+
+string:gca-dbfeh sum:10 queueSize:322
+
+string:gcb-adfeh sum:10 queueSize:321
+
+string:e-bacdgfh sum:10 queueSize:320
+
+string:acbf-ehdg sum:10 queueSize:319
+
+string:fdac-bhge sum:10 queueSize:318
+
+string:bahce-fdg sum:10 queueSize:317
+
+string:abdcg-feh sum:10 queueSize:316
+
+string:faegcb-dh sum:10 queueSize:315
+
+string:adbcfeh-g sum:10 queueSize:314
+
+string:ab-fcehdg sum:10 queueSize:313
+
+string:cfb-aehdg sum:10 queueSize:312
+
+string:cbha-dfge sum:10 queueSize:311
+
+string:bahd-ecfg sum:10 queueSize:310
+
+string:cabghefd- sum:10 queueSize:309
+
+string:abefd-chg sum:10 queueSize:308
+
+string:cabhgdf-e sum:10 queueSize:307
+
+string:adbhce-fg sum:10 queueSize:306
+
+string:cdafhb-ge sum:10 queueSize:305
+
+string:dhac-bfge sum:10 queueSize:304
+
+string:abdcghf-e sum:10 queueSize:303
+
+string:adecfbg-h sum:10 queueSize:302
+
+string:d-eafbcgh sum:10 queueSize:301
+
+string:abhfde-cg sum:10 queueSize:300
+
+string:abhf-ecdg sum:10 queueSize:299
+
+string:ad-fhbcge sum:10 queueSize:298
+
+string:fb-cadhge sum:10 queueSize:297
+
+string:cabdh-gfe sum:10 queueSize:296
+
+string:cabfh-dge sum:10 queueSize:295
+
+string:adbg-hfce sum:10 queueSize:294
+
+string:fa-dhbcge sum:10 queueSize:293
+
+string:abhf-dcge sum:10 queueSize:292
+
+string:ae-fcbgdh sum:10 queueSize:291
+
+string:cbadh-fge sum:10 queueSize:290
+
+string:faecb-gdh sum:10 queueSize:289
+
+string:efb-adcgh sum:10 queueSize:288
+
+string:ahbce-fdg sum:10 queueSize:287
+
+string:cahf-bgde sum:10 queueSize:286
+
+string:cahdbefg- sum:10 queueSize:285
+
+string:faedb-cgh sum:10 queueSize:284
+
+string:adefgbc-h sum:10 queueSize:283
+
+string:cdafeb-hg sum:10 queueSize:282
+
+string:dabfchg-e sum:10 queueSize:281
+
+string:acbdghf-e sum:10 queueSize:280
+
+string:dabcghfe- sum:10 queueSize:279
+
+string:cbha-efdg sum:10 queueSize:278
+
+string:bahcgdf-e sum:10 queueSize:277
+
+string:e-bafdcgh sum:10 queueSize:276
+
+string:fabedhcg- sum:10 queueSize:275
+
+string:fe-cabgdh sum:10 queueSize:274
+
+string:a-hbdecfg sum:10 queueSize:273
+
+string:bh-caefdg sum:10 queueSize:272
+
+string:fabegdc-h sum:10 queueSize:271
+
+string:abdfe-cgh sum:10 queueSize:270
+
+string:acbf-dgeh sum:10 queueSize:269
+
+string:ab-fcdgeh sum:10 queueSize:268
+
+string:cfb-adgeh sum:10 queueSize:267
+
+string:fdac-bgeh sum:10 queueSize:266
+
+string:adbfghc-e sum:10 queueSize:265
+
+string:fabcedgh- sum:10 queueSize:264
+
+string:cbafdhg-e sum:10 queueSize:263
+
+string:dch-abfge sum:10 queueSize:262
+
+string:fcb-aedhg sum:10 queueSize:261
+
+string:fabdgh-ce sum:10 queueSize:260
+
+string:d-bafechg sum:10 queueSize:259
+
+string:fabhce-dg sum:10 queueSize:258
+
+string:dfe-abcgh sum:10 queueSize:257
+
+string:fa-cebghd sum:10 queueSize:256
+
+string:-fachbgde sum:10 queueSize:255
+
+string:fabde-chg sum:10 queueSize:254
+
+string:ahb-fecgd sum:10 queueSize:253
+
+string:acb-feghd sum:10 queueSize:252
+
+string:fb-caehdg sum:10 queueSize:251
+
+string:cbadghf-e sum:10 queueSize:250
+
+string:bahfce-dg sum:10 queueSize:249
+
+string:aebcfdg-h sum:10 queueSize:248
+
+string:adbcheg-f sum:10 queueSize:247
+
+string:adbfe-chg sum:10 queueSize:246
+
+string:adbfhec-g sum:10 queueSize:245
+
+string:fabce-hdg sum:10 queueSize:244
+
+string:a-hbcdfge sum:10 queueSize:243
+
+string:dfb-aechg sum:10 queueSize:242
+
+string:ad-chbgfe sum:10 queueSize:241
+
+string:fb-daechg sum:10 queueSize:240
+
+string:cdbaghf-e sum:10 queueSize:239
+
+string:afb-cedhg sum:10 queueSize:238
+
+string:dbeca-fhg sum:10 queueSize:237
+
+string:fe-dabcgh sum:10 queueSize:236
+
+string:bdacghf-e sum:10 queueSize:235
+
+string:acefdbg-h sum:10 queueSize:234
+
+string:ace-fbgdh sum:10 queueSize:233
+
+string:acbdh-fge sum:10 queueSize:232
+
+string:faecdbgh- sum:10 queueSize:231
+
+string:hcb-aefdg sum:10 queueSize:230
+
+string:-cdbahfge sum:10 queueSize:229
+
+string:cabfhdg-e sum:10 queueSize:228
+
+string:efa-dbcgh sum:10 queueSize:227
+
+string:h-bacdfge sum:10 queueSize:226
+
+string:abdch-fge sum:10 queueSize:225
+
+string:faedgbc-h sum:10 queueSize:224
+
+string:aebfdhcg- sum:10 queueSize:223
+
+string:bdafch-ge sum:10 queueSize:222
+
+string:bdach-fge sum:10 queueSize:221
+
+string:cabhe-fdg sum:10 queueSize:220
+
+string:cahdgbf-e sum:10 queueSize:219
+
+string:adefb-cgh sum:10 queueSize:218
+
+string:d-abchfge sum:10 queueSize:217
+
+string:bahfcd-ge sum:10 queueSize:216
+
+string:cdbfahg-e sum:10 queueSize:215
+
+string:cdbah-fge sum:10 queueSize:214
+
+string:fdae-bcgh sum:10 queueSize:213
+
+string:bh-cadfge sum:10 queueSize:212
+
+string:aebfgdc-h sum:10 queueSize:211
+
+string:fb-eadcgh sum:10 queueSize:210
+
+string:ahbcgdf-e sum:10 queueSize:209
+
+string:ca-debhfg sum:10 queueSize:208
+
+string:chbda-fge sum:10 queueSize:207
+
+string:fb-cadgeh sum:10 queueSize:206
+
+string:abec-dhfg sum:10 queueSize:205
+
+string:cfa-dbgeh sum:10 queueSize:204
+
+string:fabgcd-eh sum:10 queueSize:203
+
+string:adhcgb-fe sum:10 queueSize:202
+
+string:adhcbef-g sum:10 queueSize:201
+
+string:acbfdhg-e sum:10 queueSize:200
+
+string:cbhad-fge sum:10 queueSize:199
+
+string:acbfdeh-g sum:10 queueSize:198
+
+string:abech-fdg sum:10 queueSize:197
+
+string:cb-faedhg sum:10 queueSize:196
+
+string:bd-achfge sum:10 queueSize:195
+
+string:cb-daehfg sum:10 queueSize:194
+
+string:ahbd-ecfg sum:10 queueSize:193
+
+string:cabfe-dhg sum:10 queueSize:192
+
+string:ab-cfedhg sum:10 queueSize:191
+
+string:cabfhed-g sum:10 queueSize:190
+
+string:cabdfehg- sum:10 queueSize:189
+
+string:f-bhaecgd sum:10 queueSize:188
+
+string:cbhda-gfe sum:12 queueSize:187
+
+string:acbgfh-de sum:12 queueSize:186
+
+string:fabhgec-d sum:12 queueSize:185
+
+string:ahbfgec-d sum:12 queueSize:184
+
+string:abefc-ghd sum:12 queueSize:183
+
+string:cfbhad-ge sum:12 queueSize:182
+
+string:fabgceh-d sum:12 queueSize:181
+
+string:cebfdhg-a sum:12 queueSize:180
+
+string:cebdghf-a sum:12 queueSize:179
+
+string:cadbh-fge sum:12 queueSize:178
+
+string:bhecdafg- sum:12 queueSize:177
+
+string:cdbheaf-g sum:12 queueSize:176
+
+string:dhbceaf-g sum:12 queueSize:175
+
+string:hcba-dfge sum:12 queueSize:174
+
+string:hcad-bfge sum:12 queueSize:173
+
+string:bhec-afdg sum:12 queueSize:172
+
+string:be-chafdg sum:12 queueSize:171
+
+string:gb-achfde sum:12 queueSize:170
+
+string:cfbgae-hd sum:12 queueSize:169
+
+string:acbfheg-d sum:12 queueSize:168
+
+string:dbechaf-g sum:12 queueSize:167
+
+string:hb-acefdg sum:12 queueSize:166
+
+string:ebhc-dfga sum:12 queueSize:165
+
+string:dcha-bfge sum:12 queueSize:164
+
+string:acefb-gdh sum:12 queueSize:163
+
+string:cdbh-gfae sum:12 queueSize:162
+
+string:c-ehbdfga sum:12 queueSize:161
+
+string:afbce-dhg sum:12 queueSize:160
+
+string:bdhceaf-g sum:12 queueSize:159
+
+string:abdfchg-e sum:12 queueSize:158
+
+string:cfbgah-de sum:12 queueSize:157
+
+string:abhfc-gde sum:12 queueSize:156
+
+string:acbfe-ghd sum:12 queueSize:155
+
+string:dfba-hcge sum:12 queueSize:154
+
+string:dbecgh-fa sum:12 queueSize:153
+
+string:cadbghf-e sum:12 queueSize:152
+
+string:fbhca-gde sum:12 queueSize:151
+
+string:afbched-g sum:12 queueSize:150
+
+string:fhac-bgde sum:12 queueSize:149
+
+string:cb-afhgde sum:12 queueSize:148
+
+string:adbgchfe- sum:12 queueSize:147
+
+string:edbch-fga sum:12 queueSize:146
+
+string:cadfbhg-e sum:12 queueSize:145
+
+string:dcbhae-fg sum:12 queueSize:144
+
+string:cdhba-fge sum:12 queueSize:143
+
+string:abecdghf- sum:12 queueSize:142
+
+string:dcbgah-fe sum:12 queueSize:141
+
+string:fabdghce- sum:12 queueSize:140
+
+string:adhfcbg-e sum:12 queueSize:139
+
+string:ahbfced-g sum:12 queueSize:138
+
+string:cfegab-dh sum:12 queueSize:137
+
+string:be-chdfga sum:12 queueSize:136
+
+string:db-achgfe sum:12 queueSize:135
+
+string:abdfc-hge sum:12 queueSize:134
+
+string:c-debhfga sum:12 queueSize:133
+
+string:fabh-edcg sum:12 queueSize:132
+
+string:ab-chdefg sum:12 queueSize:131
+
+string:eb-achfgd sum:12 queueSize:130
+
+string:achb-efdg sum:12 queueSize:129
+
+string:hcba-efdg sum:12 queueSize:128
+
+string:cabdeghf- sum:12 queueSize:127
+
+string:cbdfeh-ga sum:12 queueSize:126
+
+string:cbdea-fhg sum:12 queueSize:125
+
+string:hdba-ecfg sum:12 queueSize:124
+
+string:ecbfah-gd sum:12 queueSize:123
+
+string:cabh-defg sum:12 queueSize:122
+
+string:cabfh-ged sum:12 queueSize:121
+
+string:ecba-gfdh sum:12 queueSize:120
+
+string:cebdh-fga sum:12 queueSize:119
+
+string:cabfghde- sum:12 queueSize:118
+
+string:dhbcagf-e sum:12 queueSize:117
+
+string:gcba-hfde sum:12 queueSize:116
+
+string:cebdagfh- sum:12 queueSize:115
+
+string:aebfchg-d sum:12 queueSize:114
+
+string:cbhea-fgd sum:12 queueSize:113
+
+string:ah-bcefdg sum:12 queueSize:112
+
+string:ecba-dfhg sum:12 queueSize:111
+
+string:dcea-bfhg sum:12 queueSize:110
+
+string:dcefab-hg sum:12 queueSize:109
+
+string:agbdfhc-e sum:12 queueSize:108
+
+string:ahbfcdg-e sum:12 queueSize:107
+
+string:hcafdb-ge sum:12 queueSize:106
+
+string:dcafbh-ge sum:12 queueSize:105
+
+string:agbdh-cfe sum:12 queueSize:104
+
+string:ecba-hfgd sum:12 queueSize:103
+
+string:hcbfad-ge sum:12 queueSize:102
+
+string:db-acehfg sum:12 queueSize:101
+
+string:eb-acgfdh sum:12 queueSize:100
+
+string:cahfdbge- sum:12 queueSize:99
+
+string:cbdha-fge sum:12 queueSize:98
+
+string:cdhe-bfga sum:12 queueSize:97
+
+string:c-ehbafdg sum:12 queueSize:96
+
+string:cd-hebfga sum:12 queueSize:95
+
+string:h-bdgecfa sum:12 queueSize:94
+
+string:cfba-dhge sum:12 queueSize:93
+
+string:abefh-cgd sum:12 queueSize:92
+
+string:hb-adecfg sum:12 queueSize:91
+
+string:cbhdeafg- sum:12 queueSize:90
+
+string:cdhfeb-ga sum:12 queueSize:89
+
+string:bed-chfga sum:12 queueSize:88
+
+string:dcab-hfge sum:12 queueSize:87
+
+string:-hebcdfga sum:12 queueSize:86
+
+string:dcbe-hfga sum:12 queueSize:85
+
+string:cbehda-fg sum:12 queueSize:84
+
+string:dehc-bfga sum:12 queueSize:83
+
+string:cd-hgbfae sum:12 queueSize:82
+
+string:cbefhd-ga sum:12 queueSize:81
+
+string:edbcghf-a sum:12 queueSize:80
+
+string:dcbfeh-ga sum:12 queueSize:79
+
+string:cfea-bgdh sum:12 queueSize:78
+
+string:dcba-hgfe sum:12 queueSize:77
+
+string:dh-acbfge sum:12 queueSize:76
+
+string:cfba-eghd sum:12 queueSize:75
+
+string:fabhe-cgd sum:12 queueSize:74
+
+string:cdahb-fge sum:12 queueSize:73
+
+string:cdbhge-fa sum:12 queueSize:72
+
+string:fabgchd-e sum:12 queueSize:71
+
+string:bcda-hfge sum:12 queueSize:70
+
+string:adhcgbfe- sum:12 queueSize:69
+
+string:db-afhcge sum:12 queueSize:68
+
+string:cdhg-bfae sum:12 queueSize:67
+
+string:ahbc-defg sum:12 queueSize:66
+
+string:cbhfaed-g sum:12 queueSize:65
+
+string:agbfchd-e sum:12 queueSize:64
+
+string:acbfgdh-e sum:12 queueSize:63
+
+string:eb-acdfhg sum:12 queueSize:62
+
+string:ebhcdafg- sum:12 queueSize:61
+
+string:dghc-bfae sum:12 queueSize:60
+
+string:dhb-cgfae sum:12 queueSize:59
+
+string:dcba-ehfg sum:12 queueSize:58
+
+string:cdbfheg-a sum:12 queueSize:57
+
+string:cbhfdeg-a sum:12 queueSize:56
+
+string:ahbfe-cgd sum:12 queueSize:55
+
+string:acbfh-gde sum:12 queueSize:54
+
+string:dfbcahg-e sum:12 queueSize:53
+
+string:cfba-hgde sum:12 queueSize:52
+
+string:fbeca-ghd sum:12 queueSize:51
+
+string:dbecghfa- sum:12 queueSize:50
+
+string:fbhda-cge sum:12 queueSize:49
+
+string:cbhdgef-a sum:12 queueSize:48
+
+string:adbcfhge- sum:12 queueSize:47
+
+string:cbefha-dg sum:12 queueSize:46
+
+string:cbhga-fde sum:12 queueSize:45
+
+string:bdhcgef-a sum:12 queueSize:44
+
+string:cabdfge-h sum:12 queueSize:43
+
+string:cbhfadg-e sum:12 queueSize:42
+
+string:cdahgbf-e sum:12 queueSize:41
+
+string:cdefbhg-a sum:14 queueSize:40
+
+string:hcbfdeg-a sum:14 queueSize:39
+
+string:chedb-fga sum:14 queueSize:38
+
+string:dbe-fhgca sum:14 queueSize:37
+
+string:dchb-efga sum:14 queueSize:36
+
+string:hcbdgef-a sum:14 queueSize:35
+
+string:cdbfhga-e sum:14 queueSize:34
+
+string:bedcghf-a sum:14 queueSize:33
+
+string:cdhfgba-e sum:14 queueSize:32
+
+string:dbgch-fae sum:14 queueSize:31
+
+string:hbedc-fga sum:14 queueSize:30
+
+string:hcbde-fga sum:14 queueSize:29
+
+string:dhbg-ecfa sum:14 queueSize:28
+
+string:dhbfceg-a sum:14 queueSize:27
+
+string:bhefcd-ga sum:14 queueSize:26
+
+string:dbefchga- sum:14 queueSize:25
+
+string:cbdeghf-a sum:14 queueSize:24
+
+string:bdhfceg-a sum:14 queueSize:23
+
+string:behdc-fga sum:14 queueSize:22
+
+string:dbhec-fga sum:14 queueSize:21
+
+string:bcefdhg-a sum:14 queueSize:20
+
+string:bedch-fga sum:14 queueSize:19
+
+string:cdebh-fga sum:14 queueSize:18
+
+string:dh-bcefga sum:14 queueSize:17
+
+string:bcedh-fga sum:14 queueSize:16
+
+string:edbfchg-a sum:14 queueSize:15
+
+string:cdebghf-a sum:14 queueSize:14
+
+string:cbehagfd- sum:14 queueSize:13
+
+string:cbehgdf-a sum:14 queueSize:12
+
+string:cbdeh-fga sum:14 queueSize:11
+
+string:bhecgdf-a sum:14 queueSize:10
+
+string:cehbd-fga sum:14 queueSize:9
+
+string:dehcb-fga sum:14 queueSize:8
+
+string:dchfbe-ga sum:14 queueSize:7
+
+string:bcedghf-a sum:14 queueSize:6
+
+string:dehf-bgca sum:16 queueSize:5
+
+string:fdeb-hgca sum:16 queueSize:4
+
+string:dbefh-gca sum:16 queueSize:3
+
+string:fdegbh-ca sum:16 queueSize:2
+
+string:dehfbagc- sum:18 queueSize:1
 
  d e h
  f b -
@@ -551,132 +19814,332 @@ Cur: -abcdefgh Finish: -abcdefgh Sum: 0
  f g a
 
  d b e
- c g h
- f - a
-
- d b e
- c g h
- f a -
-
- d b e
- c g -
- f a h
+ c h -
+ f g a
 
  d b -
- c g e
- f a h
+ c h e
+ f g a
 
  d - b
- c g e
- f a h
+ c h e
+ f g a
 
  - d b
- c g e
- f a h
+ c h e
+ f g a
 
  c d b
- - g e
- f a h
+ - h e
+ f g a
 
  c d b
- g - e
- f a h
+ h - e
+ f g a
 
- c d b
- g a e
+ c - b
+ h d e
+ f g a
+
+ c b -
+ h d e
+ f g a
+
+ c b e
+ h d -
+ f g a
+
+ c b e
+ h d a
+ f g -
+
+ c b e
+ h d a
+ f - g
+
+ c b e
+ h - a
+ f d g
+
+ c b e
+ h a -
+ f d g
+
+ c b -
+ h a e
+ f d g
+
+ c - b
+ h a e
+ f d g
+
+ c a b
+ h - e
+ f d g
+
+ c a b
+ h d e
+ f - g
+
+ c a b
+ h d e
+ f g -
+
+ c a b
+ h d -
+ f g e
+
+ c a -
+ h d b
+ f g e
+
+ c - a
+ h d b
+ f g e
+
+ c d a
+ h - b
+ f g e
+
+ c d a
+ - h b
+ f g e
+
+ - d a
+ c h b
+ f g e
+
+ d - a
+ c h b
+ f g e
+
+ d a -
+ c h b
+ f g e
+
+ d a b
+ c h -
+ f g e
+
+ d a b
+ c - h
+ f g e
+
+ d a b
+ c g h
+ f - e
+
+ d a b
+ c g h
+ - f e
+
+ d a b
+ - g h
+ c f e
+
+ - a b
+ d g h
+ c f e
+
+ a - b
+ d g h
+ c f e
+
+ a g b
+ d - h
+ c f e
+
+ a g b
+ - d h
+ c f e
+
+ a g b
+ c d h
+ - f e
+
+ a g b
+ c d h
+ f - e
+
+ a g b
+ c - h
+ f d e
+
+ a - b
+ c g h
+ f d e
+
+ - a b
+ c g h
+ f d e
+
+ c a b
+ - g h
+ f d e
+
+ c a b
+ g - h
+ f d e
+
+ c a b
+ g d h
+ f - e
+
+ c a b
+ g d h
+ f e -
+
+ c a b
+ g d -
+ f e h
+
+ c a b
+ g - d
+ f e h
+
+ c a b
+ g e d
  f - h
 
- c d b
- g a e
+ c a b
+ g e d
  - f h
 
+ c a b
+ - e d
+ g f h
+
+ - a b
+ c e d
+ g f h
+
+ a - b
+ c e d
+ g f h
+
+ a e b
+ c - d
+ g f h
+
+ a e b
+ c d -
+ g f h
+
+ a e -
  c d b
+ g f h
+
+ a - e
+ c d b
+ g f h
+
  - a e
+ c d b
  g f h
 
+ c a e
  - d b
+ g f h
+
  c a e
- g f h
-
- d - b
- c a e
- g f h
-
- d a b
- c - e
- g f h
-
- d a b
- - c e
- g f h
-
- d a b
- g c e
+ g d b
  - f h
 
- d a b
- g c e
+ c a e
+ g d b
  f - h
 
- d a b
- g - e
- f c h
+ c a e
+ g - b
+ f d h
 
- d a b
- - g e
- f c h
+ c a e
+ - g b
+ f d h
 
- - a b
- d g e
- f c h
+ - a e
+ c g b
+ f d h
+
+ a - e
+ c g b
+ f d h
+
+ a e -
+ c g b
+ f d h
+
+ a e b
+ c g -
+ f d h
+
+ a e b
+ c - g
+ f d h
 
  a - b
- d g e
- f c h
-
- a g b
- d - e
- f c h
-
- a g b
- d c e
- f - h
-
- a g b
- d c e
- - f h
-
- a g b
- - c e
- d f h
-
- a g b
- c - e
- d f h
-
- a - b
- c g e
- d f h
+ c e g
+ f d h
 
  - a b
- c g e
- d f h
+ c e g
+ f d h
 
  c a b
- - g e
- d f h
+ - e g
+ f d h
 
  c a b
- d g e
- - f h
+ e - g
+ f d h
 
  c a b
- d g e
- f - h
+ e g -
+ f d h
 
  c a b
- d - e
- f g h
+ e g h
+ f d -
+
+ c a b
+ e g h
+ f - d
+
+ c a b
+ e - h
+ f g d
+
+ c a b
+ - e h
+ f g d
+
+ c a b
+ f e h
+ - g d
+
+ c a b
+ f e h
+ g - d
+
+ c a b
+ f e h
+ g d -
+
+ c a b
+ f e -
+ g d h
+
+ c a b
+ f - e
+ g d h
+
+ c a b
+ f d e
+ g - h
+
+ c a b
+ f d e
+ - g h
 
  c a b
  - d e
@@ -686,4 +20149,4 @@ Cur: -abcdefgh Finish: -abcdefgh Sum: 0
  c d e
  f g h
 
-Total nodes: 222, max depth is: 41
+Total nodes: 1133, max depth is: 91

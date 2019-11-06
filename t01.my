@@ -27,6 +27,14 @@ DFS:
 
 Total nodes: 3, max depth is: 2
 BFS-star:
+string:ab-cdefgh sum:4 queueSize:1
+
+string:a-bcdefgh sum:2 queueSize:2
+
+string:-abcdefgh sum:0 queueSize:2
+
+string:abecd-fgh sum:6 queueSize:1
+
  a b -
  c d e
  f g h
