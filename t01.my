@@ -1,0 +1,14 @@
+BFS:
+ a b -
+ c d e
+ f g h
+
+ a - b
+ c d e
+ f g h
+
+ - a b
+ c d e
+ f g h
+
+Total nodes: 3, max depth is: 2
