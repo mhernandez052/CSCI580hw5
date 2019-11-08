@@ -116,6 +116,11 @@ void bfs(string start, string finish, vector<vector<short int>> &index)
 
 void dfs(string cur, string goal, vector<vector<short int>> &index, map<string, short int> &tree, bool &found, int &count, int &max)
 {
+    count++;
+    if (tree.size()-1 > max)
+    {
+      max = tree.size()-1;
+    }
     if (cur == goal)
     {
         found = true;
@@ -132,14 +137,9 @@ void dfs(string cur, string goal, vector<vector<short int>> &index, map<string, 
         }
         cout << endl;
         */
-        cout << "Total nodes: " << tree.size() << ", max depth is: " << count << endl;
+        cout << "Total nodes: " << count << ", max depth is: " << max << endl;
         
         return;
-    }
-    count++;
-    if (count > max)
-    {
-      max = count;
     }
     // cout<<index[cur.find('-')].size()<<endl;
     for (int i = 0; i < (int)index[cur.find('-')].size(); i++)
@@ -177,7 +177,7 @@ void dfs(string cur, string goal, vector<vector<short int>> &index, map<string, 
             return;
         }
     }
-    count--;
+    tree.erase(cur);
     return;
 }
 
@@ -204,7 +204,7 @@ void infs(string start, string finish, vector<vector<short int>> &index)
     {
         // Dequeue a vertex from queue and print it
         pair<string, int> cur = queue.top();
-        cout << "string:" << cur.first << " sum:" << cur.second << " queueSize:" << queue.size() << endl;
+        //cout << "string:" << cur.first << " sum:" << cur.second << " queueSize:" << queue.size() << endl;
         queue.pop();
 
         // count += 1;
@@ -226,7 +226,7 @@ void infs(string start, string finish, vector<vector<short int>> &index)
                 queue.push(pair<string, int>(swapped, infsManDis(swapped, finish)));
             }
         }
-        cout << endl;
+        //cout << endl;
     }
     // cout << "Count: " << count << endl;
     int nodes_count = 0;

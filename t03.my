@@ -2371,52 +2371,6 @@ DFS:
 
 Total nodes: 585, max depth is: 583
 BFS-star:
-string:adb-ehcfg sum:8 queueSize:1
-
-string:-dbaehcfg sum:8 queueSize:3
-
-string:adbceh-fg sum:8 queueSize:3
-
-string:adbcehf-g sum:8 queueSize:3
-
-string:adbc-hfeg sum:8 queueSize:4
-
-string:a-bcdhfeg sum:6 queueSize:6
-
-string:-abcdhfeg sum:4 queueSize:7
-
-string:cab-dhfeg sum:6 queueSize:7
-
-string:adbcehfg- sum:8 queueSize:8
-
-string:adbce-fgh sum:6 queueSize:8
-
-string:adbc-efgh sum:4 queueSize:9
-
-string:a-bcdefgh sum:2 queueSize:11
-
-string:-abcdefgh sum:0 queueSize:11
-
-string:adb-cefgh sum:4 queueSize:10
-
-string:ad-cebfgh sum:6 queueSize:9
-
-string:adbcgef-h sum:6 queueSize:8
-
-string:cabfdh-eg sum:8 queueSize:7
-
-string:adb-chfeg sum:8 queueSize:6
-
-string:cabd-hfeg sum:8 queueSize:5
-
-string:ab-cdhfeg sum:8 queueSize:4
-
-string:d-baehcfg sum:10 queueSize:3
-
-string:adbe-hcfg sum:10 queueSize:2
-
-string:adbch-feg sum:10 queueSize:1
-
  a d b
  - e h
  c f g
